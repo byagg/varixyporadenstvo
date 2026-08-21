@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/syndrom-nepokojnych-noh-priznaky-diagnoza-a-moznosti-liecby/page";
+
+export const prerender = true;
+---
+
+<Layout title="Syndróm Nepokojných Nôh: Príznaky, Diagnóza a Možnosti Liečby | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="Syndróm nepokojných nôh spôsobuje nepríjemné pocity v nohách, ktoré narúšajú spánok a pohodu. Zistite, ako spoznať príznaky, aké sú možnosti diagnostiky a liečby tohto neurologického ochorenia." />
+    <meta property="og:title" content="Syndróm Nepokojných Nôh: Príznaky, Diagnóza a Možnosti Liečby | varixyporadenstvo" />
+    <meta property="og:description" content="Syndróm nepokojných nôh spôsobuje nepríjemné pocity v nohách, ktoré narúšajú spánok a pohodu. Zistite, ako spoznať príznaky, aké sú možnosti diagnostiky a liečby tohto neurologického ochorenia." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1503634339014-f9f3285b6c57?auto=jpeg&amp;fit=crop&amp;w=1200&amp;h=630" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/syndrom-nepokojnych-noh-priznaky-diagnoza-a-moznosti-liecby" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>

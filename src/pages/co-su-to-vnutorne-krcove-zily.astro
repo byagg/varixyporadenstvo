@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/co-su-to-vnutorne-krcove-zily/page";
+
+export const prerender = true;
+---
+
+<Layout title="Čo sú to &quot;vnútorné kŕčové žily&quot; ? | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="Kŕčové žily predstavujú zdravotný problém, ktorý postihuje mnohých ľudí. Hoci niektoré kŕčové žily sú viditeľné na povrchu kože, existuje kategória, ktorá zostáva skrytá pred našimi očami a je medzi ľuďmi známa ako &quot;vnútorné kŕčové žily&quot;. Ide o varixy, ktoré nie sú viditeľné voľným okom, ale môžu byť identifikované pomocou diagnostických metód ako ultrazvuk." />
+    <meta property="og:title" content="Čo sú to &quot;vnútorné kŕčové žily&quot; ? | varixyporadenstvo" />
+    <meta property="og:description" content="Kŕčové žily predstavujú zdravotný problém, ktorý postihuje mnohých ľudí. Hoci niektoré kŕčové žily sú viditeľné na povrchu kože, existuje kategória, ktorá zostáva skrytá pred našimi očami a je medzi ľuďmi známa ako &quot;vnútorné kŕčové žily&quot;. Ide o varixy, ktoré nie sú viditeľné voľným okom, ale môžu byť identifikované pomocou diagnostických metód ako ultrazvuk." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1542128033-f2b47387887d?auto=jpeg&amp;fit=crop&amp;w=1200&amp;h=630" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/co-su-to-vnutorne-krcove-zily" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>
