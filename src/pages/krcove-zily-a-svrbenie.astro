@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/krcove-zily-a-svrbenie/page";
+
+export const prerender = true;
+---
+
+<Layout title="Kŕčové žily a svrbenie | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="Komplexný pohľad na kŕčové žily a súvisiace svrbenie. Článok poskytuje odborné informácie o príčinách, diagnostike a liečbe, vrátane praktických tipov pre každodenný život s týmto stavom. Nevynecháva ani prevenciu a rady pre udržanie kvality života." />
+    <meta property="og:title" content="Kŕčové žily a svrbenie | varixyporadenstvo" />
+    <meta property="og:description" content="Komplexný pohľad na kŕčové žily a súvisiace svrbenie. Článok poskytuje odborné informácie o príčinách, diagnostike a liečbe, vrátane praktických tipov pre každodenný život s týmto stavom. Nevynecháva ani prevenciu a rady pre udržanie kvality života." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1670534985049-4ecf5fe60e1d?auto=jpeg&amp;fit=crop&amp;w=1200&amp;h=630" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/krcove-zily-a-svrbenie" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>
