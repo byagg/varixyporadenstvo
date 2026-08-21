@@ -1,0 +1,19 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/clanky/page";
+
+export const prerender = true;
+---
+
+<Layout title="Prehľad vytvorených blogov o ochorení varixov a kŕčových žilách. Namiesto blogu sú články. | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="Prečítajte si články o kŕčových žilách a ich liečbe na našej stránke. Získajte užitočné informácie o ochorení varixov a kŕčových žilách. Namiesto článku je blog." />
+    <meta name="keywords" content="ochorenie varixov, kŕčové žily, články" />
+    <meta property="og:title" content="Prehľad vytvorených blogov o ochorení varixov a kŕčových žilách. Namiesto blogu sú články. | varixyporadenstvo" />
+    <meta property="og:description" content="Prečítajte si články o kŕčových žilách a ich liečbe na našej stránke. Získajte užitočné informácie o ochorení varixov a kŕčových žilách. Namiesto článku je blog." />
+    <meta property="og:image" content="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/ALpBQyXKnqhOakP5/ideogram-49-mnlnD7q19KFW69xb.jpeg" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/clanky" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>
