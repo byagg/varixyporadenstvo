@@ -39,6 +39,11 @@ const PROFESSIONAL_RESOURCES = [
     description: "Diagnostika a odborný manažment",
     href: "https://varixyporadenstvo.com/#trombofilnestavy",
   },
+  {
+    label: "Klasifikácie",
+    description: "CEAP a ďalšie klasifikácie cievnych ochorení",
+    href: "https://varixyporadenstvo.com/#klasifikacie",
+  },
 ] as const;
 
 /**
@@ -76,7 +81,7 @@ export default function PreLekarovSection() {
           </p>
         </div>
 
-        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {PROFESSIONAL_RESOURCES.map((resource) => (
             <a
               key={resource.label}
