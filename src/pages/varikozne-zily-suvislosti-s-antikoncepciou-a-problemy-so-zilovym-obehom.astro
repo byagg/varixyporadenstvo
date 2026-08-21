@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/varikozne-zily-suvislosti-s-antikoncepciou-a-problemy-so-zilovym-obehom/page";
+
+export const prerender = true;
+---
+
+<Layout title="Varikózne žily: Súvislosti s antikoncepciou a problémy so žilovým obehom | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="Objavte svet varikóznych žíl - od príčin cez príznaky až po liečbu. Naučte sa, ako udržať vaše žily zdravé a predchádzať komplikáciám. Praktické rady a humorný pohľad na tento bežný zdravotný problém." />
+    <meta property="og:title" content="Varikózne žily: Súvislosti s antikoncepciou a problémy so žilovým obehom | varixyporadenstvo" />
+    <meta property="og:description" content="Objavte svet varikóznych žíl - od príčin cez príznaky až po liečbu. Naučte sa, ako udržať vaše žily zdravé a predchádzať komplikáciám. Praktické rady a humorný pohľad na tento bežný zdravotný problém." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1610833804933-264b7f75c99c?auto=jpeg&amp;fit=crop&amp;w=1200&amp;h=630" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/varikozne-zily-suvislosti-s-antikoncepciou-a-problemy-so-zilovym-obehom" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>
