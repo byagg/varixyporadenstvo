@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/ako-funguju-kompresne-pancuchy/page";
+
+export const prerender = true;
+---
+
+<Layout title="Ako fungujú kompresné pančuchy? | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="Objavte svet kompresných pančúch a ich účinok na zdravie vašich nôh. Tento článok vysvetľuje, ako fungujú kompresné pančuchy, prečo ich nosiť a ako vybrať tie správne. Od zmiernenia príznakov kŕčových žíl až po prevenciu opuchov - zistite, ako môžu kompresné pančuchy zlepšiť cirkuláciu a komfort vašich nôh." />
+    <meta property="og:title" content="Ako fungujú kompresné pančuchy? | varixyporadenstvo" />
+    <meta property="og:description" content="Objavte svet kompresných pančúch a ich účinok na zdravie vašich nôh. Tento článok vysvetľuje, ako fungujú kompresné pančuchy, prečo ich nosiť a ako vybrať tie správne. Od zmiernenia príznakov kŕčových žíl až po prevenciu opuchov - zistite, ako môžu kompresné pančuchy zlepšiť cirkuláciu a komfort vašich nôh." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1672567606592-9f9ce77dfe6f?auto=jpeg&amp;fit=crop&amp;w=1200&amp;h=630" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/ako-funguju-kompresne-pancuchy" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>
