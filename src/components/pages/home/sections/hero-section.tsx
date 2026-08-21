@@ -3,7 +3,8 @@
  * @ployComponentId hero-section
  * @ployComponentType section
  * @ployComponentPattern hero
- * @ployComponentDescription Deterministic hero section inferred from first meaningful content block
+ * @ployComponentDescription Homepage hero introducing the Slovak varicose-vein advisory service with primary patient pathways.
+ * @ployComponentStatus stable
  */
 export default function HeroSection() {
   return (
@@ -35,7 +36,7 @@ export default function HeroSection() {
             <h1 className="font-heading text-ploy-text-inverse font-bold break-words max-[921px]:mb-0 max-lg:leading-[3.25rem] max-lg:text-[2.5rem] lg:leading-tight lg:text-[3.4375rem]">
               <span className="font-heading [color:inherit] font-normal break-words lg:text-[3.4375rem]">
                 <strong className="[color:inherit] break-words">
-                  {"poradenstvo pre varixy - kŕčové žily na nohách"}
+                  {"Kŕčové žily: príznaky, diagnostika a možnosti liečby"}
                 </strong>
               </span>
             </h1>
@@ -46,7 +47,7 @@ export default function HeroSection() {
           className="text-start w-full h-full relative z-[2] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-3 max-lg:col-end-8 max-lg:row-start-4 max-lg:row-end-5 lg:col-start-2 lg:col-end-5 lg:row-start-5 lg:row-end-6"
         >
           <a
-            href="https://varixyporadenstvo.com/kontakt"
+            href="/kontakt"
             target="_self"
             aria-hidden="false"
             id="zkj_X3"
@@ -68,7 +69,7 @@ export default function HeroSection() {
               className="w-full h-full relative transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.9375rem] image image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden"
             >
               <img
-                alt="a person standing in a room with a pair of shoes"
+                alt="Vyšetrenie a poradenstvo pri kŕčových žilách"
                 src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=480,fit=crop/ALpBQyXKnqhOakP5/snamka-obrazovky_2024-09-13_11-34-07-m2WQZ1bjBZSLKXrb.png"
                 height="480"
                 width="375"
@@ -83,7 +84,7 @@ export default function HeroSection() {
               className="w-full h-full relative opacity-0 transition-[transform,translate,scale,rotate,opacity] rounded-[0.9375rem] image image--grid image-wrapper--mobile max-[921px]:block min-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] max-md:translate-y-[20%] md:max-lg:opacity-100 lg:translate-y-[20%] overflow-hidden"
             >
               <img
-                alt="a person standing in a room with a pair of shoes"
+                alt="Vyšetrenie a poradenstvo pri kŕčových žilách"
                 src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/snamka-obrazovky_2024-09-13_11-34-07-m2WQZ1bjBZSLKXrb.png"
                 height="240"
                 width="246"
@@ -98,7 +99,7 @@ export default function HeroSection() {
           className="text-start w-full h-full relative z-[4] grid grid-cols-[100%] col-start-4 col-end-7 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:row-start-8 max-lg:row-end-9 lg:row-start-7 lg:row-end-8"
         >
           <a
-            href="https://varixyporadenstvo.com/liecba"
+            href="/liecba"
             target="_self"
             aria-hidden="false"
             id="zFhLpQ"
@@ -112,7 +113,7 @@ export default function HeroSection() {
           className="text-start w-full h-full relative z-[5] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-5 max-lg:col-end-6 max-lg:row-start-10 max-lg:row-end-11 lg:col-start-6 lg:col-end-8 lg:row-start-5 lg:row-end-6"
         >
           <a
-            href="https://varixyporadenstvo.com/#prelekarov"
+            href="/#prelekarov"
             target="_self"
             aria-hidden="false"
             id="ztrn6B"

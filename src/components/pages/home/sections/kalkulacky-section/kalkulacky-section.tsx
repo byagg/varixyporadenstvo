@@ -33,7 +33,7 @@ export default function KalkulackySection() {
           className="text-start w-full h-full relative z-[4] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-2 max-lg:col-end-3 max-lg:row-start-10 max-lg:row-end-11 lg:col-start-4 lg:col-end-5 lg:row-start-6 lg:row-end-8"
         >
           <a
-            href="https://varixyporadenstvo.com/#kalkulacka"
+            href="/#kalkulacka"
             target="_self"
             aria-hidden="false"
             id="zLGNpW"

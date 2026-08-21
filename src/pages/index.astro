@@ -3,17 +3,34 @@ import Layout from "../layouts/Layout.astro";
 import Page from "../components/pages/home/page";
 
 export const prerender = true;
+
+const title = "Kŕčové žily: príznaky, diagnostika a liečba | Varixy Poradenstvo";
+const description =
+  "Odborné informácie o kŕčových žilách: príznaky, diagnostika, prevencia, komplikácie a možnosti liečby vrátane sklerotizácie, laseru, RFA a operácie.";
+const image =
+  "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/ALpBQyXKnqhOakP5/ideogram-49-mnlnD7q19KFW69xb.jpeg";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  name: title,
+  description,
+  inLanguage: "sk",
+  about: {
+    "@type": "MedicalCondition",
+    name: "Kŕčové žily",
+    alternateName: "Varixy dolných končatín",
+  },
+};
 ---
 
-<Layout title="Kŕčové žily na nohách? Nájdite riešenia problémov s nimi v našej varixovej poradni. | varixyporadenstvo">
-  <Fragment slot="head">
-    <meta name="description" content="Robia Vám problém kŕčové žily alebo varixy na nohách? Toto multifaktoriálne ochorenie žíl postihuje čoraz viac ľudí a preto je osveta pomocou offline poradne potrebná." />
-    <meta name="keywords" content="kŕčové žily, nohy, varixy dolných končatín" />
-    <meta property="og:title" content="Kŕčové žily na nohách? Nájdite riešenia problémov s nimi v našej varixovej poradni. | varixyporadenstvo" />
-    <meta property="og:description" content="Robia Vám problém kŕčové žily alebo varixy na nohách? Toto multifaktoriálne ochorenie žíl postihuje čoraz viac ľudí a preto je osveta pomocou offline poradne potrebná." />
-    <meta property="og:image" content="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/ALpBQyXKnqhOakP5/ideogram-49-mnlnD7q19KFW69xb.jpeg" />
-    <meta property="og:url" content="https://varixyporadenstvo.com/" />
-    <meta property="og:site_name" content="varixyporadenstvo" />
-  </Fragment>
+<Layout
+  title={title}
+  description={description}
+  canonical="/"
+  image={image}
+  imageAlt="Ilustrácia poradenstva o kŕčových žilách"
+  siteName="Varixy Poradenstvo"
+  jsonLd={jsonLd}
+>
   <Page client:load />
 </Layout>
