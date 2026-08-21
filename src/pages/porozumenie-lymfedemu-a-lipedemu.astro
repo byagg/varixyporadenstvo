@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/porozumenie-lymfedemu-a-lipedemu/page";
+
+export const prerender = true;
+---
+
+<Layout title="Porozumenie lymfedému a lipedému | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="Objavte komplexný pohľad na lymfedém a lipedém, ich príčiny, príznaky a moderné prístupy k liečbe. Získajte cenné rady pre každodenný život s týmito stavmi a nádej na budúce inovácie v ich managemente." />
+    <meta property="og:title" content="Porozumenie lymfedému a lipedému | varixyporadenstvo" />
+    <meta property="og:description" content="Objavte komplexný pohľad na lymfedém a lipedém, ich príčiny, príznaky a moderné prístupy k liečbe. Získajte cenné rady pre každodenný život s týmito stavmi a nádej na budúce inovácie v ich managemente." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1619799179728-c245f24ab6e0?auto=jpeg&amp;fit=crop&amp;w=1200&amp;h=630" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/porozumenie-lymfedemu-a-lipedemu" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>
