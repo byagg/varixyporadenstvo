@@ -56,7 +56,7 @@ export default function KompresnaBandazSection({
     >
       <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
         <img
-          src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-75-Aq2eV2gee2tb08Dn.jpeg"
+          src="/migrated-assets/0a5c5bd11dad1f40650c.jpg"
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
@@ -146,7 +146,7 @@ export default function KompresnaBandazSection({
             >
               <img
                 alt=""
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=346,fit=crop/ALpBQyXKnqhOakP5/ideogram-54-mjEPlPE79MHLyVkY.jpeg"
+                src="/migrated-assets/7d8734c23a0b01b81b71.jpg"
                 height="305"
                 width="331"
                 loading="eager"
@@ -160,7 +160,7 @@ export default function KompresnaBandazSection({
             >
               <img
                 alt=""
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/ideogram-54-mjEPlPE79MHLyVkY.jpeg"
+                src="/migrated-assets/6f01c89434d1a848f06d.jpg"
                 height="150"
                 width="154"
                 loading="eager"
@@ -198,7 +198,7 @@ export default function KompresnaBandazSection({
             >
               <img
                 alt="a group of white bandages and bandages on a white background"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=347,fit=crop/ALpBQyXKnqhOakP5/9545_101020091_1-Yg29M0eNvlUQqZq0.jpeg"
+                src="/migrated-assets/4afbc5b64ed2efdfa6c8.jpg"
                 height="255"
                 width="276"
                 loading="eager"
@@ -213,7 +213,7 @@ export default function KompresnaBandazSection({
             >
               <img
                 alt="a group of white bandages and bandages on a white background"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=367,fit=crop/ALpBQyXKnqhOakP5/9545_101020091_1-Yg29M0eNvlUQqZq0.jpeg"
+                src="/migrated-assets/c4e1f39c517bde5c86e1.jpg"
                 height="169"
                 width="173"
                 loading="eager"
@@ -236,7 +236,7 @@ export default function KompresnaBandazSection({
             >
               <img
                 alt="a group of bandages and bandages on a white background"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=347,fit=crop/ALpBQyXKnqhOakP5/254295737_max-AzG7WQwlkNf8Mr0D.jpg"
+                src="/migrated-assets/ad1e0604156b3374e32f.jpg"
                 height="255"
                 width="276"
                 loading="eager"
@@ -251,7 +251,7 @@ export default function KompresnaBandazSection({
             >
               <img
                 alt="a group of bandages and bandages on a white background"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=327,fit=crop/ALpBQyXKnqhOakP5/254295737_max-AzG7WQwlkNf8Mr0D.jpg"
+                src="/migrated-assets/da5af8cecad18251386a.jpg"
                 height="128"
                 width="147"
                 loading="eager"

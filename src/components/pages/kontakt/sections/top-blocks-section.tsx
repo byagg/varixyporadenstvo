@@ -272,7 +272,7 @@ export default function TopBlocksSection() {
             className="[color:inherit] flex mr-4 block-header-logo block-header__logo max-lg:w-[10.5369rem] max-lg:h-6 lg:w-[13.5rem] lg:h-[1.875rem]"
           >
             <img
-              src="https://assets.zyrosite.com/ALpBQyXKnqhOakP5/ai-logo-AoPZ8gWKwpCDL9M0.svg"
+              src="/migrated-assets/064fe38b1616ca6d9774.svg"
               alt="varixyporadenstvo logo"
               className="w-full h-full max-w-none object-contain block-header-logo__image overflow-clip"
             />
@@ -295,7 +295,7 @@ export default function TopBlocksSection() {
             className="[color:inherit] flex block-header-logo block-header__logo max-lg:w-[10.5369rem] max-lg:h-6 max-lg:col-start-[logo] max-lg:col-end-[logo] max-lg:row-start-[logo] max-lg:row-end-[logo] lg:w-[13.5rem] lg:h-[1.875rem] lg:col-start-auto lg:col-end-auto lg:row-start-auto lg:row-end-auto"
           >
             <img
-              src="https://assets.zyrosite.com/ALpBQyXKnqhOakP5/ai-logo-AoPZ8gWKwpCDL9M0.svg"
+              src="/migrated-assets/064fe38b1616ca6d9774.svg"
               alt="varixyporadenstvo logo"
               className="w-full h-full max-w-none object-contain block-header-logo__image overflow-clip"
             />

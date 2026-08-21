@@ -62,7 +62,7 @@ export default function Page() {
                     >
                       <img
                         alt="a doctor and patient in a hospital room"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,h=434,fit=crop/ALpBQyXKnqhOakP5/ideogram-49-mnlnD7q19KFW69xb.jpeg"
+                        src="/migrated-assets/e70085b19b5332894246.jpg"
                         height="344"
                         width="812"
                         loading="eager"
@@ -80,7 +80,7 @@ export default function Page() {
                     >
                       <img
                         alt="a doctor and patient in a hospital room"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/ideogram-49-mnlnD7q19KFW69xb.jpeg"
+                        src="/migrated-assets/e702d45ab6c468576fd9.jpg"
                         height="320"
                         width="328"
                         loading="eager"

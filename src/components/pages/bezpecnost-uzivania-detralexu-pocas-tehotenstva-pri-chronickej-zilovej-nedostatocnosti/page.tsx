@@ -65,7 +65,7 @@ export default function Page() {
                     >
                       <img
                         alt="a woman in a pink shirt is holding a pill"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=480,fit=crop/ALpBQyXKnqhOakP5/5878afb0-2a33-459d-9cc4-4e779491849a-AMq1EZ5PvzCg0oGE.png"
+                        src="/migrated-assets/26515b9760af7dba2099.jpg"
                         height="344"
                         width="269"
                         loading="eager"
@@ -83,7 +83,7 @@ export default function Page() {
                     >
                       <img
                         alt="a woman in a pink shirt is holding a pill"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/5878afb0-2a33-459d-9cc4-4e779491849a-AMq1EZ5PvzCg0oGE.png"
+                        src="/migrated-assets/a0fb52a73842a221a94b.jpg"
                         height="320"
                         width="328"
                         loading="eager"

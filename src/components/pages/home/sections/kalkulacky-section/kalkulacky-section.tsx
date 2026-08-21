@@ -40,7 +40,7 @@ export default function KalkulackySection() {
       className="kalkulacky relative isolate overflow-hidden bg-ploy-background-inverse px-4 py-20 text-ploy-text-inverse lg:py-28"
     >
       <img
-        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-69-AE02K082gzIVarOv.jpeg"
+        src="/migrated-assets/26e26ce182062a54f718.jpg"
         alt=""
         aria-hidden="true"
         className="absolute inset-0 -z-20 h-full w-full object-cover"

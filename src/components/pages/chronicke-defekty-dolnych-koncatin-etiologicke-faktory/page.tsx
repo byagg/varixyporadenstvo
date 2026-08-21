@@ -71,7 +71,7 @@ export default function Page() {
                     >
                       <img
                         alt="a man with a large bruise on his leg"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,h=434,fit=crop/ALpBQyXKnqhOakP5/vrd-YZ9bzjqQyVCJ7lQL.webp"
+                        src="/migrated-assets/72817d7f4df33b5e34a0.jpg"
                         height="344"
                         width="812"
                         loading="eager"
@@ -89,7 +89,7 @@ export default function Page() {
                     >
                       <img
                         alt="a man with a large bruise on his leg"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/vrd-YZ9bzjqQyVCJ7lQL.webp"
+                        src="/migrated-assets/39c5114b05d2dd3c43b2.jpg"
                         height="320"
                         width="328"
                         loading="eager"

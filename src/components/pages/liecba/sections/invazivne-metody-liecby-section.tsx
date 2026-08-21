@@ -20,7 +20,7 @@ export default function InvazivneMetodyLiecbySection() {
     >
       <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
         <img
-          src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-63-Yle2Ve96wrsbLX1a.jpeg"
+          src="/migrated-assets/75a3e429c3c276481229.jpg"
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
@@ -129,7 +129,7 @@ export default function InvazivneMetodyLiecbySection() {
             >
               <img
                 alt="a person in a surgical procedure in a hospital"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=172,fit=crop/ALpBQyXKnqhOakP5/rfa-8-YNqre12D25Fp3OX4.webp"
+                src="/migrated-assets/331d1050d037e105b7c2.jpg"
                 height="136"
                 width="297"
                 loading="eager"
@@ -144,7 +144,7 @@ export default function InvazivneMetodyLiecbySection() {
             >
               <img
                 alt="a person in a surgical procedure in a hospital"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=367,fit=crop/ALpBQyXKnqhOakP5/rfa-8-YNqre12D25Fp3OX4.webp"
+                src="/migrated-assets/7f63284683a930ac2e88.jpg"
                 height="176"
                 width="180"
                 loading="eager"
@@ -282,7 +282,7 @@ export default function InvazivneMetodyLiecbySection() {
             >
               <img
                 alt=""
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=172,fit=crop/ALpBQyXKnqhOakP5/img_0957-dJoBoEZ9e5IpwkKW.jpg"
+                src="/migrated-assets/16bc47fadfab22d4683f.jpg"
                 height="136"
                 width="297"
                 loading="eager"
@@ -296,7 +296,7 @@ export default function InvazivneMetodyLiecbySection() {
             >
               <img
                 alt=""
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=367,fit=crop/ALpBQyXKnqhOakP5/img_0957-dJoBoEZ9e5IpwkKW.jpg"
+                src="/migrated-assets/66ab8ceda7d153c8c023.jpg"
                 height="175"
                 width="179"
                 loading="eager"

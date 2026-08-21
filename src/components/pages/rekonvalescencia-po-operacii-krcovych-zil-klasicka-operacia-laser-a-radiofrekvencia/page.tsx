@@ -68,7 +68,7 @@ export default function Page() {
                     >
                       <img
                         alt="a person with a wound wound on their leg"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=352,fit=crop/ALpBQyXKnqhOakP5/img_20230601_123121-mv07Z5LRXwF0zG3W.webp"
+                        src="/migrated-assets/c711dfc95c62704e326b.jpg"
                         height="344"
                         width="367"
                         loading="eager"
@@ -86,7 +86,7 @@ export default function Page() {
                     >
                       <img
                         alt="a person with a wound wound on their leg"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/img_20230601_123121-mv07Z5LRXwF0zG3W.webp"
+                        src="/migrated-assets/18e077c72a14ae400c49.jpg"
                         height="320"
                         width="328"
                         loading="eager"

@@ -16,7 +16,7 @@ export default function PoradimeNajlepsieRiesenieSection() {
     >
       <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
         <img
-          src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-63-Yle2Ve96wrsbLX1a.jpeg"
+          src="/migrated-assets/75a3e429c3c276481229.jpg"
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
@@ -38,7 +38,7 @@ export default function PoradimeNajlepsieRiesenieSection() {
             >
               <img
                 alt="a medical device with a monitor and a monitor"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=297,fit=crop/ALpBQyXKnqhOakP5/dalla-e-2024-09-13-12.09.01---create-a-visually-striking-scene-that-emphasizes-the-medical-ultrasound-device-at-the-center-of-the-image.-use-vibrant-contrasting-colors-like-orange-m2WQZ1zBz2HWn5E6.webp"
+                src="/migrated-assets/7e254376b0db46de80b4.jpg"
                 height="235"
                 width="297"
                 loading="eager"
@@ -53,7 +53,7 @@ export default function PoradimeNajlepsieRiesenieSection() {
             >
               <img
                 alt="a medical device with a monitor and a monitor"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=264,fit=crop/ALpBQyXKnqhOakP5/dalla-e-2024-09-13-12.09.01---create-a-visually-striking-scene-that-emphasizes-the-medical-ultrasound-device-at-the-center-of-the-image.-use-vibrant-contrasting-colors-like-orange-m2WQZ1zBz2HWn5E6.webp"
+                src="/migrated-assets/b56637d4ac7287bd45d8.jpg"
                 height="140"
                 width="199"
                 loading="eager"

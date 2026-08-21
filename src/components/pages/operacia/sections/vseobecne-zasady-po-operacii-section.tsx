@@ -69,19 +69,19 @@ export const items2: ListItemProps[] = [
 
 export const images: ImageItemProps[] = [
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/ALpBQyXKnqhOakP5/img_20230601_123121-mv07Z5LRXwF0zG3W.webp",
+    src: "/migrated-assets/c19385a5803313cedad6.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/ALpBQyXKnqhOakP5/img_20230126_104443-A85482DONoUyoprp.webp",
+    src: "/migrated-assets/ef8d1048a9004b121064.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/ALpBQyXKnqhOakP5/img_20230330_101318-m5KbXlP1JDfXOPyR.webp",
+    src: "/migrated-assets/4d4ef66a0e5aa4ae84d4.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/ALpBQyXKnqhOakP5/img_20230601_123118-YKbrn1Pyn9fQkvOq.webp",
+    src: "/migrated-assets/a74b632cc3f01e871cfa.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/ALpBQyXKnqhOakP5/img_20230126_104424-AR0bX2erjyHyWBlq.webp",
+    src: "/migrated-assets/1fa120bf39ff339abc57.jpg",
   },
 ];
 
@@ -93,7 +93,7 @@ export default function VseobecneZasadyPoOperaciiSection() {
     >
       <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
         <img
-          src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-63-Yle2Ve96wrsbLX1a.jpeg"
+          src="/migrated-assets/75a3e429c3c276481229.jpg"
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"

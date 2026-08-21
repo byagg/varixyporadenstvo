@@ -37,25 +37,25 @@ function ImageItem({ src }: ImageItemProps) {
 
 export const images: ImageItemProps[] = [
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/ALpBQyXKnqhOakP5/legs-YleyBQ8bRaSyp95Q.webp",
+    src: "/migrated-assets/b0e8c4f5a38a0ae67509.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/ALpBQyXKnqhOakP5/ret-m5KbanqkEVCw63Z5.webp",
+    src: "/migrated-assets/e4e9590cdec4602e9fac.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/ALpBQyXKnqhOakP5/var-YKbrMlZWOosW7Gbx.webp",
+    src: "/migrated-assets/2e406b710a9d493ad9a7.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/ALpBQyXKnqhOakP5/ede-YNqre21bkJu8MrkP.webp",
+    src: "/migrated-assets/e47b7efa79c1181db0bb.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/ALpBQyXKnqhOakP5/lip-mP4QBMaWBDF6EK1X.webp",
+    src: "/migrated-assets/e1e28c7536e4cf6f9ab3.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/ALpBQyXKnqhOakP5/vrd-YZ9bzjqQyVCJ7lQL.webp",
+    src: "/migrated-assets/f82d788c021ecc496ca5.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=375,fit=crop/ALpBQyXKnqhOakP5/img_20230530_101700-dJo4DbMLo6tMZpZa.webp",
+    src: "/migrated-assets/59b30da715bb141a0894.jpg",
   },
 ];
 
@@ -71,7 +71,7 @@ export default function TrapiteSaSKrcovymiSection({
     >
       <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
         <img
-          src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-75-Aq2eV2gee2tb08Dn.jpeg"
+          src="/migrated-assets/0a5c5bd11dad1f40650c.jpg"
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
@@ -133,7 +133,7 @@ export default function TrapiteSaSKrcovymiSection({
             >
               <img
                 alt="a man with a very large vein on his leg"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=330,fit=crop/ALpBQyXKnqhOakP5/img_0751-fotor-2023093013950-Yle2VkBN8zF4Ra3V.jpg"
+                src="/migrated-assets/8ef4a17c6b24ef87cb3b.jpg"
                 height="240"
                 width="273"
                 loading="eager"
@@ -148,7 +148,7 @@ export default function TrapiteSaSKrcovymiSection({
             >
               <img
                 alt="a man with a very large vein on his leg"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/img_0751-fotor-2023093013950-Yle2VkBN8zF4Ra3V.jpg"
+                src="/migrated-assets/92ba28c28f4ef06b7c35.jpg"
                 height="262"
                 width="269"
                 loading="eager"
@@ -367,7 +367,7 @@ export default function TrapiteSaSKrcovymiSection({
             >
               <img
                 alt="a pie chart of a pie chart of the percentage of the percentage of the percentage"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=338,fit=crop/ALpBQyXKnqhOakP5/output-6-mp8vVJX0RltZe894.png"
+                src="/migrated-assets/588ea153379ee515a84d.png"
                 height="244"
                 width="271"
                 loading="eager"
@@ -382,7 +382,7 @@ export default function TrapiteSaSKrcovymiSection({
             >
               <img
                 alt="a pie chart of a pie chart of the percentage of the percentage of the percentage"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/output-6-mp8vVJX0RltZe894.png"
+                src="/migrated-assets/8b08c972a9032d74de95.png"
                 height="262"
                 width="269"
                 loading="eager"
@@ -404,7 +404,7 @@ export default function TrapiteSaSKrcovymiSection({
             >
               <img
                 alt=""
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=360,fit=crop/ALpBQyXKnqhOakP5/output-7-AGB6KbrJ63UJzD2b.png"
+                src="/migrated-assets/927c726939319ce4f132.png"
                 height="255"
                 width="266"
                 loading="eager"
@@ -418,7 +418,7 @@ export default function TrapiteSaSKrcovymiSection({
             >
               <img
                 alt=""
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/output-7-AGB6KbrJ63UJzD2b.png"
+                src="/migrated-assets/1adb988366ae70a1e879.png"
                 height="262"
                 width="269"
                 loading="eager"

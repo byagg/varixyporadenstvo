@@ -101,7 +101,7 @@ export default function PreLekarovSection() {
       className="pre-lekarov relative isolate overflow-hidden bg-ploy-background-inverse px-4 py-20 text-ploy-text-inverse lg:py-28"
     >
       <img
-        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-74-AGBMKBEPKZI3x237.jpeg"
+        src="/migrated-assets/264216885f5a9c9fcf9e.jpg"
         alt=""
         aria-hidden="true"
         className="absolute inset-0 -z-20 h-full w-full object-cover"

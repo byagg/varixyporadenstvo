@@ -130,7 +130,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a woman with a varix on her leg"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,h=434,fit=crop/ALpBQyXKnqhOakP5/img_0957-dJoBoEZ9e5IpwkKW.jpg"
+                  src="/migrated-assets/f8e0aedc1240d26b118c.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -145,7 +145,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a woman with a varix on her leg"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/img_0957-dJoBoEZ9e5IpwkKW.jpg"
+                  src="/migrated-assets/d978bfc92606eb4db3d3.jpg"
                   height="320"
                   width="328"
                   loading="eager"

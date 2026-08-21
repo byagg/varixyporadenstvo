@@ -56,7 +56,7 @@ export default function Page() {
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
                         <img
                           alt=""
-                          srcSet="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=226,fit=crop/ALpBQyXKnqhOakP5/img_20230601_123118-YKbrn1Pyn9fQkvOq.webp 328w,https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=462,fit=crop/ALpBQyXKnqhOakP5/img_20230601_123118-YKbrn1Pyn9fQkvOq.webp 656w,https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,h=615,fit=crop/ALpBQyXKnqhOakP5/img_20230601_123118-YKbrn1Pyn9fQkvOq.webp 861w,https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,h=614,fit=crop/ALpBQyXKnqhOakP5/img_20230601_123118-YKbrn1Pyn9fQkvOq.webp 984w,https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,h=1152,fit=crop/ALpBQyXKnqhOakP5/img_20230601_123118-YKbrn1Pyn9fQkvOq.webp 1800w,https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=2800,h=1680,fit=crop/ALpBQyXKnqhOakP5/img_20230601_123118-YKbrn1Pyn9fQkvOq.webp 3600w"
+                          srcSet="/migrated-assets/beb5652248b154f1fae4.jpg 328w,/migrated-assets/3b4964b46ad833ab442e.jpg 656w,/migrated-assets/43e42e9a21addc9fafe6.jpg 861w,/migrated-assets/795f2d60805409c45bc0.jpg 984w,/migrated-assets/ac2436c276115776107e.jpg 1800w,/migrated-assets/8594c352c9428aa2a93e.jpg 3600w"
                           sizes="(min-width: 920px) 1800px, calc((100vw - 0px - 20px) / 1)"
                           className="w-full h-full max-w-none absolute object-cover left-0 top-0 block-blog-list-item__cover-image overflow-clip"
                         />
@@ -144,7 +144,7 @@ export default function Page() {
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
                         <img
                           alt=""
-                          srcSet="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=226,fit=crop/ALpBQyXKnqhOakP5/stiahnuay-Yyv9xxzoQxf0nj8V.jpeg 328w,https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=462,fit=crop/ALpBQyXKnqhOakP5/stiahnuay-Yyv9xxzoQxf0nj8V.jpeg 656w,https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,h=615,fit=crop/ALpBQyXKnqhOakP5/stiahnuay-Yyv9xxzoQxf0nj8V.jpeg 861w,https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,h=614,fit=crop/ALpBQyXKnqhOakP5/stiahnuay-Yyv9xxzoQxf0nj8V.jpeg 984w,https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,h=1152,fit=crop/ALpBQyXKnqhOakP5/stiahnuay-Yyv9xxzoQxf0nj8V.jpeg 1800w,https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=2800,h=1680,fit=crop/ALpBQyXKnqhOakP5/stiahnuay-Yyv9xxzoQxf0nj8V.jpeg 3600w"
+                          srcSet="/migrated-assets/36a7d56634c6a41650d0.jpg 328w,/migrated-assets/f95f7e61cbc0dcb878ba.jpg 656w,/migrated-assets/f5dc812cb19a2bf860a2.jpg 861w,/migrated-assets/ffd10e578ff3ec3c5350.jpg 984w,/migrated-assets/e0e1da8dc94e98979477.jpg 1800w,/migrated-assets/13329b46ee84d40794d6.jpg 3600w"
                           sizes="(min-width: 920px) 1800px, calc((100vw - 0px - 20px) / 1)"
                           className="w-full h-full max-w-none absolute object-cover left-0 top-0 block-blog-list-item__cover-image overflow-clip"
                         />

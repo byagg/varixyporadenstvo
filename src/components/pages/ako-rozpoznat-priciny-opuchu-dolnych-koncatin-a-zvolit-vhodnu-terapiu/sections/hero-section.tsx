@@ -375,7 +375,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="tab 1"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=250,fit=crop/ALpBQyXKnqhOakP5/bez-na-zvu-1-1-m2WQeb8XxjFL8ykM.webp"
+                  src="/migrated-assets/90561865df0bd80278cb.jpg"
                   height="199"
                   width="299"
                   loading="eager"
@@ -390,7 +390,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="tab 1"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/bez-na-zvu-1-1-m2WQeb8XxjFL8ykM.webp"
+                  src="/migrated-assets/fd7deac4a5437597599c.jpg"
                   height="320"
                   width="328"
                   loading="eager"
@@ -410,7 +410,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="tab 2"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=381,fit=crop/ALpBQyXKnqhOakP5/book-5-YD04bjEwrBtbKOBO.webp"
+                  src="/migrated-assets/623b3922db95f25ee1ff.jpg"
                   height="199"
                   width="196"
                   loading="eager"
@@ -425,7 +425,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="tab 2"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/book-5-YD04bjEwrBtbKOBO.webp"
+                  src="/migrated-assets/23c44e6238eb75aa2ca4.jpg"
                   height="320"
                   width="328"
                   loading="eager"
@@ -445,7 +445,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="tab 3"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=381,fit=crop/ALpBQyXKnqhOakP5/snamka-obrazovky_2023-07-16_01-08-56-1-m7VKxEDRy2h7ywb3.webp"
+                  src="/migrated-assets/a7ee80a5ccfca9734da3.jpg"
                   height="199"
                   width="196"
                   loading="eager"
@@ -460,7 +460,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="tab 3"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/snamka-obrazovky_2023-07-16_01-08-56-1-m7VKxEDRy2h7ywb3.webp"
+                  src="/migrated-assets/68794679c7c88d78f544.jpg"
                   height="320"
                   width="328"
                   loading="eager"

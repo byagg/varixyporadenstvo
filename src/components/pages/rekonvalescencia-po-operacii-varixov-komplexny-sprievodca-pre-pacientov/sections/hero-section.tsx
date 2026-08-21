@@ -94,7 +94,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a person with a bruised leg and a wound on their arm"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=445,fit=crop/ALpBQyXKnqhOakP5/img_20230601_123118-YKbrn1Pyn9fQkvOq.webp"
+                  src="/migrated-assets/082d5484c3c327e96a3e.jpg"
                   height="344"
                   width="594"
                   loading="eager"
@@ -109,7 +109,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a person with a bruised leg and a wound on their arm"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/img_20230601_123118-YKbrn1Pyn9fQkvOq.webp"
+                  src="/migrated-assets/4a40a25f38b7a8b690a9.jpg"
                   height="320"
                   width="328"
                   loading="eager"
@@ -451,7 +451,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a woman's legs with a pair of knee high heel boots"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=768,fit=crop/ALpBQyXKnqhOakP5/oip-1-AGB2bVpxbRSnNQqy.jpeg"
+                  src="/migrated-assets/fe90e6668e36f2602187.jpg"
                   height="480"
                   width="480"
                   loading="eager"
@@ -466,7 +466,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a woman's legs with a pair of knee high heel boots"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/oip-1-AGB2bVpxbRSnNQqy.jpeg"
+                  src="/migrated-assets/23af73c8512c452fd5df.jpg"
                   height="320"
                   width="328"
                   loading="eager"
@@ -489,7 +489,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a woman is doing a physical exercise on a table"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=512,fit=crop/ALpBQyXKnqhOakP5/oip-m7V3bjl6XQIxggE9.jpeg"
+                  src="/migrated-assets/f3fe02e1dfef022f07fc.jpg"
                   height="320"
                   width="480"
                   loading="eager"
@@ -504,7 +504,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a woman is doing a physical exercise on a table"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/oip-m7V3bjl6XQIxggE9.jpeg"
+                  src="/migrated-assets/68f669987da4c1563d17.jpg"
                   height="320"
                   width="328"
                   loading="eager"
@@ -527,7 +527,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a person in a gloved gloved hand holding a pair of scissors and a"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=512,fit=crop/ALpBQyXKnqhOakP5/th-YKb3lv09gKSk3rlg.jpeg"
+                  src="/migrated-assets/1b1e4f4939736c6fbc58.jpg"
                   height="320"
                   width="480"
                   loading="eager"
@@ -542,7 +542,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a person in a gloved gloved hand holding a pair of scissors and a"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/th-YKb3lv09gKSk3rlg.jpeg"
+                  src="/migrated-assets/222d55df79612c3bc50b.jpg"
                   height="320"
                   width="328"
                   loading="eager"

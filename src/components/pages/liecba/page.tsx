@@ -41,7 +41,7 @@ export default function Page() {
                   className="[color:inherit] flex mr-4 block-header-logo block-header__logo max-lg:w-[10.5369rem] max-lg:h-6 lg:w-[13.5rem] lg:h-[1.875rem]"
                 >
                   <img
-                    src="https://assets.zyrosite.com/ALpBQyXKnqhOakP5/ai-logo-AoPZ8gWKwpCDL9M0.svg"
+                    src="/migrated-assets/064fe38b1616ca6d9774.svg"
                     alt="varixyporadenstvo logo"
                     className="w-full h-full max-w-none object-contain block-header-logo__image overflow-clip"
                   />
@@ -165,7 +165,7 @@ export default function Page() {
                   className="[color:inherit] flex block-header-logo block-header__logo max-lg:w-[10.5369rem] max-lg:h-6 max-lg:col-start-[logo] max-lg:col-end-[logo] max-lg:row-start-[logo] max-lg:row-end-[logo] lg:w-[13.5rem] lg:h-[1.875rem] lg:col-start-auto lg:col-end-auto lg:row-start-auto lg:row-end-auto"
                 >
                   <img
-                    src="https://assets.zyrosite.com/ALpBQyXKnqhOakP5/ai-logo-AoPZ8gWKwpCDL9M0.svg"
+                    src="/migrated-assets/064fe38b1616ca6d9774.svg"
                     alt="varixyporadenstvo logo"
                     className="w-full h-full max-w-none object-contain block-header-logo__image overflow-clip"
                   />
@@ -321,7 +321,7 @@ export default function Page() {
             >
               <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
                 <img
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-65-m7V80VXEXqSD2O08.jpeg"
+                  src="/migrated-assets/1587b1969dd154c99787.jpg"
                   width="100vw"
                   loading="eager"
                   className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
@@ -593,7 +593,7 @@ export default function Page() {
             >
               <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
                 <img
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-65-m7V80VXEXqSD2O08.jpeg"
+                  src="/migrated-assets/1587b1969dd154c99787.jpg"
                   width="100vw"
                   loading="eager"
                   className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
@@ -949,7 +949,7 @@ export default function Page() {
             >
               <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
                 <img
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-65-m7V80VXEXqSD2O08.jpeg"
+                  src="/migrated-assets/1587b1969dd154c99787.jpg"
                   width="100vw"
                   loading="eager"
                   className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
@@ -1110,7 +1110,7 @@ export default function Page() {
                     >
                       <img
                         alt="a man in a hospital room with a nurse"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=896,fit=crop/ALpBQyXKnqhOakP5/ideogram-52-mxBjLjQxVbu0kJK3.jpeg"
+                        src="/migrated-assets/9fa1cfa47ef374358a37.jpg"
                         height="560"
                         width="480"
                         loading="eager"
@@ -1128,7 +1128,7 @@ export default function Page() {
                     >
                       <img
                         alt="a man in a hospital room with a nurse"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/ideogram-52-mxBjLjQxVbu0kJK3.jpeg"
+                        src="/migrated-assets/c0ca5c7d01911e433044.jpg"
                         height="233"
                         width="239"
                         loading="eager"
@@ -1155,7 +1155,7 @@ export default function Page() {
             >
               <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
                 <img
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-65-m7V80VXEXqSD2O08.jpeg"
+                  src="/migrated-assets/1587b1969dd154c99787.jpg"
                   width="100vw"
                   loading="eager"
                   className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
@@ -1366,7 +1366,7 @@ export default function Page() {
                     >
                       <img
                         alt="a man in a hospital room with a nurse"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=896,fit=crop/ALpBQyXKnqhOakP5/ideogram-52-mxBjLjQxVbu0kJK3.jpeg"
+                        src="/migrated-assets/9fa1cfa47ef374358a37.jpg"
                         height="560"
                         width="480"
                         loading="eager"
@@ -1384,7 +1384,7 @@ export default function Page() {
                     >
                       <img
                         alt="a man in a hospital room with a nurse"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/ideogram-52-mxBjLjQxVbu0kJK3.jpeg"
+                        src="/migrated-assets/c0ca5c7d01911e433044.jpg"
                         height="189"
                         width="194"
                         loading="eager"
@@ -1410,7 +1410,7 @@ export default function Page() {
                     >
                       <img
                         alt="little hematomas on the foot"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,h=2560,fit=crop/ALpBQyXKnqhOakP5/img_0992-mP474ZDrMyTp827B.jpg"
+                        src="/migrated-assets/3d5a84f9619fd4c2e42c.jpg"
                         height="284"
                         width="341"
                         loading="eager"
@@ -1428,7 +1428,7 @@ export default function Page() {
                     >
                       <img
                         alt="little hematomas on the foot"
-                        src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=697,fit=crop/ALpBQyXKnqhOakP5/img_0992-mP474ZDrMyTp827B.jpg"
+                        src="/migrated-assets/c6f121b3818c1055958f.jpg"
                         height="245"
                         width="270"
                         loading="eager"

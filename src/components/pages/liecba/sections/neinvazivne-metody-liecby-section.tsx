@@ -20,7 +20,7 @@ export default function NeinvazivneMetodyLiecbySection() {
     >
       <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
         <img
-          src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-63-Yle2Ve96wrsbLX1a.jpeg"
+          src="/migrated-assets/75a3e429c3c276481229.jpg"
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
@@ -42,7 +42,7 @@ export default function NeinvazivneMetodyLiecbySection() {
             >
               <img
                 alt="a woman in a white shirt and stockings with a white dress"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=172,fit=crop/ALpBQyXKnqhOakP5/snamka-obrazovky_2022-10-02_13-22-01-YBg4Wzenjwh0QGKq.webp"
+                src="/migrated-assets/b6e96052f0262019719f.jpg"
                 height="136"
                 width="297"
                 loading="eager"
@@ -57,7 +57,7 @@ export default function NeinvazivneMetodyLiecbySection() {
             >
               <img
                 alt="a woman in a white shirt and stockings with a white dress"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/snamka-obrazovky_2022-10-02_13-22-01-YBg4Wzenjwh0QGKq.webp"
+                src="/migrated-assets/d52f51db005da7084d22.jpg"
                 height="194"
                 width="199"
                 loading="eager"

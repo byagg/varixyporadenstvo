@@ -106,13 +106,13 @@ export const images: ImageItemProps[] = [
     containerClassName:
       "w-full h-full relative cursor-zoom-in image image--zoom image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden",
     alt: "a poster with a medical poster showing a medical procedure",
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=730,fit=crop/ALpBQyXKnqhOakP5/sklerotizacia_infografika-elVrtQoBbyYey5HD.png",
+    src: "/migrated-assets/b45214f05ac819acafc3.png",
     title_1: "a poster with a medical poster showing a medical procedure",
     containerClassName2:
       "w-full h-full relative cursor-zoom-in image image--zoom image--grid image-wrapper--mobile max-[921px]:block min-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] overflow-hidden",
     imageAlt: "a poster with a medical poster showing a medical procedure",
     imageSrc:
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/sklerotizacia_infografika-elVrtQoBbyYey5HD.png",
+      "/migrated-assets/1dced8a25d83406fd10d.jpg",
   },
   {
     className:
@@ -123,13 +123,13 @@ export const images: ImageItemProps[] = [
     containerClassName:
       "w-full h-full relative cursor-zoom-in transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] image image--zoom image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden",
     alt: "a poster with a picture of a person with a kneel",
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=730,fit=crop/ALpBQyXKnqhOakP5/rfa_infografika-vAR8azTS53bmXfg9.png",
+    src: "/migrated-assets/650e305139ad72759440.png",
     title_1: "a poster with a picture of a person with a kneel",
     containerClassName2:
       "w-full h-full relative opacity-0 translate-y-[20%] cursor-zoom-in transition-[transform,translate,scale,rotate,opacity] image image--zoom image--grid image-wrapper--mobile max-[921px]:block min-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] overflow-hidden",
     imageAlt: "a poster with a picture of a person with a kneel",
     imageSrc:
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/rfa_infografika-vAR8azTS53bmXfg9.png",
+      "/migrated-assets/2c0c407477143149ffe7.jpg",
   },
   {
     className:
@@ -140,13 +140,13 @@ export const images: ImageItemProps[] = [
     containerClassName:
       "w-full h-full relative cursor-zoom-in transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] image image--zoom image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden",
     alt: "a poster with a medical poster about a medical procedure",
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=730,fit=crop/ALpBQyXKnqhOakP5/rfa_evrf_infografika-90Fyg4cwWdJAOhuP.png",
+    src: "/migrated-assets/f4568303f2e224d6a6e4.png",
     title_1: "a poster with a medical poster about a medical procedure",
     containerClassName2:
       "w-full h-full relative opacity-0 translate-y-[20%] cursor-zoom-in transition-[transform,translate,scale,rotate,opacity] image image--zoom image--grid image-wrapper--mobile max-[921px]:block min-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] overflow-hidden",
     imageAlt: "a poster with a medical poster about a medical procedure",
     imageSrc:
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/rfa_evrf_infografika-90Fyg4cwWdJAOhuP.png",
+      "/migrated-assets/47e55319c687fe7ae711.jpg",
   },
   {
     className:
@@ -158,7 +158,7 @@ export const images: ImageItemProps[] = [
     containerClassName:
       "w-full h-full relative cursor-zoom-in transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] image image--zoom image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden",
     alt: "a poster with a medical poster showing a doctor's hand holding a syop",
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=730,fit=crop/ALpBQyXKnqhOakP5/miniflebektomia_infografika-NYE4rpBbwuu8e7N1.png",
+    src: "/migrated-assets/1afe679213a33dd7891f.png",
     title_1:
       "a poster with a medical poster showing a doctor's hand holding a syop",
     containerClassName2:
@@ -166,7 +166,7 @@ export const images: ImageItemProps[] = [
     imageAlt:
       "a poster with a medical poster showing a doctor's hand holding a syop",
     imageSrc:
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/miniflebektomia_infografika-NYE4rpBbwuu8e7N1.png",
+      "/migrated-assets/b183ceb1391fecb02460.jpg",
   },
 ];
 
@@ -206,7 +206,7 @@ export default function HeroSection() {
       >
         <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
           <img
-            src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-75-Aq2eV2gee2tb08Dn.jpeg"
+            src="/migrated-assets/0a5c5bd11dad1f40650c.jpg"
             width="100vw"
             loading="eager"
             className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"

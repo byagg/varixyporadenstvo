@@ -413,7 +413,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="tab 1"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=512,fit=crop/ALpBQyXKnqhOakP5/snamka-obrazovky_2023-07-16_01-41-16-mxB7NxNRKqHeaL47.webp"
+                  src="/migrated-assets/cb4a84704df30066447f.jpg"
                   height="287"
                   width="431"
                   loading="eager"
@@ -428,7 +428,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="tab 1"
-                  src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/snamka-obrazovky_2023-07-16_01-41-16-mxB7NxNRKqHeaL47.webp"
+                  src="/migrated-assets/22baf1fd6a31ff2533af.jpg"
                   height="320"
                   width="328"
                   loading="eager"

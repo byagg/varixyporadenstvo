@@ -17,7 +17,7 @@ export default function HeroSection() {
         className="pointer-events-none absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] top-0 -bottom-px inset-x-0 overflow-hidden"
       >
         <img
-          src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-74-AGBMKBEPKZI3x237.jpeg"
+          src="/migrated-assets/264216885f5a9c9fcf9e.jpg"
           width="100vw"
           loading="eager"
           className="w-full h-svh max-w-none fixed z-0 object-cover left-0 top-0 block-background__image block-background__image--fixed overflow-clip"
@@ -70,7 +70,7 @@ export default function HeroSection() {
             >
               <img
                 alt="Vyšetrenie a poradenstvo pri kŕčových žilách"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=480,fit=crop/ALpBQyXKnqhOakP5/snamka-obrazovky_2024-09-13_11-34-07-m2WQZ1bjBZSLKXrb.png"
+                src="/migrated-assets/b45481cf7e17dee2d2c9.jpg"
                 height="480"
                 width="375"
                 loading="eager"
@@ -85,7 +85,7 @@ export default function HeroSection() {
             >
               <img
                 alt="Vyšetrenie a poradenstvo pri kŕčových žilách"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/snamka-obrazovky_2024-09-13_11-34-07-m2WQZ1bjBZSLKXrb.png"
+                src="/migrated-assets/1e3b5e9eb2acadc96e56.jpg"
                 height="240"
                 width="246"
                 loading="eager"

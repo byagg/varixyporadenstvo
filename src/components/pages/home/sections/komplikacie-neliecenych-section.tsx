@@ -93,7 +93,7 @@ export default function KomplikacieNeliecenychSection({
     >
       <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
         <img
-          src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-63-Yle2Ve96wrsbLX1a.jpeg"
+          src="/migrated-assets/75a3e429c3c276481229.jpg"
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
@@ -115,7 +115,7 @@ export default function KomplikacieNeliecenychSection({
             >
               <img
                 alt="a person with a very long legs and a very long leg"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=265,fit=crop/ALpBQyXKnqhOakP5/vsm1-YX4b7JBrP6HGGLNX.webp"
+                src="/migrated-assets/96c15ded8ba295975b77.jpg"
                 height="186"
                 width="264"
                 loading="eager"
@@ -130,7 +130,7 @@ export default function KomplikacieNeliecenychSection({
             >
               <img
                 alt="a person with a very long legs and a very long leg"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=273,fit=crop/ALpBQyXKnqhOakP5/vsm1-YX4b7JBrP6HGGLNX.webp"
+                src="/migrated-assets/c83c83772537a7bd60ff.jpg"
                 height="162"
                 width="223"
                 loading="eager"
@@ -153,7 +153,7 @@ export default function KomplikacieNeliecenychSection({
             >
               <img
                 alt="a person with a blue arrow pointing to the left side of the arm"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=343,fit=crop/ALpBQyXKnqhOakP5/vsp-mv07zpVJz9CDrMyB.webp"
+                src="/migrated-assets/51975494650ec5c6437d.jpg"
                 height="198"
                 width="217"
                 loading="eager"
@@ -168,7 +168,7 @@ export default function KomplikacieNeliecenychSection({
             >
               <img
                 alt="a person with a blue arrow pointing to the left side of the arm"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/vsp-mv07zpVJz9CDrMyB.webp"
+                src="/migrated-assets/7690e9e080705ec1f077.jpg"
                 height="223"
                 width="229"
                 loading="eager"
@@ -297,7 +297,7 @@ export default function KomplikacieNeliecenychSection({
             >
               <img
                 alt="a pie chart of a pie chart of the percentage of the percentage of the percentage"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=416,fit=crop/ALpBQyXKnqhOakP5/output-8-m2Wp0Er61yFWea66.png"
+                src="/migrated-assets/243ef9ac9a8610499257.png"
                 height="360"
                 width="325"
                 loading="eager"
@@ -312,7 +312,7 @@ export default function KomplikacieNeliecenychSection({
             >
               <img
                 alt="a pie chart of a pie chart of the percentage of the percentage of the percentage"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=413,fit=crop/ALpBQyXKnqhOakP5/output-8-m2Wp0Er61yFWea66.png"
+                src="/migrated-assets/7420aec3ece8695248fc.png"
                 height="243"
                 width="221"
                 loading="eager"
@@ -417,7 +417,7 @@ export default function KomplikacieNeliecenychSection({
             >
               <img
                 alt="a woman with a vein on her leg"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=573,fit=crop/ALpBQyXKnqhOakP5/img_0957-dJoBoEZ9e5IpwkKW.jpg"
+                src="/migrated-assets/5b506024b416fd173eab.jpg"
                 height="507"
                 width="332"
                 loading="eager"
@@ -432,7 +432,7 @@ export default function KomplikacieNeliecenychSection({
             >
               <img
                 alt="a woman with a vein on her leg"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/img_0957-dJoBoEZ9e5IpwkKW.jpg"
+                src="/migrated-assets/d978bfc92606eb4db3d3.jpg"
                 height="235"
                 width="241"
                 loading="eager"

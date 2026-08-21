@@ -98,7 +98,7 @@ export default function KompresnePancuchySection() {
     >
       <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
         <img
-          src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-75-Aq2eV2gee2tb08Dn.jpeg"
+          src="/migrated-assets/0a5c5bd11dad1f40650c.jpg"
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
@@ -135,7 +135,7 @@ export default function KompresnePancuchySection() {
             >
               <img
                 alt="a person with a knife and a knife in their hands"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=409,fit=crop/ALpBQyXKnqhOakP5/ideogram-57-AzGj5jk2LvSZvZrO.jpeg"
+                src="/migrated-assets/fa6e2721f6a79d1bd3d9.jpg"
                 height="344"
                 width="316"
                 loading="eager"
@@ -150,7 +150,7 @@ export default function KompresnePancuchySection() {
             >
               <img
                 alt="a person with a knife and a knife in their hands"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/ideogram-57-AzGj5jk2LvSZvZrO.jpeg"
+                src="/migrated-assets/08adb155feba2b171feb.jpg"
                 height="222"
                 width="228"
                 loading="eager"
@@ -409,7 +409,7 @@ export default function KompresnePancuchySection() {
             >
               <img
                 alt="a poster of a woman's stockings"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=536,fit=crop/ALpBQyXKnqhOakP5/maxis_prehlad_kodov_a_uhrad_2024_01_page-0001-A854LobKvjhPgvMX.jpg"
+                src="/migrated-assets/2da054d1fde00b44b90b.jpg"
                 height="454"
                 width="318"
                 loading="eager"
@@ -424,7 +424,7 @@ export default function KompresnePancuchySection() {
             >
               <img
                 alt="a poster of a woman's stockings"
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/maxis_prehlad_kodov_a_uhrad_2024_01_page-0001-A854LobKvjhPgvMX.jpg"
+                src="/migrated-assets/34c7189e01717726b4d9.jpg"
                 height="200"
                 width="205"
                 loading="eager"
@@ -446,7 +446,7 @@ export default function KompresnePancuchySection() {
             >
               <img
                 alt=""
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=532,fit=crop/ALpBQyXKnqhOakP5/maxis_prehlad_kodov_a_uhrad_2024_01_page-0002-A0xVZBnGGWseQ74J.jpg"
+                src="/migrated-assets/4af811f8005ae39a0d35.jpg"
                 height="445"
                 width="314"
                 loading="eager"
@@ -460,7 +460,7 @@ export default function KompresnePancuchySection() {
             >
               <img
                 alt=""
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/maxis_prehlad_kodov_a_uhrad_2024_01_page-0002-A0xVZBnGGWseQ74J.jpg"
+                src="/migrated-assets/ea5721c4508c373a9280.jpg"
                 height="187"
                 width="192"
                 loading="eager"
@@ -482,7 +482,7 @@ export default function KompresnePancuchySection() {
             >
               <img
                 alt=""
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=527,fit=crop/ALpBQyXKnqhOakP5/medi_prehlad_kodov_a_uhrad_2024_01_page-0001-m6LJONKBrXFl70jl.jpg"
+                src="/migrated-assets/b4899538dbdd5f9382e2.jpg"
                 height="448"
                 width="319"
                 loading="eager"
@@ -496,7 +496,7 @@ export default function KompresnePancuchySection() {
             >
               <img
                 alt=""
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/medi_prehlad_kodov_a_uhrad_2024_01_page-0001-m6LJONKBrXFl70jl.jpg"
+                src="/migrated-assets/88dd51ccb873d483b88a.jpg"
                 height="197"
                 width="202"
                 loading="eager"
@@ -518,7 +518,7 @@ export default function KompresnePancuchySection() {
             >
               <img
                 alt=""
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=527,fit=crop/ALpBQyXKnqhOakP5/medi_prehlad_kodov_a_uhrad_2024_01_page-0002-YD04b3OVJQIBEZr0.jpg"
+                src="/migrated-assets/1a666f3bbdb2fd93053c.jpg"
                 height="449"
                 width="320"
                 loading="eager"
@@ -532,7 +532,7 @@ export default function KompresnePancuchySection() {
             >
               <img
                 alt=""
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/ALpBQyXKnqhOakP5/medi_prehlad_kodov_a_uhrad_2024_01_page-0002-YD04b3OVJQIBEZr0.jpg"
+                src="/migrated-assets/ad9cb1047fc3ec3a8929.jpg"
                 height="198"
                 width="203"
                 loading="eager"

@@ -178,70 +178,70 @@ export const items: ListItemProps[] = [
 
 export const images: ImageItemProps[] = [
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/2rediz-d95gjb3NBGi4b0Xv.jpg",
+    src: "/migrated-assets/43882f82b4a472d5e4b1.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/1sang8-YD04b28xRwFyWrno.jpg",
+    src: "/migrated-assets/8cfc322fd0342767b749.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/0vft84-A3QJ1zavz5fa7MBE.jpg",
+    src: "/migrated-assets/0052222834f8d069b61c.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/3n8bkd-mePn281N7rulRvJa.jpg",
+    src: "/migrated-assets/78d08e0ee6751b76b0e2.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/3le7xo-AQEpa58RRgi95DDX.jpg",
+    src: "/migrated-assets/ba9e438bac2a30b7bae7.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/4c08xn-A1aJ37QkDyUjKvrz.jpg",
+    src: "/migrated-assets/9d549038d58aa916c945.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/30bj71-AMq43OxzVOtaN3x6.jpg",
+    src: "/migrated-assets/9e0b38ed796202b40b5c.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/angl-dJo4D1eKk0sMbQw5.webp",
+    src: "/migrated-assets/94e994df93426253ef03.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/2gpe9n-dJo4D1ej9eF4qL8k.jpg",
+    src: "/migrated-assets/fcc288b124c2a9ef6ca2.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/snamka-obrazovky_2022-09-19_12-47-32-YKbrMB1KnoI2r9yn.webp",
+    src: "/migrated-assets/f09775b46c8d8c2b4605.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/3qfe79-mePn281Wn1IoV4zn.jpg",
+    src: "/migrated-assets/fc88ba3bf7e4ff718a66.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/obes-Yyv76NXVN5FBqJgZ.webp",
+    src: "/migrated-assets/a811b9d8a1d96c40ddee.jpg",
   },
 ];
 
 export const images2: ImageItem2Props[] = [
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/2rediz-d95gjb3NBGi4b0Xv.jpg",
+    src: "/migrated-assets/43882f82b4a472d5e4b1.jpg",
     imageSrc:
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/3n8bkd-mePn281N7rulRvJa.jpg",
+      "/migrated-assets/78d08e0ee6751b76b0e2.jpg",
     imageSrc2:
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/30bj71-AMq43OxzVOtaN3x6.jpg",
+      "/migrated-assets/9e0b38ed796202b40b5c.jpg",
     imageSrc3:
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/snamka-obrazovky_2022-09-19_12-47-32-YKbrMB1KnoI2r9yn.webp",
+      "/migrated-assets/f09775b46c8d8c2b4605.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/1sang8-YD04b28xRwFyWrno.jpg",
+    src: "/migrated-assets/8cfc322fd0342767b749.jpg",
     imageSrc:
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/3le7xo-AQEpa58RRgi95DDX.jpg",
+      "/migrated-assets/ba9e438bac2a30b7bae7.jpg",
     imageSrc2:
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/angl-dJo4D1eKk0sMbQw5.webp",
+      "/migrated-assets/94e994df93426253ef03.jpg",
     imageSrc3:
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/3qfe79-mePn281Wn1IoV4zn.jpg",
+      "/migrated-assets/fc88ba3bf7e4ff718a66.jpg",
   },
   {
-    src: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/0vft84-A3QJ1zavz5fa7MBE.jpg",
+    src: "/migrated-assets/0052222834f8d069b61c.jpg",
     imageSrc:
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/4c08xn-A1aJ37QkDyUjKvrz.jpg",
+      "/migrated-assets/9d549038d58aa916c945.jpg",
     imageSrc2:
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/2gpe9n-dJo4D1ej9eF4qL8k.jpg",
+      "/migrated-assets/fcc288b124c2a9ef6ca2.jpg",
     imageSrc3:
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/ALpBQyXKnqhOakP5/obes-Yyv76NXVN5FBqJgZ.webp",
+      "/migrated-assets/a811b9d8a1d96c40ddee.jpg",
   },
 ];
 
@@ -253,7 +253,7 @@ export default function PrevenciaVarixovSection() {
     >
       <div className="absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden">
         <img
-          src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/ALpBQyXKnqhOakP5/ideogram-69-AE02K082gzIVarOv.jpeg"
+          src="/migrated-assets/26e26ce182062a54f718.jpg"
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
