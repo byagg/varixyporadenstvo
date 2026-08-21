@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/existuje-zazracny-liek-na-krcove-zily/page";
+
+export const prerender = true;
+---
+
+<Layout title="Existuje zázračný liek na kŕčové žily? | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="Objavte pravdu o kŕčových žilách a možnostiach ich liečby v tomto komplexnom sprievodcovi. Od príčin cez príznaky až po liečebné metódy - naučte sa, ako sa postarať o zdravie svojich žíl. Zistite, či existuje zázračný liek na kŕčové žily a aké sú účinné spôsoby prevencie a liečby tohto bežného problému." />
+    <meta property="og:title" content="Existuje zázračný liek na kŕčové žily? | varixyporadenstvo" />
+    <meta property="og:description" content="Objavte pravdu o kŕčových žilách a možnostiach ich liečby v tomto komplexnom sprievodcovi. Od príčin cez príznaky až po liečebné metódy - naučte sa, ako sa postarať o zdravie svojich žíl. Zistite, či existuje zázračný liek na kŕčové žily a aké sú účinné spôsoby prevencie a liečby tohto bežného problému." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1487536988267-23b03fdfc3c3?auto=jpeg&amp;fit=crop&amp;w=1200&amp;h=630" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/existuje-zazracny-liek-na-krcove-zily" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>
