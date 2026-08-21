@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/rekonvalescencia-po-operacii-varixov-komplexny-sprievodca-pre-pacientov/page";
+
+export const prerender = true;
+---
+
+<Layout title="Rekonvalescencia po operácii varixov: Komplexný sprievodca pre pacientov | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="V tomto článku sa zameriame na odborné odporúčania pre zotavenie, podložené zahraničnými štúdiami." />
+    <meta property="og:title" content="Rekonvalescencia po operácii varixov: Komplexný sprievodca pre pacientov | varixyporadenstvo" />
+    <meta property="og:description" content="V tomto článku sa zameriame na odborné odporúčania pre zotavenie, podložené zahraničnými štúdiami." />
+    <meta property="og:image" content="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/ALpBQyXKnqhOakP5/img_20230601_123118-YKbrn1Pyn9fQkvOq.webp" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/rekonvalescencia-po-operacii-varixov-komplexny-sprievodca-pre-pacientov" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>
