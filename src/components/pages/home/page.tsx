@@ -94,7 +94,7 @@ export default function Page() {
                           data-ploy-hover-anchor="h1"
                         >
                           <a
-                            href="https://varixyporadenstvo.com/liecba"
+                            href="/liecba"
                             className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0"
                             data-ploy-hover="h1"
                           >
@@ -110,7 +110,7 @@ export default function Page() {
                           data-ploy-hover-anchor="h1"
                         >
                           <a
-                            href="https://varixyporadenstvo.com/operacia"
+                            href="/operacia"
                             className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0"
                             data-ploy-hover="h1"
                           >
@@ -126,7 +126,7 @@ export default function Page() {
                           data-ploy-hover-anchor="h1"
                         >
                           <a
-                            href="https://varixyporadenstvo.com/nakup"
+                            href="/nakup"
                             className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0"
                             data-ploy-hover="h1"
                           >
@@ -142,7 +142,7 @@ export default function Page() {
                           data-ploy-hover-anchor="h1"
                         >
                           <a
-                            href="https://varixyporadenstvo.com/kliniky"
+                            href="/kliniky"
                             className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0"
                             data-ploy-hover="h1"
                           >
@@ -158,7 +158,7 @@ export default function Page() {
                           data-ploy-hover-anchor="h1"
                         >
                           <a
-                            href="https://varixyporadenstvo.com/clanky"
+                            href="/clanky"
                             className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0"
                             data-ploy-hover="h1"
                           >
@@ -174,7 +174,7 @@ export default function Page() {
                           data-ploy-hover-anchor="h1"
                         >
                           <a
-                            href="https://varixyporadenstvo.com/kontakt"
+                            href="/kontakt"
                             className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0"
                             data-ploy-hover="h1"
                           >
@@ -228,7 +228,7 @@ export default function Page() {
                             data-ploy-hover-anchor="h1"
                           >
                             <a
-                              href="https://varixyporadenstvo.com/liecba"
+                              href="/liecba"
                               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0 max-lg:text-end max-lg:invisible lg:text-left lg:visible"
                               data-ploy-hover="h1"
                             >
@@ -244,7 +244,7 @@ export default function Page() {
                             data-ploy-hover-anchor="h1"
                           >
                             <a
-                              href="https://varixyporadenstvo.com/operacia"
+                              href="/operacia"
                               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0 max-lg:text-end max-lg:invisible lg:text-left lg:visible"
                               data-ploy-hover="h1"
                             >
@@ -260,7 +260,7 @@ export default function Page() {
                             data-ploy-hover-anchor="h1"
                           >
                             <a
-                              href="https://varixyporadenstvo.com/nakup"
+                              href="/nakup"
                               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0 max-lg:text-end max-lg:invisible lg:text-left lg:visible"
                               data-ploy-hover="h1"
                             >
@@ -276,7 +276,7 @@ export default function Page() {
                             data-ploy-hover-anchor="h1"
                           >
                             <a
-                              href="https://varixyporadenstvo.com/kliniky"
+                              href="/kliniky"
                               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0 max-lg:text-end max-lg:invisible lg:text-left lg:visible"
                               data-ploy-hover="h1"
                             >
@@ -292,7 +292,7 @@ export default function Page() {
                             data-ploy-hover-anchor="h1"
                           >
                             <a
-                              href="https://varixyporadenstvo.com/clanky"
+                              href="/clanky"
                               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0 max-lg:text-end max-lg:invisible lg:text-left lg:visible"
                               data-ploy-hover="h1"
                             >
@@ -308,7 +308,7 @@ export default function Page() {
                             data-ploy-hover-anchor="h1"
                           >
                             <a
-                              href="https://varixyporadenstvo.com/kontakt"
+                              href="/kontakt"
                               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0 max-lg:text-end max-lg:invisible lg:text-left lg:visible"
                               data-ploy-hover="h1"
                             >

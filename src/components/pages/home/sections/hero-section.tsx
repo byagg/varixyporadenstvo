@@ -47,7 +47,7 @@ export default function HeroSection() {
           className="text-start w-full h-full relative z-[2] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-3 max-lg:col-end-8 max-lg:row-start-4 max-lg:row-end-5 lg:col-start-2 lg:col-end-5 lg:row-start-5 lg:row-end-6"
         >
           <a
-            href="https://varixyporadenstvo.com/kontakt"
+            href="/kontakt"
             target="_self"
             aria-hidden="false"
             id="zkj_X3"
@@ -99,7 +99,7 @@ export default function HeroSection() {
           className="text-start w-full h-full relative z-[4] grid grid-cols-[100%] col-start-4 col-end-7 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:row-start-8 max-lg:row-end-9 lg:row-start-7 lg:row-end-8"
         >
           <a
-            href="https://varixyporadenstvo.com/liecba"
+            href="/liecba"
             target="_self"
             aria-hidden="false"
             id="zFhLpQ"

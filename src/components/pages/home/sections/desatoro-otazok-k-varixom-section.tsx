@@ -128,7 +128,7 @@ export default function DesatoroOtazokKVarixomSection() {
                   " "}
                 <u className="break-words">
                   <a
-                    href="https://varixyporadenstvo.com/liecba"
+                    href="/liecba"
                     className="[color:inherit] break-words"
                   >
                     {"viac o možnostiach liečby varixov tu."}
@@ -150,7 +150,7 @@ export default function DesatoroOtazokKVarixomSection() {
                   " "}
                 <u className="break-words">
                   <a
-                    href="https://varixyporadenstvo.com/kliniky"
+                    href="/kliniky"
                     className="[color:inherit] break-words"
                   >
                     {
@@ -204,7 +204,7 @@ export default function DesatoroOtazokKVarixomSection() {
                   " "}
                 <u className="break-words">
                   <a
-                    href="https://varixyporadenstvo.com/operacia"
+                    href="/operacia"
                     className="[color:inherit] break-words"
                   >
                     {"viac o pred a pooperačnom priebehu tu."}
