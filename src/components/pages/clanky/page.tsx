@@ -50,7 +50,7 @@ export default function Page() {
                 <div className="max-w-full grid block-blog-list__list max-[921px]:w-full max-[921px]:grid-cols-[repeat(1,_1fr)] max-lg:gap-2 lg:w-[76.5rem] lg:gap-8 lg:grid-cols-[repeat(4,1fr)]">
                   <div className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item">
                     <a
-                      href="https://varixyporadenstvo.com/rekonvalescencia-po-operacii-varixov-komplexny-sprievodca-pre-pacientov"
+                      href="/rekonvalescencia-po-operacii-varixov-komplexny-sprievodca-pre-pacientov"
                       className="[color:inherit] block pb-5 block-blog-list-item__cover-image-container"
                     >
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
@@ -64,7 +64,7 @@ export default function Page() {
                     </a>
                     <p className="font-heading [color:inherit] leading-tight hidden mb-4" />
                     <a
-                      href="https://varixyporadenstvo.com/rekonvalescencia-po-operacii-varixov-komplexny-sprievodca-pre-pacientov"
+                      href="/rekonvalescencia-po-operacii-varixov-komplexny-sprievodca-pre-pacientov"
                       className="text-ploy-text-primary block block-blog-list-item__content"
                     >
                       <h3 className="font-heading [color:inherit] leading-tight font-bold text-2xl mb-3 block-blog-list-item__title">
@@ -94,7 +94,7 @@ export default function Page() {
                   </div>
                   <div className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item">
                     <a
-                      href="https://varixyporadenstvo.com/operacia-krcovych-zil-ucinne-riesenie-pre-problemy-s-cievami"
+                      href="/operacia-krcovych-zil-ucinne-riesenie-pre-problemy-s-cievami"
                       className="[color:inherit] block pb-5 block-blog-list-item__cover-image-container"
                     >
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
@@ -108,7 +108,7 @@ export default function Page() {
                     </a>
                     <p className="font-heading [color:inherit] leading-tight hidden mb-4" />
                     <a
-                      href="https://varixyporadenstvo.com/operacia-krcovych-zil-ucinne-riesenie-pre-problemy-s-cievami"
+                      href="/operacia-krcovych-zil-ucinne-riesenie-pre-problemy-s-cievami"
                       className="text-ploy-text-primary block block-blog-list-item__content"
                     >
                       <h3 className="font-heading [color:inherit] leading-tight font-bold text-2xl mb-3 block-blog-list-item__title">
@@ -138,7 +138,7 @@ export default function Page() {
                   </div>
                   <div className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item">
                     <a
-                      href="https://varixyporadenstvo.com/bezpecnost-uzivania-detralexu-pocas-tehotenstva-pri-chronickej-zilovej-nedostatocnosti"
+                      href="/bezpecnost-uzivania-detralexu-pocas-tehotenstva-pri-chronickej-zilovej-nedostatocnosti"
                       className="[color:inherit] block pb-5 block-blog-list-item__cover-image-container"
                     >
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
@@ -152,7 +152,7 @@ export default function Page() {
                     </a>
                     <p className="font-heading [color:inherit] leading-tight hidden mb-4" />
                     <a
-                      href="https://varixyporadenstvo.com/bezpecnost-uzivania-detralexu-pocas-tehotenstva-pri-chronickej-zilovej-nedostatocnosti"
+                      href="/bezpecnost-uzivania-detralexu-pocas-tehotenstva-pri-chronickej-zilovej-nedostatocnosti"
                       className="text-ploy-text-primary block block-blog-list-item__content"
                     >
                       <h3 className="font-heading [color:inherit] leading-tight font-bold text-2xl mb-3 block-blog-list-item__title">
@@ -182,7 +182,7 @@ export default function Page() {
                   </div>
                   <div className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item">
                     <a
-                      href="https://varixyporadenstvo.com/opuchy-noh-tu-je-niekolko-ucinnych-metod-ako-ich-zmiernit"
+                      href="/opuchy-noh-tu-je-niekolko-ucinnych-metod-ako-ich-zmiernit"
                       className="[color:inherit] block pb-5 block-blog-list-item__cover-image-container"
                     >
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
@@ -196,7 +196,7 @@ export default function Page() {
                     </a>
                     <p className="font-heading [color:inherit] leading-tight hidden mb-4" />
                     <a
-                      href="https://varixyporadenstvo.com/opuchy-noh-tu-je-niekolko-ucinnych-metod-ako-ich-zmiernit"
+                      href="/opuchy-noh-tu-je-niekolko-ucinnych-metod-ako-ich-zmiernit"
                       className="text-ploy-text-primary block block-blog-list-item__content"
                     >
                       <h3 className="font-heading [color:inherit] leading-tight font-bold text-2xl mb-3 block-blog-list-item__title">
@@ -229,7 +229,7 @@ export default function Page() {
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
-                      href="https://varixyporadenstvo.com/opuch-noh-svrbenie-tela-a-syndrom-nepokojnych-noh-boj-s-krcmi-a-zilovymi-problemami"
+                      href="/opuch-noh-svrbenie-tela-a-syndrom-nepokojnych-noh-boj-s-krcmi-a-zilovymi-problemami"
                       className="[color:inherit] block pb-5 block-blog-list-item__cover-image-container"
                     >
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
@@ -243,7 +243,7 @@ export default function Page() {
                     </a>
                     <p className="font-heading [color:inherit] leading-tight hidden mb-4" />
                     <a
-                      href="https://varixyporadenstvo.com/opuch-noh-svrbenie-tela-a-syndrom-nepokojnych-noh-boj-s-krcmi-a-zilovymi-problemami"
+                      href="/opuch-noh-svrbenie-tela-a-syndrom-nepokojnych-noh-boj-s-krcmi-a-zilovymi-problemami"
                       className="text-ploy-text-primary block block-blog-list-item__content"
                     >
                       <h3 className="font-heading [color:inherit] leading-tight font-bold text-2xl mb-3 block-blog-list-item__title">
@@ -276,7 +276,7 @@ export default function Page() {
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
-                      href="https://varixyporadenstvo.com/medikamentozna-liecba-priznakov-chronickej-zilovej-insuficiencie-pocas-gravidity-vo-svete-a-u-nas"
+                      href="/medikamentozna-liecba-priznakov-chronickej-zilovej-insuficiencie-pocas-gravidity-vo-svete-a-u-nas"
                       className="[color:inherit] block pb-5 block-blog-list-item__cover-image-container"
                     >
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
@@ -290,7 +290,7 @@ export default function Page() {
                     </a>
                     <p className="font-heading [color:inherit] leading-tight hidden mb-4" />
                     <a
-                      href="https://varixyporadenstvo.com/medikamentozna-liecba-priznakov-chronickej-zilovej-insuficiencie-pocas-gravidity-vo-svete-a-u-nas"
+                      href="/medikamentozna-liecba-priznakov-chronickej-zilovej-insuficiencie-pocas-gravidity-vo-svete-a-u-nas"
                       className="text-ploy-text-primary block block-blog-list-item__content"
                     >
                       <h3 className="font-heading [color:inherit] leading-tight font-bold text-2xl mb-3 block-blog-list-item__title">
@@ -323,7 +323,7 @@ export default function Page() {
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
-                      href="https://varixyporadenstvo.com/dolezitost-dodrziavania-pitneho-rezimu-pre-pacientov-s-varixami-dolnych-koncatin"
+                      href="/dolezitost-dodrziavania-pitneho-rezimu-pre-pacientov-s-varixami-dolnych-koncatin"
                       className="[color:inherit] block pb-5 block-blog-list-item__cover-image-container"
                     >
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
@@ -337,7 +337,7 @@ export default function Page() {
                     </a>
                     <p className="font-heading [color:inherit] leading-tight hidden mb-4" />
                     <a
-                      href="https://varixyporadenstvo.com/dolezitost-dodrziavania-pitneho-rezimu-pre-pacientov-s-varixami-dolnych-koncatin"
+                      href="/dolezitost-dodrziavania-pitneho-rezimu-pre-pacientov-s-varixami-dolnych-koncatin"
                       className="text-ploy-text-primary block block-blog-list-item__content"
                     >
                       <h3 className="font-heading [color:inherit] leading-tight font-bold text-2xl mb-3 block-blog-list-item__title">
@@ -372,7 +372,7 @@ export default function Page() {
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
-                      href="https://varixyporadenstvo.com/celulitida-pri-ochoreni-varixov-priciny-prevencia-a-liecba"
+                      href="/celulitida-pri-ochoreni-varixov-priciny-prevencia-a-liecba"
                       className="[color:inherit] block pb-5 block-blog-list-item__cover-image-container"
                     >
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
@@ -386,7 +386,7 @@ export default function Page() {
                     </a>
                     <p className="font-heading [color:inherit] leading-tight hidden mb-4" />
                     <a
-                      href="https://varixyporadenstvo.com/celulitida-pri-ochoreni-varixov-priciny-prevencia-a-liecba"
+                      href="/celulitida-pri-ochoreni-varixov-priciny-prevencia-a-liecba"
                       className="text-ploy-text-primary block block-blog-list-item__content"
                     >
                       <h3 className="font-heading [color:inherit] leading-tight font-bold text-2xl mb-3 block-blog-list-item__title">
@@ -419,7 +419,7 @@ export default function Page() {
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
-                      href="https://varixyporadenstvo.com/mate-vyrazne-zily-na-rukach"
+                      href="/mate-vyrazne-zily-na-rukach"
                       className="[color:inherit] block pb-5 block-blog-list-item__cover-image-container"
                     >
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
@@ -434,7 +434,7 @@ export default function Page() {
                     </a>
                     <p className="font-heading [color:inherit] leading-tight hidden mb-4" />
                     <a
-                      href="https://varixyporadenstvo.com/mate-vyrazne-zily-na-rukach"
+                      href="/mate-vyrazne-zily-na-rukach"
                       className="text-ploy-text-primary block block-blog-list-item__content"
                     >
                       <h3 className="font-heading [color:inherit] leading-tight font-bold text-2xl mb-3 block-blog-list-item__title">
@@ -465,7 +465,7 @@ export default function Page() {
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
-                      href="https://varixyporadenstvo.com/krcove-zily-na-nohach-pri-ceste-lietadlom-ako-minimalizovat-rizika"
+                      href="/krcove-zily-na-nohach-pri-ceste-lietadlom-ako-minimalizovat-rizika"
                       className="[color:inherit] block pb-5 block-blog-list-item__cover-image-container"
                     >
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
@@ -480,7 +480,7 @@ export default function Page() {
                     </a>
                     <p className="font-heading [color:inherit] leading-tight hidden mb-4" />
                     <a
-                      href="https://varixyporadenstvo.com/krcove-zily-na-nohach-pri-ceste-lietadlom-ako-minimalizovat-rizika"
+                      href="/krcove-zily-na-nohach-pri-ceste-lietadlom-ako-minimalizovat-rizika"
                       className="text-ploy-text-primary block block-blog-list-item__content"
                     >
                       <h3 className="font-heading [color:inherit] leading-tight font-bold text-2xl mb-3 block-blog-list-item__title">
@@ -513,7 +513,7 @@ export default function Page() {
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
-                      href="https://varixyporadenstvo.com/cvicenie-a-jeho-vplyv-na-varixy-dolnych-koncatin"
+                      href="/cvicenie-a-jeho-vplyv-na-varixy-dolnych-koncatin"
                       className="[color:inherit] block pb-5 block-blog-list-item__cover-image-container"
                     >
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
@@ -528,7 +528,7 @@ export default function Page() {
                     </a>
                     <p className="font-heading [color:inherit] leading-tight hidden mb-4" />
                     <a
-                      href="https://varixyporadenstvo.com/cvicenie-a-jeho-vplyv-na-varixy-dolnych-koncatin"
+                      href="/cvicenie-a-jeho-vplyv-na-varixy-dolnych-koncatin"
                       className="text-ploy-text-primary block block-blog-list-item__content"
                     >
                       <h3 className="font-heading [color:inherit] leading-tight font-bold text-2xl mb-3 block-blog-list-item__title">
@@ -559,7 +559,7 @@ export default function Page() {
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
-                      href="https://varixyporadenstvo.com/ako-sportovat-s-krcovymi-zilami"
+                      href="/ako-sportovat-s-krcovymi-zilami"
                       className="[color:inherit] block pb-5 block-blog-list-item__cover-image-container"
                     >
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
@@ -574,7 +574,7 @@ export default function Page() {
                     </a>
                     <p className="font-heading [color:inherit] leading-tight hidden mb-4" />
                     <a
-                      href="https://varixyporadenstvo.com/ako-sportovat-s-krcovymi-zilami"
+                      href="/ako-sportovat-s-krcovymi-zilami"
                       className="text-ploy-text-primary block block-blog-list-item__content"
                     >
                       <h3 className="font-heading [color:inherit] leading-tight font-bold text-2xl mb-3 block-blog-list-item__title">

@@ -190,7 +190,7 @@ export default function Page() {
                           <span className="font-body font-bold break-words">
                             <u className="break-words">
                               <a
-                                href="https://varixyporadenstvo.com/krcove-zily-v-tehotenstve-zhorsuju-sa-vam-priznaky"
+                                href="/krcove-zily-v-tehotenstve-zhorsuju-sa-vam-priznaky"
                                 className="[color:inherit] break-words"
                               >
                                 {"Tehotenstvo a kŕčové žily"}
@@ -242,7 +242,7 @@ export default function Page() {
                           <span className="font-body font-bold break-words">
                             <u className="break-words">
                               <a
-                                href="https://varixyporadenstvo.com/mate-bolesti-noh-od-kolien-dolu"
+                                href="/mate-bolesti-noh-od-kolien-dolu"
                                 className="[color:inherit] break-words"
                               >
                                 {"Bolesť nôh od kolien dolu"}

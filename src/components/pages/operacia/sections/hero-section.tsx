@@ -40,7 +40,7 @@ export default function HeroSection() {
               {"ak sa chystáte na" + " "}
               <u className="break-words">
                 <a
-                  href="https://varixyporadenstvo.com/operacia-krcovych-zil-ucinne-riesenie-pre-problemy-s-cievami"
+                  href="/operacia-krcovych-zil-ucinne-riesenie-pre-problemy-s-cievami"
                   className="[color:inherit] break-words"
                 >
                   {"operáciu kŕčových žíl"}

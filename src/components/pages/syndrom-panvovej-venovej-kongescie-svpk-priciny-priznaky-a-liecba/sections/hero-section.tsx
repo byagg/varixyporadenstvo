@@ -251,7 +251,7 @@ export default function HeroSection() {
               <p className="font-heading text-ploy-text-primary leading-6 break-words mb-8 max-[921px]:mb-8">
                 <u className="break-words">
                   <a
-                    href="https://varixyporadenstvo.com/syndrom-panvovej-kongescie-pcs-casty-ale-malo-rozpoznany-problem-u-zien"
+                    href="/syndrom-panvovej-kongescie-pcs-casty-ale-malo-rozpoznany-problem-u-zien"
                     className="[color:inherit] break-words"
                   >
                     {"Syndróm panvovej vénovej kongescie"}

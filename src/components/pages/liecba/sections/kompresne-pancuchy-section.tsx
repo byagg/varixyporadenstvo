@@ -170,7 +170,7 @@ export default function KompresnePancuchySection() {
             <p className="font-heading text-ploy-text-inverse leading-6 break-words mb-8 max-[921px]:mb-8">
               <u className="break-words">
                 <a
-                  href="https://varixyporadenstvo.com/stahovacia-pancucha-ako-objat-vase-zily-pre-zdravsie-nohy"
+                  href="/stahovacia-pancucha-ako-objat-vase-zily-pre-zdravsie-nohy"
                   className="[color:inherit] break-words"
                 >
                   {"kompresívna terapia pančuchami"}

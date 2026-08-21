@@ -94,7 +94,7 @@ export default function HeroSection() {
               <p className="font-heading text-ploy-text-primary leading-6 break-words mb-8 max-[921px]:mb-8">
                 <u className="break-words">
                   <a
-                    href="https://varixyporadenstvo.com/syndrom-panvovej-kongescie-hbkovy-pohlad-a-pokrocile-liecebne-moznosti"
+                    href="/syndrom-panvovej-kongescie-hbkovy-pohlad-a-pokrocile-liecebne-moznosti"
                     target="_self"
                     className="[color:inherit] break-words"
                   >
@@ -117,7 +117,7 @@ export default function HeroSection() {
                 <strong className="[color:inherit] break-words">
                   <u className="break-words">
                     <a
-                      href="https://varixyporadenstvo.com/syndrom-panvovej-kongescie-hbkovy-pohlad-a-pokrocile-liecebne-moznosti"
+                      href="/syndrom-panvovej-kongescie-hbkovy-pohlad-a-pokrocile-liecebne-moznosti"
                       className="[color:inherit] break-words"
                     >
                       {"Syndróm panvovej kongescie"}

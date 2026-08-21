@@ -131,7 +131,7 @@ export default function Page() {
                             <u className="break-words">
                               <a
                                 target="_blank"
-                                href="https://varixyporadenstvo.com/mate-bolesti-noh-od-kolien-dolu"
+                                href="/mate-bolesti-noh-od-kolien-dolu"
                                 className="[color:inherit] break-words"
                               >
                                 {"Bolesť nôh od kolien dolu"}
@@ -398,7 +398,7 @@ export default function Page() {
                         " "}
                       <u className="break-words">
                         <a
-                          href="https://varixyporadenstvo.com/aesculus-hippocastanum-prirodzena-cesta-k-liecbe-krcovych-zil"
+                          href="/aesculus-hippocastanum-prirodzena-cesta-k-liecbe-krcovych-zil"
                           className="[color:inherit] break-words"
                         >
                           {"Aesculus Hippocastanum"}
@@ -407,7 +407,7 @@ export default function Page() {
                       {"," + " "}
                       <u className="break-words">
                         <a
-                          href="https://varixyporadenstvo.com/ake-ma-ucinky-ruscus-aculeatus-na-krcove-zily"
+                          href="/ake-ma-ucinky-ruscus-aculeatus-na-krcove-zily"
                           className="[color:inherit] break-words"
                         >
                           {"Ruscus Aculeatus"}
@@ -416,7 +416,7 @@ export default function Page() {
                       {"," + " "}
                       <u className="break-words">
                         <a
-                          href="https://varixyporadenstvo.com/ake-ma-ucinky-hamamelis-virginiana-na-krcove-zily"
+                          href="/ake-ma-ucinky-hamamelis-virginiana-na-krcove-zily"
                           className="[color:inherit] break-words"
                         >
                           {"Hamamelis virgiana"}

@@ -200,7 +200,7 @@ export default function PrirodnaLekarenSection() {
               {"1." + " "}
               <u className="break-words">
                 <a
-                  href="https://varixyporadenstvo.com/aesculus-hippocastanum-prirodzena-cesta-k-liecbe-krcovych-zil"
+                  href="/aesculus-hippocastanum-prirodzena-cesta-k-liecbe-krcovych-zil"
                   className="[color:inherit] break-words"
                 >
                   {"Pagaštan konský"}
@@ -241,7 +241,7 @@ export default function PrirodnaLekarenSection() {
               {"2." + " "}
               <u className="break-words">
                 <a
-                  href="https://varixyporadenstvo.com/ake-ma-ucinky-ruscus-aculeatus-na-krcove-zily"
+                  href="/ake-ma-ucinky-ruscus-aculeatus-na-krcove-zily"
                   className="[color:inherit] break-words"
                 >
                   {"Listnatec tŕnitý"}
@@ -282,7 +282,7 @@ export default function PrirodnaLekarenSection() {
               {"3." + " "}
               <u className="break-words">
                 <a
-                  href="https://varixyporadenstvo.com/ake-ma-ucinky-hamamelis-virginiana-na-krcove-zily"
+                  href="/ake-ma-ucinky-hamamelis-virginiana-na-krcove-zily"
                   className="[color:inherit] break-words"
                 >
                   {"Hamamel virgínsky"}

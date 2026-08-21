@@ -59,7 +59,7 @@ export default function DesatoroOtazokKVarixomSection() {
                   " "}
                 <u className="break-words">
                   <a
-                    href="https://varixyporadenstvo.com/krcove-zily-na-nohach-pocas-tehotenstva"
+                    href="/krcove-zily-na-nohach-pocas-tehotenstva"
                     className="[color:inherit] break-words"
                   >
                     {"tehotenstvo"}
@@ -118,7 +118,7 @@ export default function DesatoroOtazokKVarixomSection() {
                   " "}
                 <u className="break-words">
                   <a
-                    href="https://varixyporadenstvo.com/kompresne-pancuchy-ucinny-prostriedok-proti-krcovym-zilam"
+                    href="/kompresne-pancuchy-ucinny-prostriedok-proti-krcovym-zilam"
                     className="[color:inherit] break-words"
                   >
                     {"kompresívne pančuchy"}
