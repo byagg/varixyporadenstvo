@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/najlepsie-domace-lieky-na-zmiernenie-priznakov-krcovych-zil/page";
+
+export const prerender = true;
+---
+
+<Layout title="Najlepšie domáce lieky na zmiernenie príznakov kŕčových žíl | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="Objavte účinné domáce lieky na zmiernenie príznakov kŕčových žíl. Od cvičenia cez kompresné pančuchy až po bylinné pomocníky - tento komplexný sprievodca vám pomôže zvládnuť kŕčové žily prirodzeným spôsobom. Získajte praktické tipy pre zdravší životný štýl a zistite, kedy je čas navštíviť lekára." />
+    <meta property="og:title" content="Najlepšie domáce lieky na zmiernenie príznakov kŕčových žíl | varixyporadenstvo" />
+    <meta property="og:description" content="Objavte účinné domáce lieky na zmiernenie príznakov kŕčových žíl. Od cvičenia cez kompresné pančuchy až po bylinné pomocníky - tento komplexný sprievodca vám pomôže zvládnuť kŕčové žily prirodzeným spôsobom. Získajte praktické tipy pre zdravší životný štýl a zistite, kedy je čas navštíviť lekára." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1556911220-dabc1f02913a?auto=jpeg&amp;fit=crop&amp;w=1200&amp;h=630" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/najlepsie-domace-lieky-na-zmiernenie-priznakov-krcovych-zil" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>
