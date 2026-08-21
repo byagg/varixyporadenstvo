@@ -16,6 +16,7 @@ import HlbokaZilovaTrombozaSection from "./sections/hlboka-zilova-tromboza-secti
 import ZeulPFSection from "./sections/zeul-pf-section";
 import ZapalZilyFlebitidaSection from "./sections/zapal-zily-flebitida-section";
 import KrvacanieSection from "./sections/krvacanie-section";
+import PreLekarovSection from "./sections/pre-lekarov-section";
 import PageIcon1 from "./svgs/page-icon-1";
 import PageIcon2 from "./svgs/page-icon-2";
 
@@ -559,13 +560,15 @@ export default function Page() {
             >
               <div className="bg-ploy-neutral-primary-100 absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden" />
               <div className="w-full z-[14] grid mx-auto max-lg:min-h-[55.1875rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[35.061%_64.939%] max-lg:grid-rows-[minmax(35px,auto)_minmax(284px,auto)_minmax(24px,auto)_minmax(45px,auto)_minmax(34px,auto)_minmax(25px,auto)_minmax(357px,auto)_1fr] max-lg:px-4 lg:min-h-[37.3125rem] lg:max-w-[76.5rem] lg:grid-cols-[2.53268%_0.653595%_9.39542%_22.6307%_8.41503%_6.86275%_49.5098%] lg:grid-rows-[minmax(64px,auto)_minmax(16px,auto)_minmax(279px,auto)_minmax(25px,auto)_minmax(16px,auto)_minmax(34px,auto)_minmax(16px,auto)_minmax(34px,auto)_1fr] lg:px-0">
-                <div className="text-start w-full h-full relative z-[1] grid grid-cols-[100%] opacity-0 translate-y-[20%] transition-[transform,translate,scale,rotate,opacity] max-lg:col-start-1 max-lg:col-end-3 max-lg:row-start-7 max-lg:row-end-8 lg:col-start-7 lg:col-end-8 lg:row-start-3 lg:row-end-9">
+                <div className="text-start w-full h-full relative z-[1] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] max-lg:col-start-1 max-lg:col-end-3 max-lg:row-start-7 max-lg:row-end-8 lg:col-start-7 lg:col-end-8 lg:row-start-3 lg:row-end-9">
                   <div
                     id="ztzTNb"
                     className="self-start font-heading bg-cover bg-center leading-6 relative grid gap-[1.375rem_10px] col-start-1 col-end-[-1] row-start-1 row-end-[-1] bg-no-repeat form layout-element__component--GridForm"
                   >
                     <form
                       name="Kontaktný formulár"
+                      action="https://varixyporadenstvo.com/kontakt"
+                      method="get"
                       className="self-center grid mb-0 form__control max-lg:gap-2.5 lg:gap-6"
                     >
                       <div className="input input--light">
@@ -573,9 +576,11 @@ export default function Page() {
                           {"meno a priezvisko*"}
                         </label>
                         <input
-                          id="meno a priezvisko"
+                          id="meno-priezvisko"
+                          name="meno"
                           placeholder="vaše meno"
                           type="text"
+                          required
                           tabIndex={0}
                           className="border-solid border-ploy-neutral-primary-s2 bg-ploy-background-primary text-gray-900 w-full h-auto transition-[color,border-color,background-color] duration-200 p-4 rounded-[1.125rem] input__component--light input__component hover:bg-ploy-background-primary hover:text-gray-900 overflow-clip border"
                         />
@@ -586,8 +591,10 @@ export default function Page() {
                         </label>
                         <input
                           id="email"
+                          name="email"
                           placeholder="vaša emailová adresa"
-                          type="text"
+                          type="email"
+                          required
                           tabIndex={0}
                           className="border-solid border-ploy-neutral-primary-s2 bg-ploy-background-primary text-gray-900 w-full h-auto transition-[color,border-color,background-color] duration-200 p-4 rounded-[1.125rem] input__component--light input__component hover:bg-ploy-background-primary hover:text-gray-900 overflow-clip border"
                         />
@@ -598,8 +605,9 @@ export default function Page() {
                         </label>{" "}
                         <textarea
                           id="správa"
+                          name="sprava"
                           placeholder="napíšte sem správu"
-                          type="text"
+                          required
                           tabIndex={0}
                           className="border-solid border-ploy-neutral-primary-s2 bg-ploy-background-primary text-gray-900 whitespace-pre-wrap break-words w-full min-h-24 cursor-text transition-[color,border-color,background-color] duration-200 p-4 rounded-[1.125rem] input__component--textarea input__component--light input__component--no-textarea-resize input__component hover:bg-ploy-background-primary hover:text-gray-900 overflow-auto border"
                         />
@@ -615,7 +623,7 @@ export default function Page() {
                     </form>
                   </div>
                 </div>
-                <div className="text-left w-full h-full relative z-[2] grid grid-cols-[100%] row-start-2 opacity-0 translate-y-[20%] transition-[transform,translate,scale,rotate,opacity] max-lg:col-start-1 max-lg:col-end-3 max-lg:row-end-5 lg:col-start-2 lg:col-end-6 lg:row-end-8">
+                <div className="text-left w-full h-full relative z-[2] grid grid-cols-[100%] row-start-2 transition-[transform,translate,scale,rotate,opacity] max-lg:col-start-1 max-lg:col-end-3 max-lg:row-end-5 lg:col-start-2 lg:col-end-6 lg:row-end-8">
                   <div
                     id="z3VZRD"
                     className="self-start break-words w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] layout-element__component--GridTextBox"
@@ -640,7 +648,7 @@ export default function Page() {
                     <p className="font-heading text-gray-900 break-words max-[921px]:mb-0 lg:leading-6" />
                   </div>
                 </div>
-                <div className="text-left w-full h-full relative z-[3] grid grid-cols-[100%] opacity-0 translate-y-[20%] transition-[transform,translate,scale,rotate,opacity] max-lg:col-start-1 max-lg:col-end-3 max-lg:row-start-3 max-lg:row-end-4 lg:col-start-2 lg:col-end-5 lg:row-start-4 lg:row-end-5">
+                <div className="text-left w-full h-full relative z-[3] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] max-lg:col-start-1 max-lg:col-end-3 max-lg:row-start-3 max-lg:row-end-4 lg:col-start-2 lg:col-end-5 lg:row-start-4 lg:row-end-5">
                   <div
                     id="z9drsK"
                     className="self-start break-words w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] layout-element__component--GridTextBox"
@@ -655,7 +663,7 @@ export default function Page() {
                     </p>
                   </div>
                 </div>
-                <div className="text-start w-full h-full relative z-[4] grid grid-cols-[100%] opacity-0 translate-y-[20%] transition-[transform,translate,scale,rotate,opacity] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-5 max-lg:row-end-6 lg:col-start-3 lg:col-end-4 lg:row-start-6 lg:row-end-7">
+                <div className="text-start w-full h-full relative z-[4] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-5 max-lg:row-end-6 lg:col-start-3 lg:col-end-4 lg:row-start-6 lg:row-end-7">
                   <div
                     id="zgLbck"
                     className="self-start bg-cover bg-center max-h-full flex justify-around col-start-1 col-end-[-1] row-start-1 row-end-[-1] bg-no-repeat social-icons social-icons--row layout-element__component--GridSocialIcons"
