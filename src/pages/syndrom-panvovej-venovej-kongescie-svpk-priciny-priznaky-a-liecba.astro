@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/syndrom-panvovej-venovej-kongescie-svpk-priciny-priznaky-a-liecba/page";
+
+export const prerender = true;
+---
+
+<Layout title="Syndróm panvovej vénovej kongescie (SVPK): Príčiny, Príznaky a Liečba | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="Syndróm panvovej vénovej kongescie, často označovaný ako SVPK, je závažný a bolestivý zdravotný stav, ktorý ovplyvňuje oblasť panvy, dolných končatín a v niektorých prípadoch aj ďalšie časti tela." />
+    <meta property="og:title" content="Syndróm panvovej vénovej kongescie (SVPK): Príčiny, Príznaky a Liečba | varixyporadenstvo" />
+    <meta property="og:description" content="Syndróm panvovej vénovej kongescie, často označovaný ako SVPK, je závažný a bolestivý zdravotný stav, ktorý ovplyvňuje oblasť panvy, dolných končatín a v niektorých prípadoch aj ďalšie časti tela." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1551224820-ad4d0e716932?auto=jpeg&amp;fit=crop&amp;w=1200&amp;h=630" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/syndrom-panvovej-venovej-kongescie-svpk-priciny-priznaky-a-liecba" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>
