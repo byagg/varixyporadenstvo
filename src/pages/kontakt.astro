@@ -1,0 +1,19 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/kontakt/page";
+
+export const prerender = true;
+---
+
+<Layout title="Kontakt na nás, napíšte nám svoju správu alebo podnet - MUDr. Andrej Gaži | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="Potrebujete kontakt na MUDr. Andreja Gažiho? Kontaktujte nás a napíšte nám svoju správu alebo podnet. Sme tu pre vás. Získajte odborné rady od MUDr. Andreja Gažiho." />
+    <meta name="keywords" content="MUDr. Andrej Gaži, správa, kontakt" />
+    <meta property="og:title" content="Kontakt na nás, napíšte nám svoju správu alebo podnet - MUDr. Andrej Gaži | varixyporadenstvo" />
+    <meta property="og:description" content="Potrebujete kontakt na MUDr. Andreja Gažiho? Kontaktujte nás a napíšte nám svoju správu alebo podnet. Sme tu pre vás. Získajte odborné rady od MUDr. Andreja Gažiho." />
+    <meta property="og:image" content="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/ALpBQyXKnqhOakP5/ideogram-49-mnlnD7q19KFW69xb.jpeg" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/kontakt" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>
