@@ -103,7 +103,7 @@ export default function TrapiteSaSKrcovymiSection({
                 <strong className="[color:inherit] break-words">
                   <u className="break-words">
                     <a
-                      href="/reflux-pri-ochoreni-krcovych-zil-priciny-priznaky-a-liecba"
+                      href="https://varixyporadenstvo.com/reflux-pri-ochoreni-krcovych-zil-priciny-priznaky-a-liecba"
                       rel="nofollow"
                       target="_blank"
                       className="[color:inherit] break-words"
@@ -229,7 +229,7 @@ export default function TrapiteSaSKrcovymiSection({
                     <strong className="[color:inherit] break-words">
                       <u className="break-words">
                         <a
-                          href="/bolesti-dolnych-koncatin-priciny-symptomy-a-moznosti-liecby"
+                          href="https://varixyporadenstvo.com/bolesti-dolnych-koncatin-priciny-symptomy-a-moznosti-liecby"
                           className="[color:inherit] break-words"
                         >
                           {"únavové bolesti"}
@@ -246,7 +246,7 @@ export default function TrapiteSaSKrcovymiSection({
                     <strong className="[color:inherit] break-words">
                       <u className="break-words">
                         <a
-                          href="/opuch-noh-svrbenie-tela-a-syndrom-nepokojnych-noh-boj-s-krcmi-a-zilovymi-problemami"
+                          href="https://varixyporadenstvo.com/opuch-noh-svrbenie-tela-a-syndrom-nepokojnych-noh-boj-s-krcmi-a-zilovymi-problemami"
                           className="[color:inherit] break-words"
                         >
                           {"opuch nôh"}
@@ -266,7 +266,7 @@ export default function TrapiteSaSKrcovymiSection({
                 <p className="font-heading text-ploy-text-inverse leading-6 break-words max-[921px]:mb-0">
                   <u className="break-words">
                     <a
-                      href="/kedy-uz-radsej-vyhladat-lekara-ak-mate-podozrenie-na-ochorenie-krcovych-zil"
+                      href="https://varixyporadenstvo.com/kedy-uz-radsej-vyhladat-lekara-ak-mate-podozrenie-na-ochorenie-krcovych-zil"
                       className="[color:inherit] break-words"
                     >
                       {"viditeľné kŕčové žily"}
@@ -281,7 +281,7 @@ export default function TrapiteSaSKrcovymiSection({
                     <strong className="[color:inherit] break-words">
                       <u className="break-words">
                         <a
-                          href="/krcove-zily-a-svrbenie"
+                          href="https://varixyporadenstvo.com/krcove-zily-a-svrbenie"
                           className="[color:inherit] break-words"
                         >
                           {"svrbenie nôh"}
@@ -303,7 +303,7 @@ export default function TrapiteSaSKrcovymiSection({
                     <strong className="[color:inherit] break-words">
                       <u className="break-words">
                         <a
-                          href="/preco-hnednu-nohy-na-predkoleniach-pri-krcovych-zilach"
+                          href="https://varixyporadenstvo.com/preco-hnednu-nohy-na-predkoleniach-pri-krcovych-zilach"
                           className="[color:inherit] break-words"
                         >
                           {"hyperpigmentácia"}
@@ -318,7 +318,7 @@ export default function TrapiteSaSKrcovymiSection({
                 <p className="font-heading text-ploy-text-inverse leading-6 break-words max-[921px]:mb-0">
                   <u className="break-words">
                     <a
-                      href="/syndrom-nepokojnych-noh-priznaky-diagnoza-a-moznosti-liecby"
+                      href="https://varixyporadenstvo.com/syndrom-nepokojnych-noh-priznaky-diagnoza-a-moznosti-liecby"
                       className="[color:inherit] break-words"
                     >
                       {'"syndróm nepokojných nôh"'}
@@ -330,7 +330,7 @@ export default function TrapiteSaSKrcovymiSection({
                 <p className="font-heading text-ploy-text-inverse leading-6 break-words max-[921px]:mb-0">
                   <u className="break-words">
                     <a
-                      href="/ako-pristupovat-k-vredu-predkolenia"
+                      href="https://varixyporadenstvo.com/ako-pristupovat-k-vredu-predkolenia"
                       className="[color:inherit] break-words"
                     >
                       {"vred na predkolení"}

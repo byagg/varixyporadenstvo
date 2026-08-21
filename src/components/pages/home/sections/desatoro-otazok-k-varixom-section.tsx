@@ -59,7 +59,7 @@ export default function DesatoroOtazokKVarixomSection() {
                   " "}
                 <u className="break-words">
                   <a
-                    href="/krcove-zily-na-nohach-pocas-tehotenstva"
+                    href="https://varixyporadenstvo.com/krcove-zily-na-nohach-pocas-tehotenstva"
                     className="[color:inherit] break-words"
                   >
                     {"tehotenstvo"}
@@ -118,7 +118,7 @@ export default function DesatoroOtazokKVarixomSection() {
                   " "}
                 <u className="break-words">
                   <a
-                    href="/kompresne-pancuchy-ucinny-prostriedok-proti-krcovym-zilam"
+                    href="https://varixyporadenstvo.com/kompresne-pancuchy-ucinny-prostriedok-proti-krcovym-zilam"
                     className="[color:inherit] break-words"
                   >
                     {"kompresívne pančuchy"}
@@ -128,7 +128,7 @@ export default function DesatoroOtazokKVarixomSection() {
                   " "}
                 <u className="break-words">
                   <a
-                    href="/liecba"
+                    href="https://varixyporadenstvo.com/liecba"
                     className="[color:inherit] break-words"
                   >
                     {"viac o možnostiach liečby varixov tu."}
@@ -150,7 +150,7 @@ export default function DesatoroOtazokKVarixomSection() {
                   " "}
                 <u className="break-words">
                   <a
-                    href="/kliniky"
+                    href="https://varixyporadenstvo.com/kliniky"
                     className="[color:inherit] break-words"
                   >
                     {
@@ -204,7 +204,7 @@ export default function DesatoroOtazokKVarixomSection() {
                   " "}
                 <u className="break-words">
                   <a
-                    href="/operacia"
+                    href="https://varixyporadenstvo.com/operacia"
                     className="[color:inherit] break-words"
                   >
                     {"viac o pred a pooperačnom priebehu tu."}

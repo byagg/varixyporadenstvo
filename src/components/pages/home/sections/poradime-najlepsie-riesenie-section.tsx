@@ -171,7 +171,7 @@ export default function PoradimeNajlepsieRiesenieSection() {
           className="text-start w-full h-full relative z-[7] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-4 max-lg:col-end-5 max-lg:row-start-6 max-lg:row-end-7 lg:col-start-9 lg:col-end-11 lg:row-start-7 lg:row-end-8"
         >
           <a
-            href="/liecba"
+            href="https://varixyporadenstvo.com/liecba"
             target="_self"
             aria-hidden="false"
             id="zt_x5A"

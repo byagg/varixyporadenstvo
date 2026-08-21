@@ -187,7 +187,7 @@ export default function KomplikacieNeliecenychSection({
                 <strong className="[color:inherit] break-words">
                   <u className="break-words">
                     <a
-                      href="/reflux-pri-ochoreni-krcovych-zil-priciny-priznaky-a-liecba"
+                      href="https://varixyporadenstvo.com/reflux-pri-ochoreni-krcovych-zil-priciny-priznaky-a-liecba"
                       className="[color:inherit] break-words"
                     >
                       {"reflux"}
@@ -258,7 +258,7 @@ export default function KomplikacieNeliecenychSection({
               <strong className="[color:inherit] break-words">
                 <u className="break-words">
                   <a
-                    href="/tromboza-dolnych-koncatin-co-by-ste-mali-vediet"
+                    href="https://varixyporadenstvo.com/tromboza-dolnych-koncatin-co-by-ste-mali-vediet"
                     rel="nofollow"
                     target="_blank"
                     className="[color:inherit] break-words"
@@ -271,7 +271,7 @@ export default function KomplikacieNeliecenychSection({
               <strong className="[color:inherit] break-words">
                 <u className="break-words">
                   <a
-                    href="/prevencia-a-liecba-trombozy-povrchovych-zil-dolnych-koncatin-vsetko-co-potrebujete-vediet"
+                    href="https://varixyporadenstvo.com/prevencia-a-liecba-trombozy-povrchovych-zil-dolnych-koncatin-vsetko-co-potrebujete-vediet"
                     target="_self"
                     className="[color:inherit] break-words"
                   >
@@ -342,7 +342,7 @@ export default function KomplikacieNeliecenychSection({
                   <strong className="[color:inherit] break-words">
                     <u className="break-words">
                       <a
-                        href="/co-je-lymfedem"
+                        href="https://varixyporadenstvo.com/co-je-lymfedem"
                         target="_blank"
                         className="[color:inherit] break-words"
                       >
@@ -389,7 +389,7 @@ export default function KomplikacieNeliecenychSection({
                   <strong className="[color:inherit] break-words">
                     <u className="break-words">
                       <a
-                        href="/celulitida-pri-ochoreni-varixov-priciny-prevencia-a-liecba"
+                        href="https://varixyporadenstvo.com/celulitida-pri-ochoreni-varixov-priciny-prevencia-a-liecba"
                         target="_blank"
                         className="[color:inherit] break-words"
                       >
