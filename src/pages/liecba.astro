@@ -1,0 +1,19 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/liecba/page";
+
+export const prerender = true;
+---
+
+<Layout title="Liečba kŕčových žíl - Odstránenie drobných a väčších žíl rôznymi metódami | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="Rôzne metódy kŕčových žíl, sklerotizáciou, laserom, radiofrekvenčnou metódou, biolepidlom, či konzervatívne - ako prebieha liečba varixov? Celkový pohľad na problematiku." />
+    <meta name="keywords" content="kŕčové žily, liečba, varixy dolných končatín" />
+    <meta property="og:title" content="Liečba kŕčových žíl - Odstránenie drobných a väčších žíl rôznymi metódami | varixyporadenstvo" />
+    <meta property="og:description" content="Rôzne metódy kŕčových žíl, sklerotizáciou, laserom, radiofrekvenčnou metódou, biolepidlom, či konzervatívne - ako prebieha liečba varixov? Celkový pohľad na problematiku." />
+    <meta property="og:image" content="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/ALpBQyXKnqhOakP5/ideogram-49-mnlnD7q19KFW69xb.jpeg" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/liecba" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>
