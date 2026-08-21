@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/bolest-noh-od-kolien-nadol-priciny-a-rady/page";
+
+export const prerender = true;
+---
+
+<Layout title="Bolesť nôh od kolien nadol: príčiny a rady | varixyporadenstvo">
+  <Fragment slot="head">
+    <meta name="description" content="V nasledujúcich častiach spoznáte najčastejšie cievne, neurologické, ortopedické, metabolické aj funkčné dôvody bolesti nôh od kolien nadol – a dozviete sa, kedy je najlepšie navštíviť lekára." />
+    <meta property="og:title" content="Bolesť nôh od kolien nadol: príčiny a rady | varixyporadenstvo" />
+    <meta property="og:description" content="V nasledujúcich častiach spoznáte najčastejšie cievne, neurologické, ortopedické, metabolické aj funkčné dôvody bolesti nôh od kolien nadol – a dozviete sa, kedy je najlepšie navštíviť lekára." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1578803203370-8b000b589edd?auto=jpeg&amp;fit=crop&amp;w=1200&amp;h=630" />
+    <meta property="og:url" content="https://varixyporadenstvo.com/bolest-noh-od-kolien-nadol-priciny-a-rady" />
+    <meta property="og:site_name" content="varixyporadenstvo" />
+  </Fragment>
+  <Page client:load />
+</Layout>
