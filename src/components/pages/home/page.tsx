@@ -19,6 +19,22 @@ import KrvacanieSection from "./sections/krvacanie-section";
 import PreLekarovSection from "./sections/pre-lekarov-section";
 import PageIcon1 from "./svgs/page-icon-1";
 import PageIcon2 from "./svgs/page-icon-2";
+import type { FormEvent } from "react";
+import { submitForm } from "@/lib/ploy-forms/submit-form";
+
+async function handleContactSubmit(event: FormEvent<HTMLFormElement>) {
+  event.preventDefault();
+  const form = event.currentTarget;
+  const formData = new FormData(form);
+
+  await submitForm("Kontaktný formulár", {
+    meno: String(formData.get("meno") ?? ""),
+    email: String(formData.get("email") ?? ""),
+    sprava: String(formData.get("sprava") ?? ""),
+  });
+
+  form.reset();
+}
 
 /**
  * @ployComponent
@@ -567,8 +583,7 @@ export default function Page() {
                   >
                     <form
                       name="Kontaktný formulár"
-                      action="https://varixyporadenstvo.com/kontakt"
-                      method="get"
+                      onSubmit={handleContactSubmit}
                       className="self-center grid mb-0 form__control max-lg:gap-2.5 lg:gap-6"
                     >
                       <div className="input input--light">
