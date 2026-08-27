@@ -33,8 +33,8 @@ const viteCacheDir =
 
 // https://astro.build/config
 export default defineConfig({
-  // Patched at deploy time by Ploy — must remain a string literal. See AGENTS.md "Sitemap".
-  site: "https://example.com",
+  // Public origin for the standalone Cloudflare deployment.
+  site: PUBLIC_ORIGIN,
   output: "server",
   trailingSlash: "never",
   // Disable automatic Cloudflare KV session provisioning. Ploy sites don't
@@ -54,15 +54,6 @@ export default defineConfig({
     ...(wranglerConfig && { configPath: wranglerConfig }),
   }),
   integrations: [
-    {
-      name: "varixy-public-origin",
-      hooks: {
-        "astro:config:setup": ({ updateConfig }) => {
-          // The customer-owned Cloudflare Worker proxies this public origin to Ploy.
-          updateConfig({ site: PUBLIC_ORIGIN });
-        },
-      },
-    },
     mdx(),
     react(),
     // For SSR-only dynamic routes, edit src/lib/sitemap/get-sitemap-paths.ts.
