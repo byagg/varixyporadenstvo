@@ -3,7 +3,6 @@ export function KalkulackySectionCta2() {
     <div className="text-start w-full h-full relative z-[2] grid grid-cols-[100%] row-start-4 row-end-5 max-lg:col-start-1 max-lg:col-end-4 lg:col-start-3 lg:col-end-6">
       <div
         id="z6gBHb"
-        height="753"
         className="self-start w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] grid-embed layout-element__component--GridEmbed"
       >
         <iframe
