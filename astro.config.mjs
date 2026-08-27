@@ -7,7 +7,6 @@ import cloudflare from "@astrojs/cloudflare";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import { sitemapWithCustomPages } from "./src/lib/sitemap/sitemap-with-custom-pages-plugin.ts";
-import { PUBLIC_ORIGIN } from "./src/site-config.ts";
 
 // Ploy generates `wrangler.toml` at deploy time; it isn't checked in (and is
 // gitignored). `wrangler.jsonc` IS checked in as a local-development fallback,
@@ -33,8 +32,8 @@ const viteCacheDir =
 
 // https://astro.build/config
 export default defineConfig({
-  // Public origin for the standalone Cloudflare deployment.
-  site: PUBLIC_ORIGIN,
+  // Patched at deploy time by Ploy — must remain a string literal. See AGENTS.md "Sitemap".
+  site: "https://example.com",
   output: "server",
   trailingSlash: "never",
   // Disable automatic Cloudflare KV session provisioning. Ploy sites don't
