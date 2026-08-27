@@ -262,7 +262,6 @@ export default function TopBlocksSection() {
   return (
     <div className="sticky z-[18] top-0">
       <header
-        height="78"
         className="relative z-[18] grid shadow-[0px_6px_14px_0px_rgba(0,0,0,0.1)] transition-shadow ease-linear block-header block-header--with-shadow max-lg:px-4 lg:px-0"
       >
         <div className="bg-ploy-background-inverse absolute z-[13] transition-[background-color] duration-300 ease-[ease-in-out] inset-0 text-ploy-text-inverse" />
