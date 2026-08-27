@@ -6,12 +6,9 @@ interface SiteConfig {
   sourceSitemapUrl: string | string[];
 }
 
-// TODO: Replace `name` and `description` with the client's own. These drive
-// <title>, the meta description, Open Graph tags, and llms.txt — leaving them
-// empty ships a site with a blank title.
 export const SITE_CONFIG: SiteConfig = {
-  name: "Ploy Astro Starter",
+  name: "Varixy Poradenstvo",
   description:
-    "A production-ready Astro starter for marketing sites, built to deploy on Ploy.",
+    "Slovenský informačný a poradenský web o kŕčových žilách, ich diagnostike, prevencii, komplikáciách a možnostiach liečby.",
   sourceSitemapUrl: "",
 };
