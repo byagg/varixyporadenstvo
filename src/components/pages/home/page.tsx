@@ -19,22 +19,8 @@ import KrvacanieSection from "./sections/krvacanie-section";
 import PreLekarovSection from "./sections/pre-lekarov-section";
 import PageIcon1 from "./svgs/page-icon-1";
 import PageIcon2 from "./svgs/page-icon-2";
-import type { FormEvent } from "react";
+import { useState, type FormEvent } from "react";
 import { submitForm } from "@/lib/ploy-forms/submit-form";
-
-async function handleContactSubmit(event: FormEvent<HTMLFormElement>) {
-  event.preventDefault();
-  const form = event.currentTarget;
-  const formData = new FormData(form);
-
-  await submitForm("Kontaktný formulár", {
-    meno: String(formData.get("meno") ?? ""),
-    email: String(formData.get("email") ?? ""),
-    sprava: String(formData.get("sprava") ?? ""),
-  });
-
-  form.reset();
-}
 
 /**
  * @ployComponent
@@ -45,6 +31,29 @@ async function handleContactSubmit(event: FormEvent<HTMLFormElement>) {
  * @ployComponentStatus stable
  */
 export default function Page() {
+  const [formStatus, setFormStatus] = useState<
+    "idle" | "submitting" | "success" | "error"
+  >("idle");
+
+  async function handleContactSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+
+    setFormStatus("submitting");
+    try {
+      await submitForm("Kontaktný formulár", {
+        meno: String(formData.get("meno") ?? ""),
+        email: String(formData.get("email") ?? ""),
+        sprava: String(formData.get("sprava") ?? ""),
+      });
+      form.reset();
+      setFormStatus("success");
+    } catch {
+      setFormStatus("error");
+    }
+  }
+
   return (
     <div>
       <div className="contents">
@@ -630,10 +639,28 @@ export default function Page() {
                         type="submit"
                         name="submit"
                         aria-hidden="false"
-                        className="self-center justify-self-center text-nowrap bg-ploy-background-accent-primary text-black font-bold text-center whitespace-nowrap h-min max-w-full z-[1] flex items-center cursor-pointer transition-[color,border-color,background-color] duration-200 rounded-[1.375rem] grid-button grid-button--primary form__button max-[921px]:h-[min-content] max-[921px]:max-w-full max-[921px]:z-[1] hover:bg-[#401314] hover:text-ploy-text-inverse hover:shadow-[0px_0px_0px_0px_0px] max-lg:px-9 max-lg:py-3.5 lg:px-10 lg:py-4 overflow-hidden"
+                        aria-busy={formStatus === "submitting"}
+                        disabled={formStatus === "submitting"}
+                        className="self-center justify-self-center text-nowrap bg-ploy-background-accent-primary text-black font-bold text-center whitespace-nowrap h-min max-w-full z-[1] flex items-center cursor-pointer transition-[color,border-color,background-color] duration-200 rounded-[1.375rem] grid-button grid-button--primary form__button max-[921px]:h-[min-content] max-[921px]:max-w-full max-[921px]:z-[1] hover:bg-[#401314] hover:text-ploy-text-inverse hover:shadow-[0px_0px_0px_0px_0px] disabled:cursor-wait disabled:opacity-70 max-lg:px-9 max-lg:py-3.5 lg:px-10 lg:py-4 overflow-hidden"
                       >
-                        {"odoslať"}
+                        {formStatus === "submitting" ? "odosielam…" : "odoslať"}
                       </button>
+                      {formStatus === "success" && (
+                        <p
+                          role="status"
+                          className="text-ploy-text-primary text-center font-heading leading-6"
+                        >
+                          Ďakujeme, vaša správa bola odoslaná.
+                        </p>
+                      )}
+                      {formStatus === "error" && (
+                        <p
+                          role="alert"
+                          className="text-ploy-text-primary text-center font-heading leading-6"
+                        >
+                          Správu sa nepodarilo odoslať. Skúste to, prosím, znova.
+                        </p>
+                      )}
                     </form>
                   </div>
                 </div>
