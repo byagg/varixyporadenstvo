@@ -7,6 +7,7 @@ import cloudflare from "@astrojs/cloudflare";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import { sitemapWithCustomPages } from "./src/lib/sitemap/sitemap-with-custom-pages-plugin.ts";
+import { PUBLIC_ORIGIN } from "./src/site-config.ts";
 
 // Ploy generates `wrangler.toml` at deploy time; it isn't checked in (and is
 // gitignored). `wrangler.jsonc` IS checked in as a local-development fallback,
@@ -53,6 +54,15 @@ export default defineConfig({
     ...(wranglerConfig && { configPath: wranglerConfig }),
   }),
   integrations: [
+    {
+      name: "varixy-public-origin",
+      hooks: {
+        "astro:config:setup": ({ updateConfig }) => {
+          // The customer-owned Cloudflare Worker proxies this public origin to Ploy.
+          updateConfig({ site: PUBLIC_ORIGIN });
+        },
+      },
+    },
     mdx(),
     react(),
     // For SSR-only dynamic routes, edit src/lib/sitemap/get-sitemap-paths.ts.

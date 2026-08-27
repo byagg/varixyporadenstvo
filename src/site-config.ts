@@ -6,6 +6,8 @@ interface SiteConfig {
   sourceSitemapUrl: string | string[];
 }
 
+export const PUBLIC_ORIGIN = "https://varixyporadenstvo.com";
+
 export const SITE_CONFIG: SiteConfig = {
   name: "Varixy Poradenstvo",
   description:
