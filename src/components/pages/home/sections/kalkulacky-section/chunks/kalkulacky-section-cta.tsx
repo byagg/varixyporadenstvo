@@ -3,7 +3,6 @@ export function KalkulackySectionCta() {
     <div className="text-start w-full h-full relative z-[1] grid grid-cols-[100%] max-lg:col-start-1 max-lg:col-end-4 max-lg:row-start-2 max-lg:row-end-3 lg:col-start-7 lg:col-end-8 lg:row-start-10 lg:row-end-11">
       <div
         id="zMZmIX"
-        height="731"
         className="self-start w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] grid-embed layout-element__component--GridEmbed"
       >
         <iframe

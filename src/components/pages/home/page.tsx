@@ -19,7 +19,7 @@ import KrvacanieSection from "./sections/krvacanie-section";
 import PreLekarovSection from "./sections/pre-lekarov-section";
 import PageIcon1 from "./svgs/page-icon-1";
 import PageIcon2 from "./svgs/page-icon-2";
-import { useState, type FormEvent } from "react";
+import { useState, type SyntheticEvent } from "react";
 import { submitForm } from "@/lib/ploy-forms/submit-form";
 
 /**
@@ -35,7 +35,9 @@ export default function Page() {
     "idle" | "submitting" | "success" | "error"
   >("idle");
 
-  async function handleContactSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleContactSubmit(
+    event: SyntheticEvent<HTMLFormElement, SubmitEvent>,
+  ) {
     event.preventDefault();
     const form = event.currentTarget;
     const formData = new FormData(form);

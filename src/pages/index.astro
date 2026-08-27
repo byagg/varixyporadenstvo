@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Page from "../components/pages/home/page";
+import type { SeoJsonSchema } from "../components/seo-json";
 
 export const prerender = true;
 
@@ -9,7 +10,7 @@ const description =
   "Odborné informácie o kŕčových žilách: príznaky, diagnostika, prevencia, komplikácie a možnosti liečby vrátane sklerotizácie, laseru, RFA a operácie.";
 const image =
   "/migrated-assets/f28b9f3d449e773982d1.jpg";
-const jsonLd = {
+const jsonLd: SeoJsonSchema = {
   "@context": "https://schema.org",
   "@type": "MedicalWebPage",
   name: title,
