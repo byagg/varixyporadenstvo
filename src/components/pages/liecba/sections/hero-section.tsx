@@ -3,13 +3,6 @@ const heroSectionClassName =
 const heroSectionClassName2 =
   "[color:inherit] w-full h-full relative transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[1.5625rem] image image--grid image--link image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block hover:contrast-[0.8] overflow-hidden";
 
-/**
- * @ployComponent
- * @ployComponentId liecba-hero-section
- * @ployComponentType section
- * @ployComponentPattern hero
- * @ployComponentDescription Deterministic hero section inferred from first meaningful content block
- */
 export default function HeroSection() {
   return (
     <section
@@ -59,7 +52,6 @@ export default function HeroSection() {
               href="https://varixyporadenstvo.com/liecba#stripping"
               target="_self"
               title="a person in blue gloves holding a toothbrush"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={heroSectionClassName2}
             >
@@ -138,7 +130,6 @@ export default function HeroSection() {
               href="https://varixyporadenstvo.com/liecba#sklerotizacia"
               target="_self"
               title="a hand holding a needle"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={heroSectionClassName2}
             >

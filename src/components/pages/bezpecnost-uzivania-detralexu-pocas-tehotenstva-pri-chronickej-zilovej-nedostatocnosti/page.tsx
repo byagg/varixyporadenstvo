@@ -10,7 +10,6 @@ export default function Page() {
         <main className="min-h-screen flex flex-col">
           <div
             className="pointer-events-none h-px relative z-[-1] -mb-px top-0"
-            data-ploy-refactor-hint="refactor-to-use-margin-padding-gap"
           />
           <HeroSection />
           <div className="flex flex-col grow">
@@ -56,7 +55,6 @@ export default function Page() {
                     <div
                       rel="nofollow"
                       title="a woman in a pink shirt is holding a pill"
-                      data-ploy-animation-fx-hint="fade-in"
                       style={{
                         mask: "0% 0% / 100% 100%",
                         maskSize: "100% 100%",

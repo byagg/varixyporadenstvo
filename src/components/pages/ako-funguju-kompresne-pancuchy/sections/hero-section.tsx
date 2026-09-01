@@ -5,13 +5,6 @@ const listItemClassName2 =
 const listItemClassName3 =
   "font-heading text-ploy-text-primary font-bold break-words mb-8 max-[921px]:mb-8 max-lg:leading-10 max-lg:text-3xl lg:leading-tight lg:text-2xl";
 
-/**
- * @ployComponent
- * @ployComponentId ako-funguju-kompresne-pancuchy-hero-section
- * @ployComponentType section
- * @ployComponentPattern hero
- * @ployComponentDescription Deterministic hero section inferred from first meaningful content block
- */
 type ListItemProps = {
   text: string;
 };

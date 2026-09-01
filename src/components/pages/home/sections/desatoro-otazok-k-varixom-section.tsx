@@ -3,13 +3,6 @@ const desatoroOtazokKVarixomSectionClassName =
 const desatoroOtazokKVarixomSectionClassName2 =
   "font-heading text-ploy-text-primary font-bold text-3xl break-words mb-2 max-[921px]:mb-8 max-lg:leading-10 lg:leading-tight";
 
-/**
- * @ployComponent
- * @ployComponentId desatoro-otazok-k-varixom-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: desatoro otázok k varixom
- */
 export default function DesatoroOtazokKVarixomSection() {
   return (
     <section
@@ -19,7 +12,6 @@ export default function DesatoroOtazokKVarixomSection() {
       <div className="bg-neutral-200 absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden" />
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[240.0625rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(35px,auto)_minmax(94px,auto)_minmax(16px,auto)_minmax(3859px,auto)_1fr] max-lg:px-4 lg:min-h-[128.125rem] lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_8.41503%_66.3399%_8.41503%_8.41503%] lg:grid-rows-[minmax(37px,auto)_minmax(73px,auto)_minmax(80px,auto)_minmax(1767px,auto)_1fr] lg:px-0">
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-center w-full h-full relative z-[1] grid grid-cols-[100%] row-start-4 row-end-5 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-2 lg:col-end-5"
         >
           <div
@@ -231,7 +223,6 @@ export default function DesatoroOtazokKVarixomSection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-center w-full h-full relative z-[2] grid grid-cols-[100%] row-start-2 row-end-3 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-3 lg:col-end-4"
         >
           <div

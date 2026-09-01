@@ -7,13 +7,6 @@ const listItemClassName3 =
 const listItemClassName4 =
   "w-full h-full relative opacity-0 translate-y-[20%] transition-[transform,translate,scale,rotate,opacity] image image--grid image-wrapper--mobile max-[921px]:block min-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] overflow-hidden";
 
-/**
- * @ployComponent
- * @ployComponentId rekonvalescencia-po-operacii-varixov-komplexny-sprievodca-pre-pacientov-hero-section
- * @ployComponentType section
- * @ployComponentPattern hero
- * @ployComponentDescription Deterministic hero section inferred from first meaningful content block
- */
 type ListItemProps = {
   text: string;
   separator?: string;
@@ -445,7 +438,6 @@ export default function HeroSection() {
               <div
                 rel="nofollow"
                 title="a woman's legs with a pair of knee high heel boots"
-                data-ploy-animation-fx-hint="fade-in"
                 style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
                 className={listItemClassName}
               >
@@ -483,7 +475,6 @@ export default function HeroSection() {
               <div
                 rel="nofollow"
                 title="a woman is doing a physical exercise on a table"
-                data-ploy-animation-fx-hint="fade-in"
                 style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
                 className={listItemClassName}
               >
@@ -521,7 +512,6 @@ export default function HeroSection() {
               <div
                 rel="nofollow"
                 title="a person in a gloved gloved hand holding a pair of scissors and a"
-                data-ploy-animation-fx-hint="fade-in"
                 style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
                 className={listItemClassName}
               >

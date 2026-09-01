@@ -22,14 +22,6 @@ import PageIcon2 from "./svgs/page-icon-2";
 import { useState, type SyntheticEvent } from "react";
 import { submitContactForm } from "@/lib/contact-form";
 
-/**
- * @ployComponent
- * @ployComponentId home-page
- * @ployComponentType page
- * @ployComponentPattern homepage
- * @ployComponentDescription Composes the migrated Varixy Poradenstvo homepage and its medical-information sections.
- * @ployComponentStatus stable
- */
 export default function Page() {
   const [formStatus, setFormStatus] = useState<
     "idle" | "submitting" | "success" | "error"
@@ -72,7 +64,6 @@ export default function Page() {
         <main className="min-h-screen flex flex-col">
           <div
             className="pointer-events-none h-px relative z-[-1] -mb-px top-0"
-            data-ploy-refactor-hint="refactor-to-use-margin-padding-gap"
           />
           <div className="sticky z-[18] top-0">
             <header
@@ -108,12 +99,10 @@ export default function Page() {
                       <label className="[color:inherit] block-header-item__label">
                         <div
                           className="text-left flex items-center item-content-wrapper block-header-item__item"
-                          data-ploy-hover-anchor="h1"
                         >
                           <a
                             href="/liecba"
                             className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0"
-                            data-ploy-hover="h1"
                           >
                             {"liečba"}
                           </a>
@@ -124,12 +113,10 @@ export default function Page() {
                       <label className="[color:inherit] block-header-item__label">
                         <div
                           className="text-left flex items-center item-content-wrapper block-header-item__item"
-                          data-ploy-hover-anchor="h1"
                         >
                           <a
                             href="/operacia"
                             className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0"
-                            data-ploy-hover="h1"
                           >
                             {"operácia"}
                           </a>
@@ -140,12 +127,10 @@ export default function Page() {
                       <label className="[color:inherit] block-header-item__label">
                         <div
                           className="text-left flex items-center item-content-wrapper block-header-item__item"
-                          data-ploy-hover-anchor="h1"
                         >
                           <a
                             href="/nakup"
                             className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0"
-                            data-ploy-hover="h1"
                           >
                             {"nákup"}
                           </a>
@@ -156,12 +141,10 @@ export default function Page() {
                       <label className="[color:inherit] block-header-item__label">
                         <div
                           className="text-left flex items-center item-content-wrapper block-header-item__item"
-                          data-ploy-hover-anchor="h1"
                         >
                           <a
                             href="/kliniky"
                             className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0"
-                            data-ploy-hover="h1"
                           >
                             {"kliniky"}
                           </a>
@@ -172,12 +155,10 @@ export default function Page() {
                       <label className="[color:inherit] block-header-item__label">
                         <div
                           className="text-left flex items-center item-content-wrapper block-header-item__item"
-                          data-ploy-hover-anchor="h1"
                         >
                           <a
                             href="/clanky"
                             className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0"
-                            data-ploy-hover="h1"
                           >
                             {"články"}
                           </a>
@@ -188,12 +169,10 @@ export default function Page() {
                       <label className="[color:inherit] block-header-item__label">
                         <div
                           className="text-left flex items-center item-content-wrapper block-header-item__item"
-                          data-ploy-hover-anchor="h1"
                         >
                           <a
                             href="/kontakt"
                             className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0"
-                            data-ploy-hover="h1"
                           >
                             {"kontakt"}
                           </a>
@@ -242,12 +221,10 @@ export default function Page() {
                         <label className="[color:inherit] block-header-item__label max-lg:invisible lg:visible">
                           <div
                             className="text-left flex items-center item-content-wrapper block-header-item__item max-lg:invisible max-lg:justify-end lg:visible"
-                            data-ploy-hover-anchor="h1"
                           >
                             <a
                               href="/liecba"
                               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0 max-lg:text-end max-lg:invisible lg:text-left lg:visible"
-                              data-ploy-hover="h1"
                             >
                               {"liečba"}
                             </a>
@@ -258,12 +235,10 @@ export default function Page() {
                         <label className="[color:inherit] block-header-item__label max-lg:invisible lg:visible">
                           <div
                             className="text-left flex items-center item-content-wrapper block-header-item__item max-lg:invisible max-lg:justify-end lg:visible"
-                            data-ploy-hover-anchor="h1"
                           >
                             <a
                               href="/operacia"
                               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0 max-lg:text-end max-lg:invisible lg:text-left lg:visible"
-                              data-ploy-hover="h1"
                             >
                               {"operácia"}
                             </a>
@@ -274,12 +249,10 @@ export default function Page() {
                         <label className="[color:inherit] block-header-item__label max-lg:invisible lg:visible">
                           <div
                             className="text-left flex items-center item-content-wrapper block-header-item__item max-lg:invisible max-lg:justify-end lg:visible"
-                            data-ploy-hover-anchor="h1"
                           >
                             <a
                               href="/nakup"
                               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0 max-lg:text-end max-lg:invisible lg:text-left lg:visible"
-                              data-ploy-hover="h1"
                             >
                               {"nákup"}
                             </a>
@@ -290,12 +263,10 @@ export default function Page() {
                         <label className="[color:inherit] block-header-item__label max-lg:invisible lg:visible">
                           <div
                             className="text-left flex items-center item-content-wrapper block-header-item__item max-lg:invisible max-lg:justify-end lg:visible"
-                            data-ploy-hover-anchor="h1"
                           >
                             <a
                               href="/kliniky"
                               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0 max-lg:text-end max-lg:invisible lg:text-left lg:visible"
-                              data-ploy-hover="h1"
                             >
                               {"kliniky"}
                             </a>
@@ -306,12 +277,10 @@ export default function Page() {
                         <label className="[color:inherit] block-header-item__label max-lg:invisible lg:visible">
                           <div
                             className="text-left flex items-center item-content-wrapper block-header-item__item max-lg:invisible max-lg:justify-end lg:visible"
-                            data-ploy-hover-anchor="h1"
                           >
                             <a
                               href="/clanky"
                               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0 max-lg:text-end max-lg:invisible lg:text-left lg:visible"
-                              data-ploy-hover="h1"
                             >
                               {"články"}
                             </a>
@@ -322,12 +291,10 @@ export default function Page() {
                         <label className="[color:inherit] block-header-item__label max-lg:invisible lg:visible">
                           <div
                             className="text-left flex items-center item-content-wrapper block-header-item__item max-lg:invisible max-lg:justify-end lg:visible"
-                            data-ploy-hover-anchor="h1"
                           >
                             <a
                               href="/kontakt"
                               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0 max-lg:text-end max-lg:invisible lg:text-left lg:visible"
-                              data-ploy-hover="h1"
                             >
                               {"kontakt"}
                             </a>
@@ -375,7 +342,6 @@ export default function Page() {
               </div>
               <div className="w-full z-[14] grid mx-auto max-lg:min-h-[67.1875rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(16px,auto)_minmax(1014px,auto)_1fr] max-lg:px-4 lg:min-h-[51.5625rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_42.2386%_40.9314%] lg:grid-rows-[minmax(64px,auto)_minmax(718px,auto)_1fr] lg:px-0">
                 <div
-                  data-ploy-animation-fx-hint="fade-in"
                   className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 row-end-3 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-2 lg:col-end-3"
                 >
                   <div
@@ -505,7 +471,6 @@ export default function Page() {
               <div className="bg-ploy-background-primary absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden text-ploy-text-primary" />
               <div
                 className="w-full min-h-5 z-[14] grid grid-cols-[100%] grid-rows-[1fr] mx-auto max-lg:max-w-[22.5rem] max-lg:px-4 lg:max-w-[76.5rem] lg:px-0"
-                data-ploy-refactor-hint="refactor-to-use-margin-padding-gap"
               />
             </section>
             <section
@@ -524,7 +489,6 @@ export default function Page() {
               </div>
               <div className="w-full z-[14] grid mx-auto max-lg:min-h-[88.5rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(16px,auto)_minmax(1319px,auto)_1fr] max-lg:px-4 lg:min-h-[69.1875rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_42.2386%_40.9314%] lg:grid-rows-[minmax(64px,auto)_minmax(917px,auto)_1fr] lg:px-0">
                 <div
-                  data-ploy-animation-fx-hint="fade-in"
                   className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 row-end-3 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-2 lg:col-end-3"
                 >
                   <div

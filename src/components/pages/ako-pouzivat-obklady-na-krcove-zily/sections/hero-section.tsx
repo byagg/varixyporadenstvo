@@ -1,13 +1,6 @@
 const listItemClassName =
   "font-heading text-ploy-text-primary font-bold break-words mb-8 max-[921px]:mb-8 max-lg:leading-[2.925rem] max-lg:text-4xl lg:leading-tight lg:text-3xl";
 
-/**
- * @ployComponent
- * @ployComponentId ako-pouzivat-obklady-na-krcove-zily-hero-section
- * @ployComponentType section
- * @ployComponentPattern hero
- * @ployComponentDescription Deterministic hero section inferred from first meaningful content block
- */
 type ListItemProps = {
   text: string;
   text_1: string;
@@ -303,7 +296,6 @@ export default function HeroSection() {
               <div
                 rel="nofollow"
                 title="person sitting on grass field"
-                data-ploy-animation-fx-hint="fade-in"
                 style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
                 className="w-full h-full relative transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] image image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden"
               >

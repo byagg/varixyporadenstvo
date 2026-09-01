@@ -86,14 +86,6 @@ const PROFESSIONAL_RESOURCES = [
   },
 ] as const;
 
-/**
- * @ployComponent
- * @ployComponentId pre-lekarov-section
- * @ployComponentType section
- * @ployComponentPattern resource-directory
- * @ployComponentDescription Compact professional-resource directory replacing unsupported Hostinger iframe embeds.
- * @ployComponentStatus stable
- */
 export default function PreLekarovSection() {
   return (
     <section

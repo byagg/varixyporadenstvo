@@ -5,13 +5,6 @@ const invazivneMetodyLiecbySectionClassName2 =
 const invazivneMetodyLiecbySectionClassName3 =
   "self-start break-words w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] layout-element__component--GridTextBox";
 
-/**
- * @ployComponent
- * @ployComponentId liecba-invazivne-metody-liecby-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: invazívne metódy liečby kŕčových žíl na nohách
- */
 export default function InvazivneMetodyLiecbySection() {
   return (
     <section
@@ -37,7 +30,6 @@ export default function InvazivneMetodyLiecbySection() {
             <div
               rel="nofollow"
               title="white and black plastic syringe on brown wooden table"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={invazivneMetodyLiecbySectionClassName}
             >
@@ -68,7 +60,6 @@ export default function InvazivneMetodyLiecbySection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[2] grid grid-cols-[100%] row-end-7 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-11 max-lg:row-start-6 lg:text-left lg:col-start-[17] lg:col-end-[22] lg:row-start-4"
         >
           <div id="zk51fv" className={invazivneMetodyLiecbySectionClassName3}>
@@ -93,7 +84,6 @@ export default function InvazivneMetodyLiecbySection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-center w-full h-full relative z-[3] grid grid-cols-[100%] row-start-2 row-end-3 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-11 lg:col-start-5 lg:col-end-[20]"
         >
           <div id="z0Lpy3" className={invazivneMetodyLiecbySectionClassName3}>
@@ -103,7 +93,6 @@ export default function InvazivneMetodyLiecbySection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-start w-full h-full relative z-[4] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-5 max-lg:col-end-6 max-lg:row-start-8 max-lg:row-end-9 lg:col-start-11 lg:col-end-[15] lg:row-start-5 lg:row-end-6"
         >
           <a
@@ -124,7 +113,6 @@ export default function InvazivneMetodyLiecbySection() {
             <div
               rel="nofollow"
               title="a person in a surgical procedure in a hospital"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={invazivneMetodyLiecbySectionClassName}
             >
@@ -155,7 +143,6 @@ export default function InvazivneMetodyLiecbySection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-start w-full h-full relative z-[6] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-5 max-lg:col-end-6 max-lg:row-start-[14] max-lg:row-end-[15] lg:col-start-4 lg:col-end-7 lg:row-start-11 lg:row-end-12"
         >
           <a
@@ -169,7 +156,6 @@ export default function InvazivneMetodyLiecbySection() {
           </a>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[7] grid grid-cols-[100%] row-end-13 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-11 max-lg:row-start-12 lg:text-left lg:col-start-[16] lg:col-end-[21] lg:row-start-10"
         >
           <div id="zyaBJf" className={invazivneMetodyLiecbySectionClassName3}>
@@ -194,7 +180,6 @@ export default function InvazivneMetodyLiecbySection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-start w-full h-full relative z-[8] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-5 max-lg:col-end-6 max-lg:row-start-[20] max-lg:row-end-[21] lg:col-start-11 lg:col-end-13 lg:row-start-[14] lg:row-end-[16]"
         >
           <a
@@ -215,7 +200,6 @@ export default function InvazivneMetodyLiecbySection() {
             <div
               rel="nofollow"
               title="a group of doctors performing surgery in an operating room"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={invazivneMetodyLiecbySectionClassName}
             >
@@ -246,7 +230,6 @@ export default function InvazivneMetodyLiecbySection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-10 grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-11 max-lg:row-start-[17] max-lg:row-end-[19] lg:text-left lg:col-start-[18] lg:col-end-[19] lg:row-start-[15] lg:row-end-[17]"
         >
           <div id="z_t_Ky" className={invazivneMetodyLiecbySectionClassName3}>
@@ -277,7 +260,6 @@ export default function InvazivneMetodyLiecbySection() {
           >
             <div
               rel="nofollow"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={invazivneMetodyLiecbySectionClassName}
             >
@@ -307,7 +289,6 @@ export default function InvazivneMetodyLiecbySection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-start w-full h-full relative z-[12] grid grid-cols-[100%] col-end-6 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-5 max-lg:row-start-[26] max-lg:row-end-[27] lg:col-start-2 lg:row-start-[19] lg:row-end-[22]"
         >
           <a
@@ -321,7 +302,6 @@ export default function InvazivneMetodyLiecbySection() {
           </a>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[13] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-11 max-lg:row-start-[24] max-lg:row-end-[25] lg:text-left lg:col-start-[18] lg:col-end-[19] lg:row-start-[20] lg:row-end-[21]"
         >
           <div id="zhP8AF" className={invazivneMetodyLiecbySectionClassName3}>

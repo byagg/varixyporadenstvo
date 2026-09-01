@@ -5,13 +5,6 @@ const listItemClassName2 =
 const listItemClassName3 =
   "font-heading text-ploy-text-on-accent-primary leading-6 break-words mb-10 max-[921px]:mb-8";
 
-/**
- * @ployComponent
- * @ployComponentId kliniky-hero-section
- * @ployComponentType section
- * @ployComponentPattern hero
- * @ployComponentDescription Deterministic hero section inferred from first meaningful content block
- */
 type ListItemProps = {
   className: string;
   text: string;
@@ -204,7 +197,6 @@ export default function HeroSection() {
         </div>
         <div className="w-full z-[14] grid mx-auto max-lg:min-h-[8.75rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(16px,auto)_minmax(2394px,auto)_minmax(16px,auto)_minmax(208px,auto)_1fr] max-lg:px-4 lg:min-h-[155.5rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_4.16667%_57.9248%_4.24837%_16.8301%] lg:grid-rows-[minmax(64px,auto)_minmax(250px,auto)_minmax(100px,auto)_minmax(2033px,auto)_1fr] lg:px-0">
           <div
-            data-ploy-animation-fx-hint="fade-in"
             className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-2 max-lg:row-end-3 lg:col-start-2 lg:col-end-5 lg:row-start-4 lg:row-end-5"
           >
             <div
@@ -307,7 +299,6 @@ export default function HeroSection() {
             </div>
           </div>
           <div
-            data-ploy-animation-fx-hint="fade-in"
             className="text-center w-full h-full relative z-[2] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-4 max-lg:row-end-5 lg:col-start-3 lg:col-end-4 lg:row-start-2 lg:row-end-3"
           >
             <div

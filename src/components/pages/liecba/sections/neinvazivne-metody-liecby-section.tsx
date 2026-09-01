@@ -5,13 +5,6 @@ const neinvazivneMetodyLiecbySectionClassName2 =
 const neinvazivneMetodyLiecbySectionClassName3 =
   "self-start break-words w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] layout-element__component--GridTextBox";
 
-/**
- * @ployComponent
- * @ployComponentId liecba-neinvazivne-metody-liecby-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: neinvazívne metódy liečby kŕčových žíl na nohách
- */
 export default function NeinvazivneMetodyLiecbySection() {
   return (
     <section
@@ -37,7 +30,6 @@ export default function NeinvazivneMetodyLiecbySection() {
             <div
               rel="nofollow"
               title="a woman in a white shirt and stockings with a white dress"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={neinvazivneMetodyLiecbySectionClassName}
             >
@@ -68,7 +60,6 @@ export default function NeinvazivneMetodyLiecbySection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[2] grid grid-cols-[100%] row-end-7 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-10 max-lg:row-start-6 lg:text-left lg:col-start-[15] lg:col-end-[19] lg:row-start-4"
         >
           <div id="zSEyNW" className={neinvazivneMetodyLiecbySectionClassName3}>
@@ -100,7 +91,6 @@ export default function NeinvazivneMetodyLiecbySection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-start w-full h-full relative z-[4] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-5 max-lg:col-end-6 max-lg:row-start-8 max-lg:row-end-9 lg:col-start-10 lg:col-end-12 lg:row-start-5 lg:row-end-6"
         >
           <a
@@ -119,7 +109,6 @@ export default function NeinvazivneMetodyLiecbySection() {
             <div
               rel="nofollow"
               title="yellow medication pill on persons hand"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={neinvazivneMetodyLiecbySectionClassName}
             >
@@ -150,7 +139,6 @@ export default function NeinvazivneMetodyLiecbySection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-start w-full h-full relative z-[6] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-5 max-lg:col-end-6 max-lg:row-start-[14] max-lg:row-end-[15] lg:col-start-3 lg:col-end-5 lg:row-start-11 lg:row-end-12"
         >
           <a
@@ -164,7 +152,6 @@ export default function NeinvazivneMetodyLiecbySection() {
           </a>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[7] grid grid-cols-[100%] row-end-13 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-10 max-lg:row-start-12 lg:text-left lg:col-start-[14] lg:col-end-[18] lg:row-start-10"
         >
           <div id="z6Qcfh" className={neinvazivneMetodyLiecbySectionClassName3}>
@@ -189,7 +176,6 @@ export default function NeinvazivneMetodyLiecbySection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-start w-full h-full relative z-[8] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-5 max-lg:col-end-6 max-lg:row-start-[20] max-lg:row-end-[21] lg:col-start-8 lg:col-end-11 lg:row-start-[14] lg:row-end-[16]"
         >
           <a
@@ -210,7 +196,6 @@ export default function NeinvazivneMetodyLiecbySection() {
             <div
               rel="nofollow"
               title="person eating with chopsticks"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={neinvazivneMetodyLiecbySectionClassName}
             >
@@ -241,7 +226,6 @@ export default function NeinvazivneMetodyLiecbySection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-left w-full h-full relative z-10 grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-10 max-lg:row-start-[18] max-lg:row-end-[19] lg:col-start-[14] lg:col-end-[16] lg:row-start-[14] lg:row-end-[15]"
         >
           <div id="zjUs7l" className={neinvazivneMetodyLiecbySectionClassName3}>

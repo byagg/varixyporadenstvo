@@ -7,13 +7,6 @@ const heroSectionClassName3 =
 const heroSectionClassName4 =
   "font-heading text-ploy-text-primary font-bold break-words mb-8 max-[921px]:mb-8 max-lg:text-2xl lg:leading-tight lg:text-3xl";
 
-/**
- * @ployComponent
- * @ployComponentId komplikacie-pri-zilovych-odberoch-na-rukach-ako-im-predchadzat-a-efektivne-ich-liecit-hero-section
- * @ployComponentType section
- * @ployComponentPattern hero
- * @ployComponentDescription Deterministic hero section inferred from first meaningful content block
- */
 export default function HeroSection() {
   return (
     <div className="flex flex-col grow">

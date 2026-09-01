@@ -1,13 +1,6 @@
 const listItemClassName =
   "font-heading text-ploy-text-inverse font-semibold break-words mb-2 max-[921px]:mb-2 max-lg:leading-6 max-lg:text-xl lg:text-2xl";
 
-/**
- * @ployComponent
- * @ployComponentId liecba-prirodna-lekaren-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: prírodná lekáreň
- */
 type ListItemProps = {
   text: string;
 };

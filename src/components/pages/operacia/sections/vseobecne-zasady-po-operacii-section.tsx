@@ -3,13 +3,6 @@ const listItemClassName =
 const listItemClassName2 =
   "font-heading text-ploy-text-inverse font-bold text-2xl break-words mb-2 max-[921px]:mb-8 max-lg:leading-8 lg:leading-tight";
 
-/**
- * @ployComponent
- * @ployComponentId operacia-vseobecne-zasady-po-operacii-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: všeobecné zásady po operácii varixov
- */
 type ListItemProps = {
   text: string;
 };
@@ -30,7 +23,6 @@ function ImageItem({ src }: ImageItemProps) {
   return (
     <div className="relative pt-[100%] grid-gallery-grid__image-wrapper">
       <div
-        data-ploy-animation-fx-hint="fade-in"
         style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
         className="w-full h-full absolute cursor-zoom-in transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] left-0 top-0 image image--zoom image--grid grid-gallery-grid__image min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] overflow-hidden"
       >
@@ -287,7 +279,6 @@ export default function VseobecneZasadyPoOperaciiSection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-center w-full h-full relative z-[2] grid grid-cols-[100%] row-start-2 row-end-3 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-2 lg:col-end-6"
         >
           <div

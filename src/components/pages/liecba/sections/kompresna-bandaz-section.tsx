@@ -5,13 +5,6 @@ const listItemClassName2 =
 const listItemClassName3 =
   "w-full h-full relative opacity-0 translate-y-[20%] transition-[transform,translate,scale,rotate,opacity] image image--grid image-wrapper--mobile max-[921px]:block min-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] overflow-hidden";
 
-/**
- * @ployComponent
- * @ployComponentId liecba-kompresna-bandaz-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: kompresná bandáž
- */
 type ListItemProps = {
   text: string;
   separator?: string;
@@ -66,7 +59,6 @@ export default function KompresnaBandazSection({
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[119.125rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[15.8537%_10.6707%_12.5%_29.5732%_4.87805%_10.3659%_16.1585%] max-lg:grid-rows-[minmax(24px,auto)_minmax(42px,auto)_minmax(38px,auto)_minmax(150px,auto)_minmax(25px,auto)_minmax(1345px,auto)_minmax(16px,auto)_minmax(96px,auto)_minmax(73px,auto)_minmax(55px,auto)_1fr] max-lg:px-4 lg:min-h-[71rem] lg:max-w-[76.5rem] lg:grid-cols-[12.8268%_32.6797%_8.74183%_2.77778%_9.47712%_10.2941%_7.27124%_4.98366%_10.9477%] lg:grid-rows-[minmax(38px,auto)_minmax(122px,auto)_minmax(3px,auto)_minmax(54px,auto)_minmax(248px,auto)_minmax(79px,auto)_minmax(216px,auto)_minmax(39px,auto)_minmax(182px,auto)_minmax(34px,auto)_1fr] lg:px-0">
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-8 max-lg:row-start-6 max-lg:row-end-7 lg:col-start-2 lg:col-end-3 lg:row-start-5 lg:row-end-10"
         >
           <div
@@ -141,7 +133,6 @@ export default function KompresnaBandazSection({
           >
             <div
               rel="nofollow"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={listItemClassName2}
             >
@@ -171,7 +162,6 @@ export default function KompresnaBandazSection({
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[3] grid grid-cols-[100%] row-start-2 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-8 max-lg:row-end-3 lg:text-left lg:col-start-2 lg:col-end-3 lg:row-end-4"
         >
           <div
@@ -193,7 +183,6 @@ export default function KompresnaBandazSection({
             <div
               rel="nofollow"
               title="a group of white bandages and bandages on a white background"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={listItemClassName2}
             >
@@ -231,7 +220,6 @@ export default function KompresnaBandazSection({
             <div
               rel="nofollow"
               title="a group of bandages and bandages on a white background"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={listItemClassName2}
             >

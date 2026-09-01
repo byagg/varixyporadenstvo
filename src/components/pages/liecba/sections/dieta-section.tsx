@@ -3,13 +3,6 @@ const listItemClassName =
 const listItemClassName2 =
   "font-heading text-ploy-text-inverse font-semibold break-words mb-2 max-[921px]:mb-2 max-lg:leading-6 max-lg:text-xl lg:text-2xl";
 
-/**
- * @ployComponent
- * @ployComponentId liecba-dieta-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: diéta
- */
 type ListItemProps = {
   text: string;
   separator?: string;
@@ -511,7 +504,6 @@ export default function DietaSection() {
             <div
               rel="nofollow"
               title="a man in a hospital room with a nurse"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className="w-full h-full relative transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] image image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden"
             >

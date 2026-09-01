@@ -3,13 +3,6 @@ const listItemClassName =
 const listItemClassName2 =
   "font-heading text-ploy-text-primary font-bold break-words mb-4 max-[921px]:mb-4 max-lg:text-2xl lg:leading-10 lg:text-3xl";
 
-/**
- * @ployComponent
- * @ployComponentId praskanie-zil-na-dolnych-koncatinach-priciny-prevencia-a-moderne-moznosti-liecby-hero-section
- * @ployComponentType section
- * @ployComponentPattern hero
- * @ployComponentDescription Deterministic hero section inferred from first meaningful content block
- */
 type ListItemProps = {
   text: string;
   text_1: string;

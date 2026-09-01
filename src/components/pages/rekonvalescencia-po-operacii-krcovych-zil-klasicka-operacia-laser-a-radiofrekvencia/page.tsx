@@ -10,7 +10,6 @@ export default function Page() {
         <main className="min-h-screen flex flex-col">
           <div
             className="pointer-events-none h-px relative z-[-1] -mb-px top-0"
-            data-ploy-refactor-hint="refactor-to-use-margin-padding-gap"
           />
           <HeroSection />
           <div className="flex flex-col grow">
@@ -20,7 +19,6 @@ export default function Page() {
             >
               <div className="bg-ploy-background-primary absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden text-ploy-text-primary" />
               <div
-                data-ploy-animation-fx-hint="fade-in"
                 className="text-center w-full max-w-[59.625rem] z-[14] flex flex-col items-start col-start-1 col-end-[-1] row-start-1 row-end-[-1] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] m-auto block-blog-header max-lg:p-4 lg:px-[1.875rem] lg:py-11"
               >
                 <div className="text-ploy-text-primary w-full block-blog-header__content">
@@ -59,7 +57,6 @@ export default function Page() {
                     <div
                       rel="nofollow"
                       title="a person with a wound wound on their leg"
-                      data-ploy-animation-fx-hint="fade-in"
                       style={{
                         mask: "0% 0% / 100% 100%",
                         maskSize: "100% 100%",
@@ -96,7 +93,6 @@ export default function Page() {
                   </div>
                 </div>
                 <div
-                  data-ploy-animation-fx-hint="fade-in"
                   className="text-start w-full h-full relative z-[2] grid grid-cols-[100%] row-start-4 row-end-5 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-2 lg:col-end-5"
                 >
                   <div

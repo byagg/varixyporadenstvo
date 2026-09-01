@@ -12,7 +12,6 @@ export default function Page() {
         <main className="min-h-screen flex flex-col">
           <div
             className="pointer-events-none h-px relative z-[-1] -mb-px top-0"
-            data-ploy-refactor-hint="refactor-to-use-margin-padding-gap"
           />
           <HeroSection />
           <div className="flex flex-col grow">
@@ -225,7 +224,6 @@ export default function Page() {
                     </a>
                   </div>
                   <div
-                    data-ploy-animation-fx-hint="fade-in"
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
@@ -272,7 +270,6 @@ export default function Page() {
                     </a>
                   </div>
                   <div
-                    data-ploy-animation-fx-hint="fade-in"
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
@@ -319,7 +316,6 @@ export default function Page() {
                     </a>
                   </div>
                   <div
-                    data-ploy-animation-fx-hint="fade-in"
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
@@ -368,7 +364,6 @@ export default function Page() {
                     </a>
                   </div>
                   <div
-                    data-ploy-animation-fx-hint="fade-in"
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
@@ -415,7 +410,6 @@ export default function Page() {
                     </a>
                   </div>
                   <div
-                    data-ploy-animation-fx-hint="fade-in"
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
@@ -461,7 +455,6 @@ export default function Page() {
                     </a>
                   </div>
                   <div
-                    data-ploy-animation-fx-hint="fade-in"
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
@@ -509,7 +502,6 @@ export default function Page() {
                     </a>
                   </div>
                   <div
-                    data-ploy-animation-fx-hint="fade-in"
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a
@@ -555,7 +547,6 @@ export default function Page() {
                     </a>
                   </div>
                   <div
-                    data-ploy-animation-fx-hint="fade-in"
                     className="relative flex flex-col cursor-pointer transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.3125rem] block-blog-list-item"
                   >
                     <a

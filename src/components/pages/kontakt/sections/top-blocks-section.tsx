@@ -1,10 +1,3 @@
-/**
- * @ployComponent
- * @ployComponentId kontakt-top-blocks-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from semantic markup
- */
 type LinkItemProps = {
   containerClassName: string;
   ployHoverAnchorData: string;

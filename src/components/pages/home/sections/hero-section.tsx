@@ -1,11 +1,3 @@
-/**
- * @ployComponent
- * @ployComponentId hero-section
- * @ployComponentType section
- * @ployComponentPattern hero
- * @ployComponentDescription Homepage hero introducing the Slovak varicose-vein advisory service with primary patient pathways.
- * @ployComponentStatus stable
- */
 export default function HeroSection() {
   return (
     <section
@@ -27,7 +19,6 @@ export default function HeroSection() {
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[49.8125rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[12.5%_2.43902%_0.914634%_0.914634%_66.4634%_0.609756%_1.21951%_2.43902%_12.5%] max-lg:grid-rows-[minmax(40px,auto)_minmax(208px,auto)_minmax(16px,auto)_minmax(50px,auto)_minmax(30px,auto)_minmax(240px,auto)_minmax(30px,auto)_minmax(50px,auto)_minmax(30px,auto)_minmax(50px,auto)_1fr] max-lg:px-4 lg:min-h-[37rem] lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_0.490196%_7.92484%_10.6209%_1.38889%_7.02614%_12.0098%_1.63399%_0.980392%_30.6373%_18.8725%] lg:grid-rows-[minmax(50px,auto)_minmax(14px,auto)_minmax(201px,auto)_minmax(55px,auto)_minmax(64px,auto)_minmax(16px,auto)_minmax(64px,auto)_minmax(80px,auto)_1fr] lg:px-0">
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-10 max-lg:row-end-3 lg:text-left lg:col-start-3 lg:col-end-9 lg:row-end-4"
         >
           <div
@@ -44,7 +35,6 @@ export default function HeroSection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-start w-full h-full relative z-[2] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-3 max-lg:col-end-8 max-lg:row-start-4 max-lg:row-end-5 lg:col-start-2 lg:col-end-5 lg:row-start-5 lg:row-end-6"
         >
           <a
@@ -65,7 +55,6 @@ export default function HeroSection() {
             <div
               rel="nofollow"
               title="a person standing in a room with a pair of shoes"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className="w-full h-full relative transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.9375rem] image image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden"
             >
@@ -96,7 +85,6 @@ export default function HeroSection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-start w-full h-full relative z-[4] grid grid-cols-[100%] col-start-4 col-end-7 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:row-start-8 max-lg:row-end-9 lg:row-start-7 lg:row-end-8"
         >
           <a
@@ -110,7 +98,6 @@ export default function HeroSection() {
           </a>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-start w-full h-full relative z-[5] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-5 max-lg:col-end-6 max-lg:row-start-10 max-lg:row-end-11 lg:col-start-6 lg:col-end-8 lg:row-start-5 lg:row-end-6"
         >
           <a

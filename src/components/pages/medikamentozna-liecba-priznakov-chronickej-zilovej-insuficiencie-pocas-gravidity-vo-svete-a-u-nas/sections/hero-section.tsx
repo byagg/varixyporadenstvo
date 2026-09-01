@@ -3,13 +3,6 @@ const listItemClassName =
 const listItemClassName2 =
   "font-heading text-ploy-text-primary font-bold break-words mb-8 max-[921px]:mb-8 max-lg:leading-10 max-lg:text-3xl lg:leading-tight lg:text-2xl";
 
-/**
- * @ployComponent
- * @ployComponentId medikamentozna-liecba-priznakov-chronickej-zilovej-insuficiencie-pocas-gravidity-vo-svete-a-u-nas-hero-section
- * @ployComponentType section
- * @ployComponentPattern hero
- * @ployComponentDescription Deterministic hero section inferred from first meaningful content block
- */
 type ListItemProps = {
   className: string;
   text: string;
@@ -203,7 +196,6 @@ export default function HeroSection() {
       >
         <div className="bg-ploy-background-primary absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden text-ploy-text-primary" />
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-center w-full max-w-[59.625rem] z-[14] flex flex-col items-start col-start-1 col-end-[-1] row-start-1 row-end-[-1] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] m-auto block-blog-header max-lg:p-4 lg:px-[1.875rem] lg:py-11"
         >
           <div className="text-ploy-text-primary w-full block-blog-header__content">
@@ -242,7 +234,6 @@ export default function HeroSection() {
               <div
                 rel="nofollow"
                 title="pregnant woman near tree"
-                data-ploy-animation-fx-hint="fade-in"
                 style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
                 className="w-full h-full relative transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] image image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden"
               >
@@ -273,7 +264,6 @@ export default function HeroSection() {
             </div>
           </div>
           <div
-            data-ploy-animation-fx-hint="fade-in"
             className="text-start w-full h-full relative z-[2] grid grid-cols-[100%] row-start-4 row-end-5 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-2 lg:col-end-3"
           >
             <div

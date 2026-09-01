@@ -1,10 +1,3 @@
-/**
- * @ployComponent
- * @ployComponentId antikoncepcia-a-krcove-zily-suvislosti-a-vplyv-top-blocks-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from semantic markup
- */
 type LinkItemProps = {
   href: string;
   text: string;
@@ -18,12 +11,10 @@ function LinkItem({ href, text, separator }: LinkItemProps) {
         <label className="[color:inherit] block-header-item__label">
           <div
             className="text-left flex items-center item-content-wrapper block-header-item__item"
-            data-ploy-hover-anchor="h1"
           >
             <a
               href={href}
               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0"
-              data-ploy-hover="h1"
             >
               {text}
             </a>
@@ -56,12 +47,10 @@ function LinkItem2({ href, text, separator }: LinkItem2Props) {
         <label className="[color:inherit] block-header-item__label max-lg:invisible lg:visible">
           <div
             className="text-left flex items-center item-content-wrapper block-header-item__item max-lg:invisible max-lg:justify-end lg:visible"
-            data-ploy-hover-anchor="h1"
           >
             <a
               href={href}
               className="self-center font-heading text-ploy-text-primary leading-6 whitespace-pre-wrap relative block item-content max-[921px]:mt-0 max-[921px]:mr-0 max-[921px]:mb-0 max-[921px]:ml-0 max-lg:text-end max-lg:invisible lg:text-left lg:visible"
-              data-ploy-hover="h1"
             >
               {text}
             </a>

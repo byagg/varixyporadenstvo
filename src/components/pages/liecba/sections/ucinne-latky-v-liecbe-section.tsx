@@ -1,13 +1,6 @@
 const listItemClassName =
   "font-heading text-ploy-text-inverse font-bold break-words mb-2 max-[921px]:mb-8 max-lg:text-2xl lg:leading-[3.25rem] lg:text-[2.5rem]";
 
-/**
- * @ployComponent
- * @ployComponentId liecba-ucinne-latky-v-liecbe-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: účinné látky v liečbe kŕčových žíl
- */
 type ListItemProps = {
   className: string;
   text: string;
@@ -146,7 +139,6 @@ export default function UcinneLatkyVLiecbeSection() {
             <div
               rel="nofollow"
               title="a doctor and a nurse in a hospital room"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className="w-full h-full relative transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] image image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden"
             >

@@ -1,13 +1,6 @@
 const listItemClassName =
   "font-heading text-ploy-text-inverse font-bold break-words mb-4 max-[921px]:mb-4 max-lg:text-2xl lg:leading-10 lg:text-3xl";
 
-/**
- * @ployComponent
- * @ployComponentId liecba-lieky-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: lieky
- */
 type ListItemProps = {
   className: string;
   id: string;
@@ -16,7 +9,7 @@ type ListItemProps = {
 
 function ListItem({ className, id, text }: ListItemProps) {
   return (
-    <div data-ploy-animation-fx-hint="fade-in" className={className}>
+    <div className={className}>
       <a
         href="https://varixyporadenstvo.com/liecba#ucinnelatky"
         target="_self"
@@ -166,7 +159,6 @@ export default function LiekySection() {
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[266.8125rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[8.53659%_13.4146%_0.914634%_25.3049%_3.65854%_25.3049%_0.609756%_13.7195%_8.53659%] max-lg:grid-rows-[minmax(38px,auto)_minmax(42px,auto)_minmax(26px,auto)_minmax(174px,auto)_minmax(40px,auto)_minmax(2px,auto)_minmax(48px,auto)_minmax(2px,auto)_minmax(12px,auto)_minmax(50px,auto)_minmax(43px,auto)_minmax(3787px,auto)_1fr] max-lg:px-4 lg:min-h-[175.375rem] lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_0.0816993%_0.735294%_9.80392%_1.47059%_14.134%_1.22549%_0.490196%_10.6209%_10.9477%_3.43137%_32.6797%_5.96405%] lg:grid-rows-[minmax(42px,auto)_minmax(38px,auto)_minmax(24px,auto)_minmax(30px,auto)_minmax(50px,auto)_minmax(35px,auto)_minmax(230px,auto)_minmax(2290px,auto)_1fr] lg:px-0">
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-10 max-lg:row-end-3 lg:text-left lg:col-start-3 lg:col-end-8 lg:row-end-4"
         >
           <div
@@ -186,7 +178,6 @@ export default function LiekySection() {
             <div
               rel="nofollow"
               title="a large, colorful, abstracted image of a sphere with a sphere of jelly"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className="w-full h-full relative transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] image image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden"
             >

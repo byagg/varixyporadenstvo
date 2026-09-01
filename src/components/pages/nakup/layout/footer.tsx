@@ -5,13 +5,6 @@ const linkItemClassName2 =
 const linkItemClassName3 =
   "font-heading text-ploy-text-inverse text-3xl break-words max-[921px]:mb-8 max-lg:leading-6 lg:leading-tight";
 
-/**
- * @ployComponent
- * @ployComponentId nakup-footer
- * @ployComponentType component
- * @ployComponentPattern footer
- * @ployComponentDescription Site footer with supporting links and information.
- */
 type LinkItemProps = {
   className: string;
   href: string;
@@ -25,8 +18,6 @@ function LinkItem({ className, href, text }: LinkItemProps) {
         target="_blank"
         href={href}
         className={linkItemClassName}
-        data-ploy-component-type="button"
-        data-ploy-component-variant="outline"
       >
         {text}
       </a>
@@ -46,8 +37,6 @@ function LinkItem2({ href, text }: LinkItem2Props) {
         target="_blank"
         href={href}
         className={linkItemClassName}
-        data-ploy-component-type="button"
-        data-ploy-component-variant="outline"
       >
         {text}
       </a>
@@ -293,8 +282,6 @@ export default function Footer() {
                   target="_blank"
                   href="https://etabletka.sk/obchod/detralex/?utm_source=dognet&a_aid=633942385be2f&a_bid=fe693712"
                   className={linkItemClassName}
-                  data-ploy-component-type="button"
-                  data-ploy-component-variant="outline"
                 >
                   {"Detralex tbl (Etabletka)"}
                 </a>
@@ -304,8 +291,6 @@ export default function Footer() {
                   target="_blank"
                   href="https://tinyurl.com/DETRALEX60"
                   className={linkItemClassName}
-                  data-ploy-component-type="button"
-                  data-ploy-component-variant="outline"
                 >
                   {"Detralex tbl (Mojalekaren)"}
                 </a>
@@ -334,8 +319,6 @@ export default function Footer() {
                   target="_blank"
                   href="https://www.jdoqocy.com/click-100721030-13484074?url=https%3A%2F%2Fwww.mojalekaren.sk%2Flioton-gel-100-000gel-der-1x100g%2F&cjsku=115886"
                   className={linkItemClassName}
-                  data-ploy-component-type="button"
-                  data-ploy-component-variant="outline"
                 >
                   {"Lioton Gel (Mojalekáreň)"}
                 </a>
@@ -345,8 +328,6 @@ export default function Footer() {
                   target="_blank"
                   href="https://www.jdoqocy.com/click-100721030-13484074?url=https%3A%2F%2Fwww.mojalekaren.sk%2Fheparoid-leciva-2mg%2Fg-krem-100-g%2F&cjsku=495563"
                   className={linkItemClassName}
-                  data-ploy-component-type="button"
-                  data-ploy-component-variant="outline"
                 >
                   {"Heparoid Léčiva (Mojalekáreň)"}
                 </a>

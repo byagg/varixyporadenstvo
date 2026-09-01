@@ -1,13 +1,6 @@
 const listItemClassName =
   "font-heading text-ploy-text-primary font-bold break-words mb-8 max-[921px]:mb-8 max-lg:leading-[2.925rem] max-lg:text-4xl lg:leading-tight lg:text-3xl";
 
-/**
- * @ployComponent
- * @ployComponentId krcove-zily-v-tehotenstve-zhorsuju-sa-vam-priznaky-hero-section
- * @ployComponentType section
- * @ployComponentPattern hero
- * @ployComponentDescription Deterministic hero section inferred from first meaningful content block
- */
 type ListItemProps = {
   className: string;
   text: string;

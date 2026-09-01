@@ -1,10 +1,3 @@
-/**
- * @ployComponent
- * @ployComponentId zr-up-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from semantic markup
- */
 export default function ZrUpSection() {
   return (
     <section

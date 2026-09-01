@@ -5,13 +5,6 @@ const linkItemClassName2 =
 const linkItemClassName3 =
   "self-start break-words w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] layout-element__component--GridTextBox";
 
-/**
- * @ployComponent
- * @ployComponentId komplikacie-neliecenych-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: komplikácie neliečených kŕčových žíl
- */
 type LinkItemProps = {
   href: string;
   title: string;
@@ -110,7 +103,6 @@ export default function KomplikacieNeliecenychSection({
             <div
               rel="nofollow"
               title="a person with a very long legs and a very long leg"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={linkItemClassName}
             >
@@ -148,7 +140,6 @@ export default function KomplikacieNeliecenychSection({
             <div
               rel="nofollow"
               title="a person with a blue arrow pointing to the left side of the arm"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={linkItemClassName}
             >
@@ -179,7 +170,6 @@ export default function KomplikacieNeliecenychSection({
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-left w-full h-full relative z-[3] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-9 max-lg:row-start-2 max-lg:row-end-3 lg:col-start-9 lg:col-end-13 lg:row-start-3 lg:row-end-6"
         >
           <div id="zoifen" className={linkItemClassName3}>
@@ -217,7 +207,6 @@ export default function KomplikacieNeliecenychSection({
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-left w-full h-full relative z-[4] grid grid-cols-[100%] row-start-8 row-end-9 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-9 lg:col-start-2 lg:col-end-8"
         >
           <div id="zuaw9g" className={linkItemClassName3}>
@@ -292,7 +281,6 @@ export default function KomplikacieNeliecenychSection({
             <div
               rel="nofollow"
               title="a pie chart of a pie chart of the percentage of the percentage of the percentage"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className="w-full h-full relative transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[0.9375rem] image image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden"
             >
@@ -323,7 +311,6 @@ export default function KomplikacieNeliecenychSection({
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-left w-full h-full relative z-[6] grid grid-cols-[100%] row-end-13 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-9 max-lg:row-start-12 lg:col-start-4 lg:col-end-7 lg:row-start-11"
         >
           <div id="zy-s92" className={linkItemClassName3}>
@@ -412,7 +399,6 @@ export default function KomplikacieNeliecenychSection({
             <div
               rel="nofollow"
               title="a woman with a vein on her leg"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={linkItemClassName}
             >

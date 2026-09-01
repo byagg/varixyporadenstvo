@@ -3,13 +3,6 @@ const imageItemClassName =
 const imageItemClassName2 =
   "w-full h-full relative opacity-0 translate-y-[20%] transition-[transform,translate,scale,rotate,opacity] rounded-[0.9375rem] image image--grid image-wrapper--mobile max-[921px]:block min-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] overflow-hidden";
 
-/**
- * @ployComponent
- * @ployComponentId trapite-sa-s-krcovymi-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: trápite sa s kŕčovými žilami na nohách?
- */
 type ImageItemProps = {
   src: string;
 };
@@ -18,7 +11,6 @@ function ImageItem({ src }: ImageItemProps) {
   return (
     <div className="relative pt-[100%] grid-gallery-grid__image-wrapper">
       <div
-        data-ploy-animation-fx-hint="fade-in"
         style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
         className="w-full h-full absolute cursor-zoom-in transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] left-0 top-0 image image--zoom image--grid grid-gallery-grid__image min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] overflow-hidden"
       >
@@ -81,7 +73,6 @@ export default function TrapiteSaSKrcovymiSection({
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[133.75rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[8.84146%_82.0122%_9.14634%] max-lg:grid-rows-[minmax(24px,auto)_minmax(316px,auto)_minmax(20px,auto)_minmax(262px,auto)_minmax(16px,auto)_minmax(262px,auto)_minmax(16px,auto)_minmax(262px,auto)_minmax(62px,auto)_minmax(671px,auto)_minmax(93px,auto)_minmax(668px,auto)_1fr] max-lg:px-4 lg:min-h-[82.4375rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_45.098%_3.18627%_1.96078%_0.245098%_15.8497%_5.88235%_0.326797%_0.0816993%_10.5392%] lg:grid-rows-[minmax(26px,auto)_minmax(14px,auto)_minmax(211px,auto)_minmax(15px,auto)_minmax(38px,auto)_minmax(244px,auto)_minmax(31px,auto)_minmax(186px,auto)_minmax(69px,auto)_minmax(18px,auto)_minmax(398px,auto)_1fr] lg:px-0">
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[1] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-4 max-lg:row-start-2 max-lg:row-end-3 lg:text-left lg:col-start-2 lg:col-end-3 lg:row-start-3 lg:row-end-4"
         >
           <div
@@ -128,7 +119,6 @@ export default function TrapiteSaSKrcovymiSection({
             <div
               rel="nofollow"
               title="a man with a very large vein on his leg"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={imageItemClassName}
             >
@@ -159,7 +149,6 @@ export default function TrapiteSaSKrcovymiSection({
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-left w-full h-full relative z-[3] grid grid-cols-[100%] col-end-4 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:row-start-10 max-lg:row-end-11 lg:col-start-2 lg:row-start-6 lg:row-end-9"
         >
           <div
@@ -362,7 +351,6 @@ export default function TrapiteSaSKrcovymiSection({
             <div
               rel="nofollow"
               title="a pie chart of a pie chart of the percentage of the percentage of the percentage"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={imageItemClassName}
             >
@@ -399,7 +387,6 @@ export default function TrapiteSaSKrcovymiSection({
           >
             <div
               rel="nofollow"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={imageItemClassName}
             >

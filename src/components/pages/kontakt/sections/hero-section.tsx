@@ -1,13 +1,6 @@
 const imageItemClassName =
   "self-start break-words w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] layout-element__component--GridTextBox";
 
-/**
- * @ployComponent
- * @ployComponentId kontakt-hero-section
- * @ployComponentType section
- * @ployComponentPattern hero
- * @ployComponentDescription Deterministic hero section inferred from first meaningful content block
- */
 type ImageItemProps = {
   className: string;
   id: string;

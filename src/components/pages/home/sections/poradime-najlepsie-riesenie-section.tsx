@@ -1,13 +1,6 @@
 const poradimeNajlepsieRiesenieSectionClassName =
   "self-start break-words w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] layout-element__component--GridTextBox";
 
-/**
- * @ployComponent
- * @ployComponentId poradime-najlepsie-riesenie-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: poradíme najlepšie riešenie
- */
 export default function PoradimeNajlepsieRiesenieSection() {
   return (
     <section
@@ -33,7 +26,6 @@ export default function PoradimeNajlepsieRiesenieSection() {
             <div
               rel="nofollow"
               title="a medical device with a monitor and a monitor"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className="w-full h-full relative transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-2xl image image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden"
             >
@@ -64,7 +56,6 @@ export default function PoradimeNajlepsieRiesenieSection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[2] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-8 max-lg:row-start-4 max-lg:row-end-5 lg:text-left lg:col-start-8 lg:col-end-13 lg:row-start-5 lg:row-end-6"
         >
           <div
@@ -84,7 +75,6 @@ export default function PoradimeNajlepsieRiesenieSection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[3] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-8 max-lg:row-start-2 max-lg:row-end-3 lg:text-left lg:col-start-8 lg:col-end-13 lg:row-start-3 lg:row-end-4"
         >
           <div
@@ -104,7 +94,6 @@ export default function PoradimeNajlepsieRiesenieSection() {
             <div
               rel="nofollow"
               title="a person in blue gloves is operating a machine"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className="w-full h-full relative transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] rounded-[1.0625rem] image image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden"
             >
@@ -135,7 +124,6 @@ export default function PoradimeNajlepsieRiesenieSection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[5] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-8 max-lg:row-start-12 max-lg:row-end-13 lg:text-left lg:col-start-4 lg:col-end-6 lg:row-start-13 lg:row-end-[14]"
         >
           <div
@@ -155,7 +143,6 @@ export default function PoradimeNajlepsieRiesenieSection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[6] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-8 max-lg:row-start-10 max-lg:row-end-11 lg:text-left lg:col-start-3 lg:col-end-5 lg:row-start-11 lg:row-end-12"
         >
           <div
@@ -168,7 +155,6 @@ export default function PoradimeNajlepsieRiesenieSection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-start w-full h-full relative z-[7] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-4 max-lg:col-end-5 max-lg:row-start-6 max-lg:row-end-7 lg:col-start-9 lg:col-end-11 lg:row-start-7 lg:row-end-8"
         >
           <a

@@ -1,13 +1,6 @@
 const listItemClassName =
   "font-heading text-ploy-text-inverse font-bold break-words mb-8 max-[921px]:mb-8 max-lg:leading-10 max-lg:text-3xl lg:leading-tight lg:text-2xl";
 
-/**
- * @ployComponent
- * @ployComponentId hlboka-zilova-tromboza-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: hlboká žilová trombóza
- */
 type ListItemProps = {
   text: string;
   text_1: string;
@@ -82,7 +75,6 @@ function ImageItem({ title, alt, src }: ImageItemProps) {
   return (
     <div
       title={title}
-      data-ploy-animation-fx-hint="fade-in"
       style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
       className="relative flex transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] image image--unstyled max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] overflow-hidden"
     >
@@ -264,7 +256,6 @@ export default function HlbokaZilovaTrombozaSection() {
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[180.875rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[3.96341%_90.8537%_5.18293%] max-lg:grid-rows-[minmax(16px,auto)_minmax(2445px,auto)_minmax(147px,auto)_minmax(246px,auto)_1fr] max-lg:px-4 lg:min-h-[135.1875rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_36.6013%_4.65686%_16.6667%_25.2451%] lg:grid-rows-[minmax(64px,auto)_minmax(160px,auto)_minmax(1391px,auto)_minmax(515px,auto)_1fr] lg:px-0">
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-4 max-lg:row-end-3 lg:col-start-2 lg:col-end-3 lg:row-end-5"
         >
           <div

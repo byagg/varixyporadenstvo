@@ -7,13 +7,6 @@ const listItemClassName3 =
 const listItemClassName4 =
   "w-full h-full relative opacity-0 translate-y-[20%] cursor-zoom-in transition-[transform,translate,scale,rotate,opacity] image image--zoom image--grid image-wrapper--mobile max-[921px]:block min-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] overflow-hidden";
 
-/**
- * @ployComponent
- * @ployComponentId liecba-kompresne-pancuchy-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: kompresné pančuchy
- */
 type ListItemProps = {
   text: string;
   separator?: string;
@@ -108,7 +101,6 @@ export default function KompresnePancuchySection() {
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[287.875rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[3.96341%_0.609756%_10.6707%_14.939%_3.65854%_1.82927%_30.4878%_0.304878%_3.35366%_14.939%_9.45122%_1.52439%_4.26829%] max-lg:grid-rows-[minmax(16px,auto)_minmax(83px,auto)_minmax(23px,auto)_minmax(222px,auto)_minmax(14px,auto)_minmax(42px,auto)_minmax(24px,auto)_minmax(3525px,auto)_minmax(11px,auto)_minmax(80px,auto)_minmax(120px,auto)_minmax(67px,auto)_minmax(16px,auto)_minmax(146px,auto)_minmax(51px,auto)_minmax(147px,auto)_1fr] max-lg:px-4 lg:min-h-[171.6875rem] lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_0.0816993%_27.3693%_0.735294%_10.6209%_9.88562%_4.57516%_0.980392%_0.163399%_0.0816993%_24.5915%_0.980392%_0.163399%_0.326797%_0.0816993%_10.9477%] lg:grid-rows-[minmax(42px,auto)_minmax(78px,auto)_minmax(47px,auto)_minmax(3px,auto)_minmax(33px,auto)_minmax(344px,auto)_minmax(39px,auto)_minmax(454px,auto)_minmax(35px,auto)_minmax(445px,auto)_minmax(40px,auto)_minmax(448px,auto)_minmax(32px,auto)_minmax(224px,auto)_minmax(225px,auto)_1fr] lg:px-0">
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-[14] max-lg:row-end-3 lg:text-left lg:col-start-3 lg:col-end-4 lg:row-end-4"
         >
           <div
@@ -130,7 +122,6 @@ export default function KompresnePancuchySection() {
             <div
               rel="nofollow"
               title="a person with a knife and a knife in their hands"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className="w-full h-full relative transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] image image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden"
             >
@@ -404,7 +395,6 @@ export default function KompresnePancuchySection() {
             <div
               rel="nofollow"
               title="a poster of a woman's stockings"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={listItemClassName3}
             >
@@ -441,7 +431,6 @@ export default function KompresnePancuchySection() {
           >
             <div
               rel="nofollow"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className="w-full h-full relative transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] image image--grid image-wrapper--desktop max-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] min-[921px]:block overflow-hidden"
             >
@@ -477,7 +466,6 @@ export default function KompresnePancuchySection() {
           >
             <div
               rel="nofollow"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={listItemClassName3}
             >
@@ -513,7 +501,6 @@ export default function KompresnePancuchySection() {
           >
             <div
               rel="nofollow"
-              data-ploy-animation-fx-hint="fade-in"
               style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
               className={listItemClassName3}
             >
@@ -543,7 +530,6 @@ export default function KompresnePancuchySection() {
           </div>
         </div>
         <div
-          data-ploy-animation-fx-hint="fade-in"
           className="text-start w-full h-full relative z-[8] grid grid-cols-[100%] col-start-5 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-end-10 max-lg:row-start-6 max-lg:row-end-7 lg:col-end-6 lg:row-start-3 lg:row-end-5"
         >
           <a

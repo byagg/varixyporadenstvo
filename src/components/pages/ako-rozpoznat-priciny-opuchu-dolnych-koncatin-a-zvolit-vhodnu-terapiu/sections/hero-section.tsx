@@ -7,13 +7,6 @@ const listItemClassName3 =
 const listItemClassName4 =
   "w-full h-full relative opacity-0 translate-y-[20%] transition-[transform,translate,scale,rotate,opacity] image image--grid image-wrapper--mobile max-[921px]:block min-[921px]:hidden min-[920px]:max-[1225px]:max-w-full max-[921px]:w-full max-[921px]:h-full max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] overflow-hidden";
 
-/**
- * @ployComponent
- * @ployComponentId ako-rozpoznat-priciny-opuchu-dolnych-koncatin-a-zvolit-vhodnu-terapiu-hero-section
- * @ployComponentType section
- * @ployComponentPattern hero
- * @ployComponentDescription Deterministic hero section inferred from first meaningful content block
- */
 type ListItemProps = {
   className: string;
   text: string;
@@ -369,7 +362,6 @@ export default function HeroSection() {
               <div
                 rel="nofollow"
                 title="tab 1"
-                data-ploy-animation-fx-hint="fade-in"
                 style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
                 className={listItemClassName}
               >
@@ -404,7 +396,6 @@ export default function HeroSection() {
               <div
                 rel="nofollow"
                 title="tab 2"
-                data-ploy-animation-fx-hint="fade-in"
                 style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
                 className={listItemClassName}
               >
@@ -439,7 +430,6 @@ export default function HeroSection() {
               <div
                 rel="nofollow"
                 title="tab 3"
-                data-ploy-animation-fx-hint="fade-in"
                 style={{ mask: "0% 0% / 100% 100%", maskSize: "100% 100%" }}
                 className={listItemClassName}
               >

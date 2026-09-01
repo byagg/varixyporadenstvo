@@ -1,10 +1,3 @@
-/**
- * @ployComponent
- * @ployComponentId operacia-vseobecne-zasady-pred-section
- * @ployComponentType section
- * @ployComponentPattern section
- * @ployComponentDescription Deterministic section inferred from heading: všeobecné zásady pred operáciou varixov
- */
 type ListItemProps = {
   className: string;
   text: string;

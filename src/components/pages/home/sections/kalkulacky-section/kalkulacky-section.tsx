@@ -25,14 +25,6 @@ const CALCULATORS = [
   },
 ] as const;
 
-/**
- * @ployComponent
- * @ployComponentId kalkulacky-section
- * @ployComponentType section
- * @ployComponentPattern calculator-directory
- * @ployComponentDescription Compact directory replacing unsupported Hostinger calculator iframe embeds while preserving access to the original tools.
- * @ployComponentStatus stable
- */
 export default function KalkulackySection() {
   return (
     <section
