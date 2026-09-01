@@ -301,7 +301,7 @@ export default function HeroSection() {
                       <strong className="[color:inherit] break-words">
                         <u className="break-words">
                           <a
-                            href="https://varixyporadenstvo.com/#kalkulacka"
+                            href="/#kalkulacky"
                             target="_self"
                             className="[color:inherit] break-words"
                           >
