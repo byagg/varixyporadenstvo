@@ -20,7 +20,10 @@ function jsonResponse(body, status, origin) {
     headers.set("Vary", "Origin");
   }
 
-  return new Response(JSON.stringify(body), { status, headers });
+  return new Response(status === 204 ? null : JSON.stringify(body), {
+    status,
+    headers,
+  });
 }
 
 function normalizeOrigins(value) {
