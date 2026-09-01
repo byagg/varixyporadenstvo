@@ -4,6 +4,7 @@ node_modules/
 # Astro build and generated types
 dist/
 .astro/
+.wrangler/
 
 # Environment variables
 .env
