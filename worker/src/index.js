@@ -1,3 +1,5 @@
+import { EmailMessage } from "cloudflare:email";
+
 const MAX_BODY_BYTES = 20_000;
 const MAX_NAME_LENGTH = 120;
 const MAX_EMAIL_LENGTH = 254;
@@ -44,7 +46,8 @@ function sanitizeHeader(value) {
 function buildMessage({ sender, recipient, name, email, message, pageUrl }) {
   const safeName = sanitizeHeader(name);
   const safeEmail = sanitizeHeader(email);
-  const text = [
+  const subject = "Nova sprava z Varixy Poradenstvo";
+  const body = [
     "Nová správa z kontaktného formulára",
     "",
     `Meno: ${safeName}`,
@@ -53,15 +56,21 @@ function buildMessage({ sender, recipient, name, email, message, pageUrl }) {
     "",
     "Správa:",
     message,
-  ].join("\n");
+  ].join("\r\n");
 
-  return {
-    to: recipient,
-    from: { name: "Varixy Poradenstvo", email: sender },
-    replyTo: { name: safeName, email: safeEmail },
-    subject: "Nová správa z Varixy Poradenstvo",
-    text,
-  };
+  const raw = [
+    `From: Varixy Poradenstvo <${sender}>`,
+    `To: ${recipient}`,
+    `Reply-To: ${safeName} <${safeEmail}>`,
+    `Subject: ${subject}`,
+    "MIME-Version: 1.0",
+    'Content-Type: text/plain; charset="UTF-8"',
+    "Content-Transfer-Encoding: 8bit",
+    "",
+    body,
+  ].join("\r\n");
+
+  return new EmailMessage(sender, recipient, raw);
 }
 
 export default {
