@@ -7,6 +7,7 @@ export default defineConfig({
   site: "https://varixyporadenstvo.com",
   output: "static",
   trailingSlash: "never",
+  build: { format: "file" },
   integrations: [mdx(), react()],
   vite: {
     cacheDir: "node_modules/.vite-build",
