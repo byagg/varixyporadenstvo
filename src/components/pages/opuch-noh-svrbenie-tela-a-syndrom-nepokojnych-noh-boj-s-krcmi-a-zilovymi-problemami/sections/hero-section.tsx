@@ -207,7 +207,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="pair of brown leather boots"
-                  src="https://images.unsplash.com/photo-1542692908-92ebed9bb9df?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/5662805b18cd2a93.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -222,7 +222,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="pair of brown leather boots"
-                  src="https://images.unsplash.com/photo-1542692908-92ebed9bb9df?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/bdde99fa8685ca36.jpg"
                   height="320"
                   width="328"
                   loading="eager"

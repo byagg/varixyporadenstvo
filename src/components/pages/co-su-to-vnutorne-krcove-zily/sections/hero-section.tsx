@@ -157,7 +157,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="macro photography of green leaf"
-                  src="https://images.unsplash.com/photo-1542128033-f2b47387887d?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/3f3a95f8dd38fa28.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -172,7 +172,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="macro photography of green leaf"
-                  src="https://images.unsplash.com/photo-1542128033-f2b47387887d?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/321b90f1af878c3f.jpg"
                   height="320"
                   width="328"
                   loading="eager"

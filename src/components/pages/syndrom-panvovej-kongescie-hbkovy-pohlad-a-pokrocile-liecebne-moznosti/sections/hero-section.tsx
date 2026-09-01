@@ -105,7 +105,7 @@ export default function HeroSection({
               >
                 <img
                   alt="a black and white photo of a person wearing a tie"
-                  src="https://images.unsplash.com/photo-1632680340848-31cf23637d0d?auto=format&fit=crop&w=328&h=402"
+                  src="/external-assets/d298f8437b1a8d3c.jpg"
                   height="344"
                   width="281"
                   loading="eager"
@@ -120,7 +120,7 @@ export default function HeroSection({
               >
                 <img
                   alt="a black and white photo of a person wearing a tie"
-                  src="https://images.unsplash.com/photo-1632680340848-31cf23637d0d?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/e36d87245e90bb2b.jpg"
                   height="320"
                   width="328"
                   loading="eager"

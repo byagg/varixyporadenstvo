@@ -192,7 +192,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a broken egg sitting on top of a blue object"
-                  src="https://images.unsplash.com/photo-1672567606592-9f9ce77dfe6f?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/4be99fcffdf4dcd4.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -207,7 +207,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a broken egg sitting on top of a blue object"
-                  src="https://images.unsplash.com/photo-1672567606592-9f9ce77dfe6f?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/1f529ca5d1bf1fb6.jpg"
                   height="320"
                   width="328"
                   loading="eager"

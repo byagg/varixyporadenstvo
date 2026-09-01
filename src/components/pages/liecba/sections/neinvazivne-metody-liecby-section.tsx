@@ -124,7 +124,7 @@ export default function NeinvazivneMetodyLiecbySection() {
             >
               <img
                 alt="yellow medication pill on persons hand"
-                src="https://images.unsplash.com/photo-1606940743881-b33f4b04d661?auto=format&fit=crop&w=328&h=150"
+                src="/external-assets/2a9613cf1a564f56.jpg"
                 height="136"
                 width="297"
                 loading="eager"
@@ -139,7 +139,7 @@ export default function NeinvazivneMetodyLiecbySection() {
             >
               <img
                 alt="yellow medication pill on persons hand"
-                src="https://images.unsplash.com/photo-1606940743881-b33f4b04d661?auto=format&fit=crop&w=360&h=351"
+                src="/external-assets/7f61d150c4137d3a.jpg"
                 height="149"
                 width="153"
                 loading="eager"
@@ -215,7 +215,7 @@ export default function NeinvazivneMetodyLiecbySection() {
             >
               <img
                 alt="person eating with chopsticks"
-                src="https://images.unsplash.com/photo-1506621011390-626232ad62ec?auto=format&fit=crop&w=328&h=191"
+                src="/external-assets/314fea2295b4ebbb.jpg"
                 height="136"
                 width="234"
                 loading="eager"
@@ -230,7 +230,7 @@ export default function NeinvazivneMetodyLiecbySection() {
             >
               <img
                 alt="person eating with chopsticks"
-                src="https://images.unsplash.com/photo-1506621011390-626232ad62ec?auto=format&fit=crop&w=360&h=351"
+                src="/external-assets/d9828709a1086db5.jpg"
                 height="190"
                 width="195"
                 loading="eager"

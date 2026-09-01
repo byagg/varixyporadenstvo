@@ -121,7 +121,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person sitting showing arms"
-                  src="https://images.unsplash.com/photo-1511009041488-e840170253f2?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/0c5534442eb3b853.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -136,7 +136,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person sitting showing arms"
-                  src="https://images.unsplash.com/photo-1511009041488-e840170253f2?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/ac840f1f630f4541.jpg"
                   height="320"
                   width="328"
                   loading="eager"

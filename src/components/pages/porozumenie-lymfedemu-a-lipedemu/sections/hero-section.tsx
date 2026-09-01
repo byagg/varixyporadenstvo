@@ -228,7 +228,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="woman in black tank top and blue denim jeans sitting on ground surrounded by trees during"
-                  src="https://images.unsplash.com/photo-1619799179728-c245f24ab6e0?auto=format&fit=crop&w=328&h=532"
+                  src="/external-assets/4e7779f7930090e0.jpg"
                   height="344"
                   width="212"
                   loading="eager"
@@ -243,7 +243,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="woman in black tank top and blue denim jeans sitting on ground surrounded by trees during"
-                  src="https://images.unsplash.com/photo-1619799179728-c245f24ab6e0?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/a19529e6ff17179f.jpg"
                   height="320"
                   width="328"
                   loading="eager"

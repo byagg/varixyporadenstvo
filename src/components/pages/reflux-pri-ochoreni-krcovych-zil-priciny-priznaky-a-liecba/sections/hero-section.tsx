@@ -59,7 +59,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="waterfalls surrounded by green leaf trees"
-                  src="https://images.unsplash.com/photo-1501357094671-cef54a3d7f5f?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/60fe777db2b4a6ad.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -74,7 +74,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="waterfalls surrounded by green leaf trees"
-                  src="https://images.unsplash.com/photo-1501357094671-cef54a3d7f5f?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/4739f35e98484118.jpg"
                   height="320"
                   width="328"
                   loading="eager"

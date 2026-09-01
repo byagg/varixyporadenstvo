@@ -113,7 +113,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="woman in white long sleeve shirt and black skirt"
-                  src="https://images.unsplash.com/photo-1604728716030-dbe6f830336a?auto=format&fit=crop&w=328&h=495"
+                  src="/external-assets/3b145c1dc960c04f.jpg"
                   height="344"
                   width="228"
                   loading="eager"
@@ -128,7 +128,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="woman in white long sleeve shirt and black skirt"
-                  src="https://images.unsplash.com/photo-1604728716030-dbe6f830336a?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/e98156d2445aa425.jpg"
                   height="320"
                   width="328"
                   loading="eager"

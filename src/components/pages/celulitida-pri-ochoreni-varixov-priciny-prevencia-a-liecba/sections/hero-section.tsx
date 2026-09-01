@@ -131,7 +131,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="red letters neon light"
-                  src="https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?auto=format&fit=crop&w=406&h=344"
+                  src="/external-assets/2bbda2a2e13d7635.jpg"
                   height="344"
                   width="406"
                   loading="eager"
@@ -146,7 +146,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="red letters neon light"
-                  src="https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/6a257f80d7e4fe75.jpg"
                   height="320"
                   width="328"
                   loading="eager"

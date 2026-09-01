@@ -64,7 +64,7 @@ export default function HeroSection() {
             >
               <img
                 alt="a person in blue gloves holding a toothbrush"
-                src="https://images.unsplash.com/photo-1691935443892-c08791a3e944?auto=format&fit=crop&w=328&h=552"
+                src="/external-assets/fc1046cb11b95da9.jpg"
                 height="320"
                 width="190"
                 loading="eager"
@@ -80,7 +80,7 @@ export default function HeroSection() {
             >
               <img
                 alt="a person in blue gloves holding a toothbrush"
-                src="https://images.unsplash.com/photo-1691935443892-c08791a3e944?auto=format&fit=crop&w=360&h=352"
+                src="/external-assets/622bee35fe4afab7.jpg"
                 height="173"
                 width="177"
                 loading="eager"
@@ -103,7 +103,7 @@ export default function HeroSection() {
             >
               <img
                 alt="fire on firepit"
-                src="https://images.unsplash.com/photo-1501721731301-5aaa8228b935?auto=format&fit=crop&w=328&h=552"
+                src="/external-assets/0884be4358e7319d.jpg"
                 height="320"
                 width="190"
                 loading="eager"
@@ -119,7 +119,7 @@ export default function HeroSection() {
             >
               <img
                 alt="fire on firepit"
-                src="https://images.unsplash.com/photo-1501721731301-5aaa8228b935?auto=format&fit=crop&w=360&h=352"
+                src="/external-assets/6ba4f8129da326bc.jpg"
                 height="178"
                 width="182"
                 loading="eager"
@@ -143,7 +143,7 @@ export default function HeroSection() {
             >
               <img
                 alt="a hand holding a needle"
-                src="https://images.unsplash.com/photo-1651493711757-c2f5274360f0?auto=format&fit=crop&w=328&h=552"
+                src="/external-assets/d18e43e29d47df2e.jpg"
                 height="320"
                 width="190"
                 loading="eager"
@@ -159,7 +159,7 @@ export default function HeroSection() {
             >
               <img
                 alt="a hand holding a needle"
-                src="https://images.unsplash.com/photo-1651493711757-c2f5274360f0?auto=format&fit=crop&w=360&h=456"
+                src="/external-assets/82d38811ae087869.jpg"
                 height="200"
                 width="158"
                 loading="eager"
@@ -182,7 +182,7 @@ export default function HeroSection() {
             >
               <img
                 alt="oval white medication pills"
-                src="https://images.unsplash.com/photo-1544829894-eb023ba95a38?auto=format&fit=crop&w=328&h=552"
+                src="/external-assets/93cb09994479f890.jpg"
                 height="320"
                 width="190"
                 loading="eager"
@@ -198,7 +198,7 @@ export default function HeroSection() {
             >
               <img
                 alt="oval white medication pills"
-                src="https://images.unsplash.com/photo-1544829894-eb023ba95a38?auto=format&fit=crop&w=360&h=271"
+                src="/external-assets/4703ea5da20d644f.jpg"
                 height="134"
                 width="178"
                 loading="eager"

@@ -309,7 +309,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person sitting on grass field"
-                  src="https://images.unsplash.com/photo-1526113438757-122d6d54da4e?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/f72e33e1596ad9da.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -324,7 +324,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person sitting on grass field"
-                  src="https://images.unsplash.com/photo-1526113438757-122d6d54da4e?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/6c8b64c0a4f97547.jpg"
                   height="320"
                   width="328"
                   loading="eager"

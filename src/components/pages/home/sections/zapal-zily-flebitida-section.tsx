@@ -227,37 +227,37 @@ export const images: ImageItemProps[] = [
   {
     title: "white cigarette stick",
     alt: "white cigarette stick",
-    src: "https://images.unsplash.com/photo-1535378719329-f0a8b9a42152?auto=format&fit=crop&w=360",
+    src: "/external-assets/965368803f53adeb.jpg",
   },
   {
     title: "a shirtless man with crutches and a broken leg",
     alt: "a shirtless man with crutches and a broken leg",
-    src: "https://images.unsplash.com/photo-1644968426918-0061484f83a6?auto=format&fit=crop&w=360",
+    src: "/external-assets/5f4fc87cec8f329e.jpg",
   },
   {
     title: "person holding four assorted medicine tablets",
     alt: "person holding four assorted medicine tablets",
-    src: "https://images.unsplash.com/photo-1512069843211-ff3b764416be?auto=format&fit=crop&w=360",
+    src: "/external-assets/9ba0a63adbf6cbb4.jpg",
   },
   {
     title: "person taking picture of bare trees",
     alt: "person taking picture of bare trees",
-    src: "https://images.unsplash.com/photo-1514471244491-6fb96fcdf04f?auto=format&fit=crop&w=360",
+    src: "/external-assets/db2bac6709c35cfc.jpg",
   },
   {
     title: "a close up of a cell phone with a black background",
     alt: "a close up of a cell phone with a black background",
-    src: "https://images.unsplash.com/photo-1576086265779-619d2f54d96b?auto=format&fit=crop&w=360",
+    src: "/external-assets/948bdc07638e8d99.jpg",
   },
   {
     title: "a man holding his stomach with his hands",
     alt: "a man holding his stomach with his hands",
-    src: "https://images.unsplash.com/photo-1634463278803-f9f71890e67d?auto=format&fit=crop&w=360",
+    src: "/external-assets/31d4d12d097b03c5.jpg",
   },
   {
     title: "a person holding a knife on top of a table",
     alt: "a person holding a knife on top of a table",
-    src: "https://images.unsplash.com/photo-1688565632604-d5d1e9c4f282?auto=format&fit=crop&w=360",
+    src: "/external-assets/ae0e3b8cb740cfd2.jpg",
   },
   {
     title: "",
@@ -270,17 +270,17 @@ export const images2: ImageItem2Props[] = [
   {
     title: "white cigarette stick",
     alt: "white cigarette stick",
-    src: "https://images.unsplash.com/photo-1535378719329-f0a8b9a42152?auto=format&fit=crop&w=360",
+    src: "/external-assets/965368803f53adeb.jpg",
   },
   {
     title: "person taking picture of bare trees",
     alt: "person taking picture of bare trees",
-    src: "https://images.unsplash.com/photo-1514471244491-6fb96fcdf04f?auto=format&fit=crop&w=360",
+    src: "/external-assets/db2bac6709c35cfc.jpg",
   },
   {
     title: "a person holding a knife on top of a table",
     alt: "a person holding a knife on top of a table",
-    src: "https://images.unsplash.com/photo-1688565632604-d5d1e9c4f282?auto=format&fit=crop&w=360",
+    src: "/external-assets/ae0e3b8cb740cfd2.jpg",
   },
 ];
 
@@ -290,14 +290,14 @@ export const images3: ImageItem3Props[] = [
     className:
       "relative flex translate-y-[20%] transition-[transform,translate,scale,rotate,opacity] image image--unstyled max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] overflow-hidden",
     alt: "a shirtless man with crutches and a broken leg",
-    src: "https://images.unsplash.com/photo-1644968426918-0061484f83a6?auto=format&fit=crop&w=360",
+    src: "/external-assets/5f4fc87cec8f329e.jpg",
   },
   {
     title: "a close up of a cell phone with a black background",
     className:
       "relative flex translate-y-[20%] transition-[transform,translate,scale,rotate,opacity] image image--unstyled max-[361px]:max-w-full before:content-[''] before:absolute before:inset-0 before:z-[1] overflow-hidden",
     alt: "a close up of a cell phone with a black background",
-    src: "https://images.unsplash.com/photo-1576086265779-619d2f54d96b?auto=format&fit=crop&w=360",
+    src: "/external-assets/948bdc07638e8d99.jpg",
   },
   {
     title: "",
@@ -504,7 +504,7 @@ export default function ZapalZilyFlebitidaSection() {
                 >
                   <img
                     alt="person holding four assorted medicine tablets"
-                    src="https://images.unsplash.com/photo-1512069843211-ff3b764416be?auto=format&fit=crop&w=360"
+                    src="/external-assets/9ba0a63adbf6cbb4.jpg"
                     height="false"
                     width="279"
                     loading="eager"
@@ -518,7 +518,7 @@ export default function ZapalZilyFlebitidaSection() {
                 >
                   <img
                     alt="a man holding his stomach with his hands"
-                    src="https://images.unsplash.com/photo-1634463278803-f9f71890e67d?auto=format&fit=crop&w=360"
+                    src="/external-assets/31d4d12d097b03c5.jpg"
                     height="false"
                     width="279"
                     loading="eager"

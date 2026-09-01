@@ -268,7 +268,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="aerial photography of flowers at daytime"
-                  src="https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/96b8a21b36b68827.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -283,7 +283,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="aerial photography of flowers at daytime"
-                  src="https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/dbac16ec340e4a93.jpg"
                   height="320"
                   width="328"
                   loading="eager"

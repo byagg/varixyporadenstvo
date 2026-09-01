@@ -144,7 +144,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person in brown and beige floral skirt standing on white table"
-                  src="https://images.unsplash.com/photo-1611800065476-b295f882c8ea?auto=format&fit=crop&w=400&h=344"
+                  src="/external-assets/593adb5e6c7a3240.jpg"
                   height="344"
                   width="400"
                   loading="eager"
@@ -159,7 +159,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person in brown and beige floral skirt standing on white table"
-                  src="https://images.unsplash.com/photo-1611800065476-b295f882c8ea?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/a0d87e4449e9d97f.jpg"
                   height="320"
                   width="328"
                   loading="eager"

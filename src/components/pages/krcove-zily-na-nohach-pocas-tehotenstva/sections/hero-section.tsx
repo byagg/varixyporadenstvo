@@ -146,7 +146,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person picking a black wet stone"
-                  src="https://images.unsplash.com/photo-1464917423479-6bd9527d469f?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/c30679a6d1575260.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -161,7 +161,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person picking a black wet stone"
-                  src="https://images.unsplash.com/photo-1464917423479-6bd9527d469f?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/bbc1bb54a14e99b2.jpg"
                   height="320"
                   width="328"
                   loading="eager"

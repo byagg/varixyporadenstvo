@@ -275,7 +275,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="gray rock pathway between green plants"
-                  src="https://images.unsplash.com/photo-1438211891462-006dc8998ef1?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/9f78bc3f2d4d02fb.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -290,7 +290,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="gray rock pathway between green plants"
-                  src="https://images.unsplash.com/photo-1438211891462-006dc8998ef1?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/ce6ba6278f9657ea.jpg"
                   height="320"
                   width="328"
                   loading="eager"

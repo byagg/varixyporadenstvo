@@ -179,7 +179,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a planet and a half moon"
-                  src="https://images.unsplash.com/photo-1663465376645-aca0b7c8227a?auto=format&fit=crop&w=375&h=344"
+                  src="/external-assets/e1015c4880c4e0fd.jpg"
                   height="344"
                   width="375"
                   loading="eager"
@@ -194,7 +194,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a planet and a half moon"
-                  src="https://images.unsplash.com/photo-1663465376645-aca0b7c8227a?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/045c626ebe5ae5b0.jpg"
                   height="320"
                   width="328"
                   loading="eager"

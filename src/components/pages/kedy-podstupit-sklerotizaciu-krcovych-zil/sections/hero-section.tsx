@@ -414,7 +414,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a person holding a light saber"
-                  src="https://images.unsplash.com/photo-1662668518038-56295968d702?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/c0e11deaabb51a13.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -429,7 +429,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a person holding a light saber"
-                  src="https://images.unsplash.com/photo-1662668518038-56295968d702?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/6b4b705c83553a64.jpg"
                   height="320"
                   width="328"
                   loading="eager"

@@ -66,7 +66,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="hand with veins holding knee"
-                  src="https://images.unsplash.com/photo-1503342003479-b290e397387e?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/ee57f3d8706bfb38.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -81,7 +81,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="hand with veins holding knee"
-                  src="https://images.unsplash.com/photo-1503342003479-b290e397387e?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/ad54aa2aef41e3fb.jpg"
                   height="320"
                   width="328"
                   loading="eager"

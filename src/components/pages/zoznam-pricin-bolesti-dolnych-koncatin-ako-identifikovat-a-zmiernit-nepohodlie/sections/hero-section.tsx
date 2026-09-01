@@ -60,7 +60,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person wearing distressed blue denim jeans inside room"
-                  src="https://images.unsplash.com/photo-1434973539530-5538b4681aac?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/c951e3c23ef95a75.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -75,7 +75,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person wearing distressed blue denim jeans inside room"
-                  src="https://images.unsplash.com/photo-1434973539530-5538b4681aac?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/6d65acafc4ecbb7b.jpg"
                   height="320"
                   width="328"
                   loading="eager"

@@ -195,7 +195,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a man sitting on a yoga mat in a living room"
-                  src="https://images.unsplash.com/photo-1640622659613-26d7d08893e4?auto=format&fit=crop&w=328&h=359"
+                  src="/external-assets/b3d49b6557f17146.jpg"
                   height="344"
                   width="314"
                   loading="eager"
@@ -210,7 +210,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a man sitting on a yoga mat in a living room"
-                  src="https://images.unsplash.com/photo-1640622659613-26d7d08893e4?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/307109334dc62786.jpg"
                   height="320"
                   width="328"
                   loading="eager"
@@ -499,7 +499,7 @@ export default function HeroSection() {
                 title="custom code element"
                 className="w-full h-auto inline grid-embed__iframe overflow-clip"
                 srcDoc={
-                  '<!DOCTYPE html>\n\t<head>\n\n</head>\n\t<body><a href="https://www.jdoqocy.com/click-100810134-13484074?url=https%3A%2F%2Fwww.mojalekaren.sk%2Fdetralex-1000-mg-peroralna-suspenzia-vo-vrecku-30-kusov%2F&cjsku=459157" target="_top"><img src="https://mojalekarensk.vshcdn.net/upload/de/tr/detralex-1000-mg-peroralna-suspenzia-vo-vrecku-30-kusov-2516382-1000x1000-square.jpg" border="0" alt="DETRALEX 1000 mg peror�lna suspenzia vo vrecku 30 kusov"></a><img src="https://www.tqlkg.com/image-100810134-13484074" width="1" height="1" border="0">\n\n</body>\n</html>'
+                  '<!DOCTYPE html>\n\t<head>\n\n</head>\n\t<body><a href="https://www.jdoqocy.com/click-100810134-13484074?url=https%3A%2F%2Fwww.mojalekaren.sk%2Fdetralex-1000-mg-peroralna-suspenzia-vo-vrecku-30-kusov%2F&cjsku=459157" target="_top"><img src="/external-assets/c3140789896a5116.jpg" border="0" alt="DETRALEX 1000 mg peror�lna suspenzia vo vrecku 30 kusov"></a><img src="/external-assets/914f78a89b87889a.gif" width="1" height="1" border="0">\n\n</body>\n</html>'
                 }
               />
             </div>

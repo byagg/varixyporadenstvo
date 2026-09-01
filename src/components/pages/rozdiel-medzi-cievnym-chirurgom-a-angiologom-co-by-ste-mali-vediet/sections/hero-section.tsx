@@ -432,7 +432,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="man in green shirt and blue knit cap sitting on floor"
-                  src="https://images.unsplash.com/photo-1609743522471-83c84ce23e32?auto=format&fit=crop&w=366&h=344"
+                  src="/external-assets/bd85ce1e2c235023.jpg"
                   height="344"
                   width="366"
                   loading="eager"
@@ -447,7 +447,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="man in green shirt and blue knit cap sitting on floor"
-                  src="https://images.unsplash.com/photo-1609743522471-83c84ce23e32?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/27a3eff4a765b9fb.jpg"
                   height="320"
                   width="328"
                   loading="eager"

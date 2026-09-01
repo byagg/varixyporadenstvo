@@ -62,7 +62,7 @@ export default function Page() {
                     >
                       <img
                         alt="person cutting vegetables with knife"
-                        src="https://images.unsplash.com/photo-1514986888952-8cd320577b68?auto=format&fit=crop&w=812&h=344"
+                        src="/external-assets/c23b6ebaa463326e.jpg"
                         height="344"
                         width="812"
                         loading="eager"
@@ -80,7 +80,7 @@ export default function Page() {
                     >
                       <img
                         alt="person cutting vegetables with knife"
-                        src="https://images.unsplash.com/photo-1514986888952-8cd320577b68?auto=format&fit=crop&w=360&h=351"
+                        src="/external-assets/4154ceddf9d55e77.jpg"
                         height="320"
                         width="328"
                         loading="eager"

@@ -355,7 +355,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person in white pants and white shirt holding clear glass tube"
-                  src="https://images.unsplash.com/photo-1623682687826-fe06bf64e6d8?auto=format&fit=crop&w=406&h=344"
+                  src="/external-assets/f6adaf01a5074418.jpg"
                   height="344"
                   width="406"
                   loading="eager"
@@ -370,7 +370,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person in white pants and white shirt holding clear glass tube"
-                  src="https://images.unsplash.com/photo-1623682687826-fe06bf64e6d8?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/a5464218bd369387.jpg"
                   height="320"
                   width="328"
                   loading="eager"

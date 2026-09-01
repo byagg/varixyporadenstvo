@@ -264,7 +264,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="green leaf plants"
-                  src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/fd8270c64d0616af.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -279,7 +279,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="green leaf plants"
-                  src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/c9030a98e3bd092b.jpg"
                   height="320"
                   width="328"
                   loading="eager"

@@ -239,7 +239,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a woman in a swimsuit in a pool"
-                  src="https://images.unsplash.com/photo-1670534985049-4ecf5fe60e1d?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/ccc548d63fb51ff8.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -254,7 +254,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a woman in a swimsuit in a pool"
-                  src="https://images.unsplash.com/photo-1670534985049-4ecf5fe60e1d?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/f3347d103e6e9fd0.jpg"
                   height="320"
                   width="328"
                   loading="eager"

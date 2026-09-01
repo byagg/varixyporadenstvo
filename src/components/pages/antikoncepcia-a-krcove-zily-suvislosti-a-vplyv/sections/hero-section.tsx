@@ -181,7 +181,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="brown tablet blister pack"
-                  src="https://images.unsplash.com/photo-1576069445378-ddc40a383222?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/c02f778d354a2a21.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -196,7 +196,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="brown tablet blister pack"
-                  src="https://images.unsplash.com/photo-1576069445378-ddc40a383222?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/523b6bb652b41215.jpg"
                   height="320"
                   width="328"
                   loading="eager"

@@ -234,7 +234,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person standing wearing white dress"
-                  src="https://images.unsplash.com/photo-1469914449253-82de45589e53?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/70037b1ec6b4740f.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -249,7 +249,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person standing wearing white dress"
-                  src="https://images.unsplash.com/photo-1469914449253-82de45589e53?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/a388363c32863695.jpg"
                   height="320"
                   width="328"
                   loading="eager"

@@ -202,7 +202,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a man laying in a large pool of water"
-                  src="https://images.unsplash.com/photo-1699521648408-4df72c99acb8?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/308d01d71952907c.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -217,7 +217,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a man laying in a large pool of water"
-                  src="https://images.unsplash.com/photo-1699521648408-4df72c99acb8?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/d75462d4587ced42.jpg"
                   height="320"
                   width="328"
                   loading="eager"

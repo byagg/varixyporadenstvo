@@ -102,7 +102,7 @@ export default function HeroSection({
               >
                 <img
                   alt="a man in a lab coat holding a toothbrush"
-                  src="https://images.unsplash.com/photo-1691935152210-35ae500d91d7?auto=format&fit=crop&w=618&h=344"
+                  src="/external-assets/6740a099a5e12aa1.jpg"
                   height="344"
                   width="618"
                   loading="eager"
@@ -117,7 +117,7 @@ export default function HeroSection({
               >
                 <img
                   alt="a man in a lab coat holding a toothbrush"
-                  src="https://images.unsplash.com/photo-1691935152210-35ae500d91d7?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/732fbd9d36d6db8f.jpg"
                   height="320"
                   width="328"
                   loading="eager"

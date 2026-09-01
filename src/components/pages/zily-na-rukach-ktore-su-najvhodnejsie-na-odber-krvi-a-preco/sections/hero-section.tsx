@@ -107,7 +107,7 @@ export default function HeroSection({
               >
                 <img
                   alt="persons left hand on white window blinds"
-                  src="https://images.unsplash.com/photo-1586423669195-d9df98e5a20e?auto=format&fit=crop&w=503&h=344"
+                  src="/external-assets/c2c421b2bff26ec3.jpg"
                   height="344"
                   width="503"
                   loading="eager"
@@ -122,7 +122,7 @@ export default function HeroSection({
               >
                 <img
                   alt="persons left hand on white window blinds"
-                  src="https://images.unsplash.com/photo-1586423669195-d9df98e5a20e?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/c9197a8e4a388d2d.jpg"
                   height="320"
                   width="328"
                   loading="eager"

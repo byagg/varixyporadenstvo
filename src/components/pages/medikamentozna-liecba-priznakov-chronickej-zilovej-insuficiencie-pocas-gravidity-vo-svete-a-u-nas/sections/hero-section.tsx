@@ -248,7 +248,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="pregnant woman near tree"
-                  src="https://images.unsplash.com/photo-1571823127490-3633ed1540e7?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/96774afdd5cb9621.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -263,7 +263,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="pregnant woman near tree"
-                  src="https://images.unsplash.com/photo-1571823127490-3633ed1540e7?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/752ff32914a6260b.jpg"
                   height="320"
                   width="328"
                   loading="eager"

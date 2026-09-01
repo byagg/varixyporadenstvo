@@ -223,7 +223,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="group of people running on stadium"
-                  src="https://images.unsplash.com/photo-1502904550040-7534597429ae?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/8028539a389f7f6f.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -238,7 +238,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="group of people running on stadium"
-                  src="https://images.unsplash.com/photo-1502904550040-7534597429ae?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/2c9ea2a898dc9405.jpg"
                   height="320"
                   width="328"
                   loading="eager"

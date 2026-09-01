@@ -349,7 +349,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="woman in pink panty and bra"
-                  src="https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/5e76deac2d5700db.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -364,7 +364,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="woman in pink panty and bra"
-                  src="https://images.unsplash.com/photo-1606572733585-1c54ba3cf917?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/f3b0bb566dfd349c.jpg"
                   height="320"
                   width="328"
                   loading="eager"

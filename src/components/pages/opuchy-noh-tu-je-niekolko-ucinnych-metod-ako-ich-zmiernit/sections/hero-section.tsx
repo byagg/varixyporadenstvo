@@ -315,7 +315,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a black and white photo of a person's feet on a table"
-                  src="https://images.unsplash.com/photo-1510416508978-f469755d101b?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/e6b7cfc30fb54a5c.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -330,7 +330,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a black and white photo of a person's feet on a table"
-                  src="https://images.unsplash.com/photo-1510416508978-f469755d101b?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/1602c276d40d4434.jpg"
                   height="320"
                   width="328"
                   loading="eager"
@@ -766,7 +766,7 @@ export default function HeroSection() {
                 title="custom code element"
                 className="w-full h-auto inline grid-embed__iframe overflow-clip"
                 srcDoc={
-                  '<!DOCTYPE html>\n\t<head>\n\n</head>\n\t<body><a href="https://www.jdoqocy.com/click-100721030-13484074?url=https%3A%2F%2Fwww.mojalekaren.sk%2Ffluxoven-500-mg-60-tabliet%2F&cjsku=495784" target="_top"><img src="https://mojalekarensk.vshcdn.net/upload/fl/ux/fluxoven-500-mg-60-tabliet-2460106-1000x1000-square.jpg" border="0" alt="FLUXOVEN 500 mg 60 tabliet"></a><img src="https://www.ftjcfx.com/image-100721030-13484074" width="1" height="1" border="0">\n\n</body>\n</html>'
+                  '<!DOCTYPE html>\n\t<head>\n\n</head>\n\t<body><a href="https://www.jdoqocy.com/click-100721030-13484074?url=https%3A%2F%2Fwww.mojalekaren.sk%2Ffluxoven-500-mg-60-tabliet%2F&cjsku=495784" target="_top"><img src="/external-assets/d3acb2a3506dcba3.jpg" border="0" alt="FLUXOVEN 500 mg 60 tabliet"></a><img src="/external-assets/3961fa6ce9ad8f5b.gif" width="1" height="1" border="0">\n\n</body>\n</html>'
                 }
               />
             </div>
@@ -780,7 +780,7 @@ export default function HeroSection() {
                 title="custom code element"
                 className="w-full h-auto inline grid-embed__iframe overflow-clip"
                 srcDoc={
-                  '<!DOCTYPE html>\n\t<head>\n\n</head>\n\t<body><a href="https://www.jdoqocy.com/click-100810134-13484074?url=https%3A%2F%2Fwww.mojalekaren.sk%2Fdetralex-1000-mg-peroralna-suspenzia-vo-vrecku-30-kusov%2F&cjsku=459157" target="_top"><img src="https://mojalekarensk.vshcdn.net/upload/de/tr/detralex-1000-mg-peroralna-suspenzia-vo-vrecku-30-kusov-2516382-1000x1000-square.jpg" border="0" alt="DETRALEX 1000 mg peror�lna suspenzia vo vrecku 30 kusov"></a><img src="https://www.tqlkg.com/image-100810134-13484074" width="1" height="1" border="0">\n\n</body>\n</html>'
+                  '<!DOCTYPE html>\n\t<head>\n\n</head>\n\t<body><a href="https://www.jdoqocy.com/click-100810134-13484074?url=https%3A%2F%2Fwww.mojalekaren.sk%2Fdetralex-1000-mg-peroralna-suspenzia-vo-vrecku-30-kusov%2F&cjsku=459157" target="_top"><img src="/external-assets/c3140789896a5116.jpg" border="0" alt="DETRALEX 1000 mg peror�lna suspenzia vo vrecku 30 kusov"></a><img src="/external-assets/914f78a89b87889a.gif" width="1" height="1" border="0">\n\n</body>\n</html>'
                 }
               />
             </div>

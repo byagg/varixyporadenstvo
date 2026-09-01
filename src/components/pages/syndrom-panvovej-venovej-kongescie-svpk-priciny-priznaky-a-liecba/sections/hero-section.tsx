@@ -216,7 +216,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="topless woman with skin condition"
-                  src="https://images.unsplash.com/photo-1583966821154-ba58ea660f69?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/867a677591720f97.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -231,7 +231,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="topless woman with skin condition"
-                  src="https://images.unsplash.com/photo-1583966821154-ba58ea660f69?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/ccdacc4c65b3fb6b.jpg"
                   height="320"
                   width="328"
                   loading="eager"

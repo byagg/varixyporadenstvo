@@ -100,7 +100,7 @@ export default function Page() {
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
                         <img
                           alt="doctor performing operation"
-                          srcSet="https://images.unsplash.com/photo-1550831106-f8d5b6f1abe9?auto=format&fit=crop&w=328&h=197 328w,https://images.unsplash.com/photo-1550831106-f8d5b6f1abe9?auto=format&fit=crop&w=656&h=394 656w,https://images.unsplash.com/photo-1550831106-f8d5b6f1abe9?auto=format&fit=crop&w=861&h=517 861w,https://images.unsplash.com/photo-1550831106-f8d5b6f1abe9?auto=format&fit=crop&w=984&h=590 984w,https://images.unsplash.com/photo-1550831106-f8d5b6f1abe9?auto=format&fit=crop&w=1800&h=1080 1800w,https://images.unsplash.com/photo-1550831106-f8d5b6f1abe9?auto=format&fit=crop&w=3600&h=2160 3600w"
+                          srcSet="/external-assets/6fc352f88dbd991f.jpg 328w,/external-assets/33329fb983c0c7ec.jpg 656w,/external-assets/94dfec57df7b7c14.jpg 861w,/external-assets/2d9c216671ae68de.jpg 984w,/external-assets/b794743c3f768df5.jpg 1800w,/external-assets/6b59f35b2d87c3fb.jpg 3600w"
                           sizes="(min-width: 920px) 1800px, calc((100vw - 0px - 20px) / 1)"
                           className="w-full h-full max-w-none absolute object-cover left-0 top-0 block-blog-list-item__cover-image overflow-clip"
                         />
@@ -188,7 +188,7 @@ export default function Page() {
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
                         <img
                           alt="a black and white photo of a person's feet on a table"
-                          srcSet="https://images.unsplash.com/photo-1510416508978-f469755d101b?auto=format&fit=crop&w=328&h=197 328w,https://images.unsplash.com/photo-1510416508978-f469755d101b?auto=format&fit=crop&w=656&h=394 656w,https://images.unsplash.com/photo-1510416508978-f469755d101b?auto=format&fit=crop&w=861&h=517 861w,https://images.unsplash.com/photo-1510416508978-f469755d101b?auto=format&fit=crop&w=984&h=590 984w,https://images.unsplash.com/photo-1510416508978-f469755d101b?auto=format&fit=crop&w=1800&h=1080 1800w,https://images.unsplash.com/photo-1510416508978-f469755d101b?auto=format&fit=crop&w=3600&h=2160 3600w"
+                          srcSet="/external-assets/77570672f2653692.jpg 328w,/external-assets/4c9bc92214f9b990.jpg 656w,/external-assets/461c7fbb6cdef200.jpg 861w,/external-assets/a1b8a7dd7e3aeeb3.jpg 984w,/external-assets/22ea69b0f875baa4.jpg 1800w,/external-assets/0a3e08a8cc316001.jpg 3600w"
                           sizes="(min-width: 920px) 1800px, calc((100vw - 0px - 20px) / 1)"
                           className="w-full h-full max-w-none absolute object-cover left-0 top-0 block-blog-list-item__cover-image overflow-clip"
                         />
@@ -235,7 +235,7 @@ export default function Page() {
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
                         <img
                           alt="pair of brown leather boots"
-                          srcSet="https://images.unsplash.com/photo-1542692908-92ebed9bb9df?auto=format&fit=crop&w=328&h=197 328w,https://images.unsplash.com/photo-1542692908-92ebed9bb9df?auto=format&fit=crop&w=656&h=394 656w,https://images.unsplash.com/photo-1542692908-92ebed9bb9df?auto=format&fit=crop&w=861&h=517 861w,https://images.unsplash.com/photo-1542692908-92ebed9bb9df?auto=format&fit=crop&w=984&h=590 984w,https://images.unsplash.com/photo-1542692908-92ebed9bb9df?auto=format&fit=crop&w=1800&h=1080 1800w,https://images.unsplash.com/photo-1542692908-92ebed9bb9df?auto=format&fit=crop&w=3600&h=2160 3600w"
+                          srcSet="/external-assets/5b53ef02717cbfe8.jpg 328w,/external-assets/0df93ae1cff7769f.jpg 656w,/external-assets/291c6ee5f5c3e29a.jpg 861w,/external-assets/eec13e490f75a094.jpg 984w,/external-assets/0e41b30e621d86e5.jpg 1800w,/external-assets/d87535809b32da97.jpg 3600w"
                           sizes="(min-width: 920px) 1800px, calc((100vw - 0px - 20px) / 1)"
                           className="w-full h-full max-w-none absolute object-cover left-0 top-0 block-blog-list-item__cover-image overflow-clip"
                         />
@@ -282,7 +282,7 @@ export default function Page() {
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
                         <img
                           alt="pregnant woman near tree"
-                          srcSet="https://images.unsplash.com/photo-1571823127490-3633ed1540e7?auto=format&fit=crop&w=328&h=197 328w,https://images.unsplash.com/photo-1571823127490-3633ed1540e7?auto=format&fit=crop&w=656&h=394 656w,https://images.unsplash.com/photo-1571823127490-3633ed1540e7?auto=format&fit=crop&w=861&h=517 861w,https://images.unsplash.com/photo-1571823127490-3633ed1540e7?auto=format&fit=crop&w=984&h=590 984w,https://images.unsplash.com/photo-1571823127490-3633ed1540e7?auto=format&fit=crop&w=1800&h=1080 1800w,https://images.unsplash.com/photo-1571823127490-3633ed1540e7?auto=format&fit=crop&w=3600&h=2160 3600w"
+                          srcSet="/external-assets/030726483b7eeb47.jpg 328w,/external-assets/9f8830bd325c9be4.jpg 656w,/external-assets/63f04347cc6ca531.jpg 861w,/external-assets/9b7e21b2a04d53fd.jpg 984w,/external-assets/75fd0cc83f2f93e9.jpg 1800w,/external-assets/69c21184ec207100.jpg 3600w"
                           sizes="(min-width: 920px) 1800px, calc((100vw - 0px - 20px) / 1)"
                           className="w-full h-full max-w-none absolute object-cover left-0 top-0 block-blog-list-item__cover-image overflow-clip"
                         />
@@ -329,7 +329,7 @@ export default function Page() {
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
                         <img
                           alt="water droplets"
-                          srcSet="https://images.unsplash.com/photo-1514907707149-eca420f5de51?auto=format&fit=crop&w=328&h=197 328w,https://images.unsplash.com/photo-1514907707149-eca420f5de51?auto=format&fit=crop&w=656&h=394 656w,https://images.unsplash.com/photo-1514907707149-eca420f5de51?auto=format&fit=crop&w=861&h=517 861w,https://images.unsplash.com/photo-1514907707149-eca420f5de51?auto=format&fit=crop&w=984&h=590 984w,https://images.unsplash.com/photo-1514907707149-eca420f5de51?auto=format&fit=crop&w=1800&h=1080 1800w,https://images.unsplash.com/photo-1514907707149-eca420f5de51?auto=format&fit=crop&w=3600&h=2160 3600w"
+                          srcSet="/external-assets/0e463497f8668971.jpg 328w,/external-assets/fa0773a73ab9e517.jpg 656w,/external-assets/849ccac9c947320b.jpg 861w,/external-assets/039d0a1df5279986.jpg 984w,/external-assets/c022f743f11aefcb.jpg 1800w,/external-assets/be42d166a8b782b4.jpg 3600w"
                           sizes="(min-width: 920px) 1800px, calc((100vw - 0px - 20px) / 1)"
                           className="w-full h-full max-w-none absolute object-cover left-0 top-0 block-blog-list-item__cover-image overflow-clip"
                         />
@@ -378,7 +378,7 @@ export default function Page() {
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
                         <img
                           alt="red letters neon light"
-                          srcSet="https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?auto=format&fit=crop&w=328&h=197 328w,https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?auto=format&fit=crop&w=656&h=394 656w,https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?auto=format&fit=crop&w=861&h=517 861w,https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?auto=format&fit=crop&w=984&h=590 984w,https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?auto=format&fit=crop&w=1800&h=1080 1800w,https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?auto=format&fit=crop&w=3600&h=2160 3600w"
+                          srcSet="/external-assets/dfb9192d26f16587.jpg 328w,/external-assets/118764db84cac7a7.jpg 656w,/external-assets/ac24eb0aa6402542.jpg 861w,/external-assets/39bd4b7abb70f2b3.jpg 984w,/external-assets/6a10e4dc8987021c.jpg 1800w,/external-assets/640b349f020d4e4a.jpg 3600w"
                           sizes="(min-width: 920px) 1800px, calc((100vw - 0px - 20px) / 1)"
                           className="w-full h-full max-w-none absolute object-cover left-0 top-0 block-blog-list-item__cover-image overflow-clip"
                         />
@@ -425,7 +425,7 @@ export default function Page() {
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
                         <img
                           alt="topless man with white wings"
-                          srcSet="https://images.unsplash.com/photo-1597269808222-490569d2a1ae?auto=format&fit=crop&w=328&h=197 328w,https://images.unsplash.com/photo-1597269808222-490569d2a1ae?auto=format&fit=crop&w=656&h=394 656w,https://images.unsplash.com/photo-1597269808222-490569d2a1ae?auto=format&fit=crop&w=861&h=517 861w,https://images.unsplash.com/photo-1597269808222-490569d2a1ae?auto=format&fit=crop&w=984&h=590 984w,https://images.unsplash.com/photo-1597269808222-490569d2a1ae?auto=format&fit=crop&w=1800&h=1080 1800w,https://images.unsplash.com/photo-1597269808222-490569d2a1ae?auto=format&fit=crop&w=3600&h=2160 3600w"
+                          srcSet="/external-assets/d0d51ffa918ecb91.jpg 328w,/external-assets/fee60ac69d70d884.jpg 656w,/external-assets/32b40045527bc673.jpg 861w,/external-assets/54908b11ff3b7bad.jpg 984w,/external-assets/78922ce94fc45010.jpg 1800w,/external-assets/056aa2b3b7452e2d.jpg 3600w"
                           sizes="(min-width: 920px) 1800px, calc((100vw - 0px - 20px) / 1)"
                           loading="eager"
                           className="w-full h-full max-w-none absolute object-cover left-0 top-0 block-blog-list-item__cover-image overflow-clip"
@@ -471,7 +471,7 @@ export default function Page() {
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
                         <img
                           alt="airplane on sky during golden hour"
-                          srcSet="https://images.unsplash.com/photo-1500835556837-99ac94a94552?auto=format&fit=crop&w=328&h=197 328w,https://images.unsplash.com/photo-1500835556837-99ac94a94552?auto=format&fit=crop&w=656&h=394 656w,https://images.unsplash.com/photo-1500835556837-99ac94a94552?auto=format&fit=crop&w=861&h=517 861w,https://images.unsplash.com/photo-1500835556837-99ac94a94552?auto=format&fit=crop&w=984&h=590 984w,https://images.unsplash.com/photo-1500835556837-99ac94a94552?auto=format&fit=crop&w=1800&h=1080 1800w,https://images.unsplash.com/photo-1500835556837-99ac94a94552?auto=format&fit=crop&w=3600&h=2160 3600w"
+                          srcSet="/external-assets/087a2b0b0fe3ef70.jpg 328w,/external-assets/12232128a9c39844.jpg 656w,/external-assets/8a49036c4419f606.jpg 861w,/external-assets/62e39a2339342556.jpg 984w,/external-assets/4b31c4bb383eb0f0.jpg 1800w,/external-assets/ba725c608cfc6cb2.jpg 3600w"
                           sizes="(min-width: 920px) 1800px, calc((100vw - 0px - 20px) / 1)"
                           loading="eager"
                           className="w-full h-full max-w-none absolute object-cover left-0 top-0 block-blog-list-item__cover-image overflow-clip"
@@ -519,7 +519,7 @@ export default function Page() {
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
                         <img
                           alt="woman in black tank top and black shorts kneeling on mat"
-                          srcSet="https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?auto=format&fit=crop&w=328&h=197 328w,https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?auto=format&fit=crop&w=656&h=394 656w,https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?auto=format&fit=crop&w=861&h=517 861w,https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?auto=format&fit=crop&w=984&h=590 984w,https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?auto=format&fit=crop&w=1800&h=1080 1800w,https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?auto=format&fit=crop&w=3600&h=2160 3600w"
+                          srcSet="/external-assets/a25387991b59f55e.jpg 328w,/external-assets/7781a203338e8e0d.jpg 656w,/external-assets/393b144f592221b0.jpg 861w,/external-assets/fb47d86f749f9e27.jpg 984w,/external-assets/e92f225a68d571b8.jpg 1800w,/external-assets/08db6ab80f1d4f47.jpg 3600w"
                           sizes="(min-width: 920px) 1800px, calc((100vw - 0px - 20px) / 1)"
                           loading="eager"
                           className="w-full h-full max-w-none absolute object-cover left-0 top-0 block-blog-list-item__cover-image overflow-clip"
@@ -565,7 +565,7 @@ export default function Page() {
                       <div className="relative pb-[60%] block-blog-list-item__cover-image-wrapper">
                         <img
                           alt="group of people running on stadium"
-                          srcSet="https://images.unsplash.com/photo-1502904550040-7534597429ae?auto=format&fit=crop&w=328&h=197 328w,https://images.unsplash.com/photo-1502904550040-7534597429ae?auto=format&fit=crop&w=656&h=394 656w,https://images.unsplash.com/photo-1502904550040-7534597429ae?auto=format&fit=crop&w=861&h=517 861w,https://images.unsplash.com/photo-1502904550040-7534597429ae?auto=format&fit=crop&w=984&h=590 984w,https://images.unsplash.com/photo-1502904550040-7534597429ae?auto=format&fit=crop&w=1800&h=1080 1800w,https://images.unsplash.com/photo-1502904550040-7534597429ae?auto=format&fit=crop&w=3600&h=2160 3600w"
+                          srcSet="/external-assets/3a254c0f84ce9dab.jpg 328w,/external-assets/e86e12e9c964a44d.jpg 656w,/external-assets/5082b0ee0d50e90c.jpg 861w,/external-assets/366b919b42d003f0.jpg 984w,/external-assets/b6d991f11dd15ade.jpg 1800w,/external-assets/472b5780c31de2c3.jpg 3600w"
                           sizes="(min-width: 920px) 1800px, calc((100vw - 0px - 20px) / 1)"
                           loading="eager"
                           className="w-full h-full max-w-none absolute object-cover left-0 top-0 block-blog-list-item__cover-image overflow-clip"

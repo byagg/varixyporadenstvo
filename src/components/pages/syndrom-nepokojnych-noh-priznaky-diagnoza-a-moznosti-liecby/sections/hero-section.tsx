@@ -100,7 +100,7 @@ export default function HeroSection({
               >
                 <img
                   alt="person's foot"
-                  src="https://images.unsplash.com/photo-1503634339014-f9f3285b6c57?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/ae5ac90bf770fcfa.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -115,7 +115,7 @@ export default function HeroSection({
               >
                 <img
                   alt="person's foot"
-                  src="https://images.unsplash.com/photo-1503634339014-f9f3285b6c57?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/63a8a86ca976e086.jpg"
                   height="320"
                   width="328"
                   loading="eager"

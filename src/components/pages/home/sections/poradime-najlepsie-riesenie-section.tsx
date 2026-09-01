@@ -109,7 +109,7 @@ export default function PoradimeNajlepsieRiesenieSection() {
             >
               <img
                 alt="a person in blue gloves is operating a machine"
-                src="https://images.unsplash.com/photo-1691933880082-8ca234497bf4?auto=format&fit=crop&w=366&h=304"
+                src="/external-assets/aacefed1147d3636.jpg"
                 height="304"
                 width="366"
                 loading="eager"
@@ -124,7 +124,7 @@ export default function PoradimeNajlepsieRiesenieSection() {
             >
               <img
                 alt="a person in blue gloves is operating a machine"
-                src="https://images.unsplash.com/photo-1691933880082-8ca234497bf4?auto=format&fit=crop&w=360&h=253"
+                src="/external-assets/031e7c8781c3c2aa.jpg"
                 height="167"
                 width="238"
                 loading="eager"

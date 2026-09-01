@@ -457,7 +457,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="man cutting vegetables"
-                  src="https://images.unsplash.com/photo-1556911220-dabc1f02913a?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/7f027d462ba3fa7b.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -472,7 +472,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="man cutting vegetables"
-                  src="https://images.unsplash.com/photo-1556911220-dabc1f02913a?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/0cee8293cbd6a556.jpg"
                   height="320"
                   width="328"
                   loading="eager"

@@ -58,7 +58,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="woman in black tank top and black shorts kneeling on mat"
-                  src="https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?auto=format&fit=crop&w=489&h=344"
+                  src="/external-assets/058004bb5347491a.jpg"
                   height="344"
                   width="489"
                   loading="eager"
@@ -73,7 +73,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="woman in black tank top and black shorts kneeling on mat"
-                  src="https://images.unsplash.com/photo-1540206063137-4a88ca974d1a?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/c908d8d734ec2559.jpg"
                   height="320"
                   width="328"
                   loading="eager"

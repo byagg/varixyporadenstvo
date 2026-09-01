@@ -65,7 +65,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="white and blue dragon figurine"
-                  src="https://images.unsplash.com/photo-1615798583598-0e6d4d2f549e?auto=format&fit=crop&w=328&h=353"
+                  src="/external-assets/990fa0399293c087.jpg"
                   height="344"
                   width="320"
                   loading="eager"
@@ -80,7 +80,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="white and blue dragon figurine"
-                  src="https://images.unsplash.com/photo-1615798583598-0e6d4d2f549e?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/5237316c7a6e956d.jpg"
                   height="320"
                   width="328"
                   loading="eager"

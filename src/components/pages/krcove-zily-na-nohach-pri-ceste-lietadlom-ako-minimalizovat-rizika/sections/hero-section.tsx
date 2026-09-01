@@ -224,7 +224,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="airplane on sky during golden hour"
-                  src="https://images.unsplash.com/photo-1500835556837-99ac94a94552?auto=format&fit=crop&w=829&h=320"
+                  src="/external-assets/8db144974a59b8d4.jpg"
                   height="320"
                   width="829"
                   loading="eager"
@@ -239,7 +239,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="airplane on sky during golden hour"
-                  src="https://images.unsplash.com/photo-1500835556837-99ac94a94552?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/cb18bf7192f2cbca.jpg"
                   height="320"
                   width="328"
                   loading="eager"

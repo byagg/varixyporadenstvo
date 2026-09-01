@@ -597,7 +597,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="water droplets"
-                  src="https://images.unsplash.com/photo-1514907707149-eca420f5de51?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/bd7bffbadce57831.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -612,7 +612,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="water droplets"
-                  src="https://images.unsplash.com/photo-1514907707149-eca420f5de51?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/6c39ebea3e816a38.jpg"
                   height="320"
                   width="328"
                   loading="eager"

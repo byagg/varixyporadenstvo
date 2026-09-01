@@ -345,7 +345,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="people in white shirt holding clear drinking glasses"
-                  src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/5577551d26a58cc6.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -360,7 +360,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="people in white shirt holding clear drinking glasses"
-                  src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/ee79c120ed889950.jpg"
                   height="320"
                   width="328"
                   loading="eager"

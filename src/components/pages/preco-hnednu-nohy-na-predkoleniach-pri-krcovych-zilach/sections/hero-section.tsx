@@ -149,7 +149,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="red and black abstract painting"
-                  src="https://images.unsplash.com/photo-1628965880619-bd47243535ae?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/18db9d4b85e1e5b6.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -164,7 +164,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="red and black abstract painting"
-                  src="https://images.unsplash.com/photo-1628965880619-bd47243535ae?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/ad8e910fff2396f5.jpg"
                   height="320"
                   width="328"
                   loading="eager"

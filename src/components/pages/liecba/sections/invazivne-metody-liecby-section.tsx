@@ -42,7 +42,7 @@ export default function InvazivneMetodyLiecbySection() {
             >
               <img
                 alt="white and black plastic syringe on brown wooden table"
-                src="https://images.unsplash.com/photo-1626351070167-9cd68c6d4244?auto=format&fit=crop&w=328&h=150"
+                src="/external-assets/006bdcddac4e931c.jpg"
                 height="136"
                 width="297"
                 loading="eager"
@@ -57,7 +57,7 @@ export default function InvazivneMetodyLiecbySection() {
             >
               <img
                 alt="white and black plastic syringe on brown wooden table"
-                src="https://images.unsplash.com/photo-1626351070167-9cd68c6d4244?auto=format&fit=crop&w=360&h=351"
+                src="/external-assets/6418052cf4c45678.jpg"
                 height="160"
                 width="164"
                 loading="eager"
@@ -220,7 +220,7 @@ export default function InvazivneMetodyLiecbySection() {
             >
               <img
                 alt="a group of doctors performing surgery in an operating room"
-                src="https://images.unsplash.com/photo-1640876777012-bdb00a6323e2?auto=format&fit=crop&w=328&h=150"
+                src="/external-assets/8eae31981a378014.jpg"
                 height="136"
                 width="297"
                 loading="eager"
@@ -235,7 +235,7 @@ export default function InvazivneMetodyLiecbySection() {
             >
               <img
                 alt="a group of doctors performing surgery in an operating room"
-                src="https://images.unsplash.com/photo-1640876777012-bdb00a6323e2?auto=format&fit=crop&w=360&h=351"
+                src="/external-assets/05bfbd5f7d4bbdf8.jpg"
                 height="189"
                 width="194"
                 loading="eager"

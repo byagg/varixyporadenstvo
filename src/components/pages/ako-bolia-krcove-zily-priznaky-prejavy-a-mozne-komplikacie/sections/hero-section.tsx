@@ -226,7 +226,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="men's white dress shirt"
-                  src="https://images.unsplash.com/photo-1534343133720-0c20dba3a360?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/15b62e2bd645b458.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -241,7 +241,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="men's white dress shirt"
-                  src="https://images.unsplash.com/photo-1534343133720-0c20dba3a360?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/6a4c5cf93c0de714.jpg"
                   height="320"
                   width="328"
                   loading="eager"

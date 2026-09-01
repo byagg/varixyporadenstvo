@@ -328,7 +328,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="woman sitting on poolside setting both of her feet on pool"
-                  src="https://images.unsplash.com/photo-1532347922424-c652d9b7208e?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/698857384e21e8ff.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -343,7 +343,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="woman sitting on poolside setting both of her feet on pool"
-                  src="https://images.unsplash.com/photo-1532347922424-c652d9b7208e?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/a51ce61ae36a370e.jpg"
                   height="320"
                   width="328"
                   loading="eager"

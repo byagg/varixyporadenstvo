@@ -279,7 +279,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a woman in a white coat"
-                  src="https://images.unsplash.com/photo-1651008376811-b90baee60c1f?auto=format&fit=crop&w=328&h=439"
+                  src="/external-assets/48b69c7ba4dfa821.jpg"
                   height="344"
                   width="257"
                   loading="eager"
@@ -294,7 +294,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a woman in a white coat"
-                  src="https://images.unsplash.com/photo-1651008376811-b90baee60c1f?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/3d3cda7faa010666.jpg"
                   height="320"
                   width="328"
                   loading="eager"

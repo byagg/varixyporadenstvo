@@ -184,7 +184,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="woman sitting on bench near trees"
-                  src="https://images.unsplash.com/photo-1511822610278-4656f22cdd46?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/def696724338b11b.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -199,7 +199,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="woman sitting on bench near trees"
-                  src="https://images.unsplash.com/photo-1511822610278-4656f22cdd46?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/b2c2b111713cbdc1.jpg"
                   height="320"
                   width="328"
                   loading="eager"

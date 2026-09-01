@@ -302,7 +302,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person wearing orange and white cat tattoo"
-                  src="https://images.unsplash.com/photo-1595615191795-1387d2b7b315?auto=format&fit=crop&w=353&h=344"
+                  src="/external-assets/26316d3a34f50af0.jpg"
                   height="344"
                   width="353"
                   loading="eager"
@@ -317,7 +317,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person wearing orange and white cat tattoo"
-                  src="https://images.unsplash.com/photo-1595615191795-1387d2b7b315?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/f0842c90edcdd8fe.jpg"
                   height="320"
                   width="328"
                   loading="eager"

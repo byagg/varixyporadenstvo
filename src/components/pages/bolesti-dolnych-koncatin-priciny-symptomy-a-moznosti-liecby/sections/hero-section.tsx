@@ -122,7 +122,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person sitting on orange and blue area rug"
-                  src="https://images.unsplash.com/photo-1517040153985-8e156f43f711?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/c7815d64734a28a5.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -137,7 +137,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person sitting on orange and blue area rug"
-                  src="https://images.unsplash.com/photo-1517040153985-8e156f43f711?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/3b2a9148b68de148.jpg"
                   height="320"
                   width="328"
                   loading="eager"

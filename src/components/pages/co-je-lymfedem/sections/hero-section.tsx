@@ -122,7 +122,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="A group of question marks sitting next to each other"
-                  src="https://images.unsplash.com/photo-1724120932024-07984b247ff1?auto=format&fit=crop&w=606&h=344"
+                  src="/external-assets/f3de42a39e773dd8.jpg"
                   height="344"
                   width="606"
                   loading="eager"
@@ -137,7 +137,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="A group of question marks sitting next to each other"
-                  src="https://images.unsplash.com/photo-1724120932024-07984b247ff1?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/8d1ac2611106df95.jpg"
                   height="320"
                   width="328"
                   loading="eager"

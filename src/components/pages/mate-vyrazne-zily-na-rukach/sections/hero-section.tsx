@@ -58,7 +58,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="topless man with white wings"
-                  src="https://images.unsplash.com/photo-1597269808222-490569d2a1ae?auto=format&fit=crop&w=360&h=384"
+                  src="/external-assets/9044f872a197269c.jpg"
                   height="384"
                   width="360"
                   loading="eager"
@@ -73,7 +73,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="topless man with white wings"
-                  src="https://images.unsplash.com/photo-1597269808222-490569d2a1ae?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/fa6efa424c7269c8.jpg"
                   height="320"
                   width="328"
                   loading="eager"

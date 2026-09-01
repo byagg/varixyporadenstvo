@@ -183,7 +183,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="doctor performing operation"
-                  src="https://images.unsplash.com/photo-1550831106-f8d5b6f1abe9?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/58c97d8d0d301588.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -198,7 +198,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="doctor performing operation"
-                  src="https://images.unsplash.com/photo-1550831106-f8d5b6f1abe9?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/b8887cfc2576f501.jpg"
                   height="320"
                   width="328"
                   loading="eager"

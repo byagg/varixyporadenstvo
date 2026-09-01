@@ -432,7 +432,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="pink inflatable ring on pool"
-                  src="https://images.unsplash.com/photo-1565495612491-a830ecb85626?auto=format&fit=crop&w=362&h=344"
+                  src="/external-assets/d6c1af5f71340638.jpg"
                   height="344"
                   width="362"
                   loading="eager"
@@ -447,7 +447,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="pink inflatable ring on pool"
-                  src="https://images.unsplash.com/photo-1565495612491-a830ecb85626?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/6199dcf1de6e876b.jpg"
                   height="320"
                   width="328"
                   loading="eager"

@@ -62,7 +62,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a person with a towel on their back"
-                  src="https://images.unsplash.com/photo-1583966832159-9baaa6c1cdcc?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/dac3ed380fad00c1.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -77,7 +77,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="a person with a towel on their back"
-                  src="https://images.unsplash.com/photo-1583966832159-9baaa6c1cdcc?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/dee2e191ee99af4d.jpg"
                   height="320"
                   width="328"
                   loading="eager"

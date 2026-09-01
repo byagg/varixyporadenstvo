@@ -176,7 +176,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person holding white cigarette stick"
-                  src="https://images.unsplash.com/photo-1610833804933-264b7f75c99c?auto=format&fit=crop&w=812&h=344"
+                  src="/external-assets/70c8456f8f104ef8.jpg"
                   height="344"
                   width="812"
                   loading="eager"
@@ -191,7 +191,7 @@ export default function HeroSection() {
               >
                 <img
                   alt="person holding white cigarette stick"
-                  src="https://images.unsplash.com/photo-1610833804933-264b7f75c99c?auto=format&fit=crop&w=360&h=351"
+                  src="/external-assets/70645aac1d35bb0f.jpg"
                   height="320"
                   width="328"
                   loading="eager"
