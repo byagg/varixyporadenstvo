@@ -1,7 +1,12 @@
 {
   "name": "varixy-poradenstvo",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.12.0",
+    "npm": ">=9.6.5"
+  },
   "scripts": {
     "dev": "astro dev --port 3000",
     "check": "astro check",
@@ -9,6 +14,7 @@
     "lint": "eslint .",
     "build": "astro build",
     "verify": "node scripts/verify.mjs",
+    "audit": "python3 scripts/audit-static-build.py",
     "astro": "astro"
   },
   "dependencies": {
