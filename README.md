@@ -1,176 +1,141 @@
-# Ploy Astro Starter
+# Varixy Poradenstvo
 
-A production-ready starter for marketing sites, built to be picked up by an
-agency or freelancer at the start of a client project and imported into
-[Ploy](https://ploy.ai) with the CLI.
+Prenosný statický web pre `https://varixyporadenstvo.com`, vytvorený v Astro + React + Tailwind CSS. Projekt nevyžaduje Ploy, Hostinger Builder, serverový Astro runtime ani databázu.
 
-**Astro 6** (SSR on Cloudflare Workers) · **React 19** · **TypeScript (strict)** ·
-**Tailwind CSS v4** · **CVA / shadcn-compatible** · **motion/react**
+## Požiadavky
 
-Out of the box you get SEO metadata and JSON-LD, a sitemap (including a
-reverse-proxy mirroring mode), `robots.txt`, a generated `llms.txt`, a
-Markdown/MDX content pipeline, form handling, and a themeable design-token
-system — so the first day of a client build is spent on their brand, not on
-wiring.
+- Node.js **22.12 alebo novší**
+- npm **9.6.5 alebo novší**
+- Python 3 (iba pre lokálny auditovací skript)
 
----
-
-## Quick start
+## Lokálne spustenie
 
 ```bash
-git clone https://github.com/Ploy-AI/tenant-starter-astro.git my-client-site
-cd my-client-site
 npm install
-npm run dev            # http://localhost:3000
+npm run dev
 ```
 
-Then, before anything else:
+Web bude dostupný na `http://localhost:3000`.
 
-1. Fill in `src/site-config.ts` (`name`, `description`) — these drive `<title>`,
-   meta description, and `llms.txt`.
-2. Replace the placeholder theme in `src/styles/globals.css` (look for the
-   `PLACEHOLDER THEME` marker) with the client's colors, radii, and fonts.
-3. Replace the placeholder home page at
-   `src/components/pages/home/page.tsx`.
-
-### Commands
-
-| Command                           | What it does                              |
-| --------------------------------- | ----------------------------------------- |
-| `npm run dev`                     | Dev server at `localhost:3000`            |
-| `npm run verify`                  | **The gate** — eslint + typecheck + build |
-| `npm run check`                   | Astro typecheck only                      |
-| `npm run build`                   | Production build to `./dist/`             |
-| `npm run lint` / `npm run format` | eslint / prettier                         |
-
-`npm run verify` is the contract. If it fails, the change is broken. CI runs
-exactly this on every pull request.
-
----
-
-## Importing into Ploy
-
-Requires a Ploy **Pro plan or higher** (Code Sync). Full docs:
-[docs.ploy.ai/cli](https://docs.ploy.ai/cli)
+## Produkčný build
 
 ```bash
-curl -fsSL https://ploy.ai/install.sh | sh   # install the CLI
-
-ploy login
-ploy workspace use
-ploy site use
-ploy site code-sync init                     # prints clone/connection instructions
-ploy skills init                             # install agent skills at the repo root
-
-# ...build the site, push to main...
-
-ploy site code-sync sync
-ploy site publish --wait
+npm run build
 ```
 
-### Things that will break your import if you change them
+Výstup sa vytvorí v adresári `dist/`. Projekt používa čistý statický Astro export a neobsahuje Pages Functions ani serverový adapter.
 
-These look like cleanup opportunities. They are not.
+Po builde možno spustiť úplnú kontrolu:
 
-- **`package.json` `name` must stay exactly `ploy-web`.** Code Sync matches on
-  it. Renaming it to match your project breaks the sync.
-- **Don't edit the `scripts` block in `package.json`.** Ploy's deploy pipeline
-  invokes these by name.
-- **`package.json` must be a real file, not a symlink**, and `src/pages/` must
-  exist.
-- **Keep `site:` in `astro.config.mjs` a plain string literal.** Ploy rewrites
-  that literal to the tenant domain at deploy time with an AST patcher; an
-  env-var lookup or template string won't be patched.
-- **Keep your work on `main`.** Code Sync reconciles against it.
-
----
-
-## Project layout
-
-```
-src/pages/                  Astro routes — thin shells that mount React
-src/components/
-  pages/<page>/page.tsx     page composition (entry point)
-  pages/<page>/sections/    page-local sections
-  ui/                       shared primitives (CVA + ploy tokens)
-  sections/                 shared sections (navbar, footer)
-src/content/pages/          Markdown/MDX rendered by [...slug].astro
-src/lib/                    framework-agnostic helpers
-src/styles/globals.css      Tailwind v4 config + design tokens
+```bash
+python3 scripts/audit-static-build.py
 ```
 
-Keep things local to a page until a second consumer needs them, then promote.
-The full conventions — the promotion ladder, the `ploy-*` token hierarchy,
-prerender-vs-SSR rules, forms, animations, content collections — live in
-**[AGENTS.md](./AGENTS.md)**, which is also what coding agents read.
+Audit kontroluje 73 URL, title, meta description, canonical, Open Graph, H1, alt atribúty, interné odkazy, fragmenty a lokálne súbory. Zároveň obnoví `MIGRATION-MANIFEST.md`.
 
-### Adding a page
+## Kontaktný formulár
 
-```tsx
-// src/components/pages/pricing/page.tsx
-export function PricingPage() {
-  return <div>Pricing</div>;
+Formulár používa verejnú build-time premennú:
+
+```env
+VITE_CONTACT_ENDPOINT=https://example-worker.example.workers.dev/api/contact
+```
+
+Táto hodnota **nie je tajný kľúč**; ide o verejnú URL endpointu. Tajomstvá, e-mailové API kľúče, databázové údaje a ochrana proti spamu musia zostať iba vo Worker prostredí.
+
+Ak `VITE_CONTACT_ENDPOINT` nie je nastavený, formulár nič neodosiela a zobrazí jasnú chybu. Nepredstiera úspech.
+
+Endpoint musí prijímať `POST` s `Content-Type: application/json` a payloadom:
+
+```json
+{
+  "formName": "Kontaktný formulár",
+  "pageUrl": "https://varixyporadenstvo.com/",
+  "data": {
+    "meno": "Meno používateľa",
+    "email": "email@example.com",
+    "sprava": "Text správy"
+  }
 }
 ```
 
-```astro
----
-// src/pages/pricing.astro
-import Layout from "../layouts/Layout.astro";
-import { PricingPage } from "@/components/pages/pricing/page";
+Úspech musí vrátiť HTTP 2xx. Chyba musí vrátiť HTTP 4xx alebo 5xx. Pri samostatnej Worker doméne treba nastaviť CORS iba pre povolené originy.
 
-export const prerender = true;
----
+## Nasadenie cez Cloudflare Pages
 
-<Layout title="Pricing">
-  <PricingPage client:load />
-</Layout>
+1. Nahrajte projekt do vlastného GitHub repozitára.
+2. V Cloudflare otvorte **Workers & Pages → Create → Pages → Connect to Git**.
+3. Vyberte repozitár a vetvu `main`.
+4. Nastavte:
+   - Framework preset: **Astro**
+   - Build command: `npm run build`
+   - Build output directory: `dist`
+   - Node version: `22.12.0` alebo novšia
+5. Ak je Worker formulára pripravený, pridajte build premennú `VITE_CONTACT_ENDPOINT`.
+6. Najprv nasadzujte iba na `*.pages.dev` a vykonajte kontroly z `DEPLOY-CHECKLIST.md`.
+7. Produkčnú doménu pripájajte až po úspešnom preview QA.
+
+Cloudflare Pages automaticky obsluhuje vytvorené súbory `route.html` na extensionless URL `/route`, čím zostávajú zachované pôvodné adresy bez koncovej lomky.
+
+Oficiálne návody:
+
+- Astro na Cloudflare Pages: https://docs.astro.build/en/guides/deploy/cloudflare/
+- Cloudflare Pages Git integrácia: https://developers.cloudflare.com/pages/get-started/git-integration/
+- Custom domains: https://developers.cloudflare.com/pages/configuration/custom-domains/
+- Redirect `www` na hlavnú doménu: https://developers.cloudflare.com/pages/how-to/www-redirect/
+
+## Vlastná doména
+
+Hlavná doména musí zostať:
+
+```text
+https://varixyporadenstvo.com
 ```
 
-Prerender by default; leave collection-backed, external-API-backed, and
-request-time routes on SSR. SSR routes don't auto-register in the sitemap —
-add their paths to `src/lib/sitemap/get-sitemap-paths.ts`.
+`www.varixyporadenstvo.com` nastavte cez Cloudflare Bulk Redirects ako permanentné presmerovanie na `https://varixyporadenstvo.com`, so zachovaním cesty a query stringu. DNS ani custom domain nemeňte pred úspešným preview auditom.
 
-### Adding content
+## GitHub — prvý push
 
-Drop a Markdown file in `src/content/pages/` and it's served at `/<filename>`
-by the catch-all route. See `src/content/pages/example-page.md` for the
-frontmatter shape. `draft: true` renders in dev only and stays out of the
-sitemap.
+Cieľový repozitár:
 
----
+```text
+https://github.com/byagg/varixyporadenstvo.git
+```
 
-## Local build configuration
-
-`wrangler.jsonc` is checked in as a **local-development fallback**. Ploy
-generates its own `wrangler.toml` at deploy time, and `astro.config.mjs`
-prefers that file, so the committed config never affects a Ploy deploy — it
-exists so a clean `git clone` can run `dev`, `check`, and `build` without one.
-
-Without it, the Cloudflare adapter defaults the compatibility date to _today's
-date_, which the pinned workerd in the lockfile can't support.
-
-Deploying outside Ploy isn't a supported use case. If you want your own
-Cloudflare Workers preview environment, point wrangler at a config kept
-**outside** this repo rather than committing your own:
+V lokálnom adresári projektu skontrolujte, že necommitujete `.env` ani `dist/`, a potom nastavte vlastný remote:
 
 ```bash
-wrangler deploy --config /path/outside/repo/wrangler.toml
+git init
+git add .
+git commit -m "Prepare independent static Cloudflare Pages site"
+git branch -M main
+git remote remove origin 2>/dev/null || true
+git remote add origin https://github.com/byagg/varixyporadenstvo.git
+git push -u origin main
 ```
 
-### Lockfiles
+Pri HTTPS pushi použite prihlásenie cez GitHub CLI alebo Git Credential Manager. Nevkladajte osobný token do zdrojových súborov, `.env` ani histórie shellu.
 
-Both `package-lock.json` and `bun.lock` are committed — npm and bun are both
-supported runtimes. If you change dependencies, regenerate **both** so they
-don't drift.
+## SEO a routy
 
----
+- Produkčný origin je pevne nastavený na `https://varixyporadenstvo.com`.
+- Sitemap: `/sitemap.xml`.
+- Robots: `/robots.txt`.
+- Canonical a Open Graph URL nepoužívajú `.html`, `pages.dev`, Ploy ani Hostinger.
+- Zoznam všetkých indexovateľných URL a ich metadát je v `MIGRATION-MANIFEST.md`.
 
-## Contributing
+## Lokálne assets
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md). For security reports, see
-[SECURITY.md](./SECURITY.md).
+Prenesené obrázky sú uložené v:
 
-## License
+- `public/migrated-assets/`
+- `public/external-assets/`
 
-[MIT](./LICENSE) — use it for client work, commercial or otherwise.
+Google Maps zostávajú externými iframe embedmi, pretože nejde o obrazové súbory. Ostatné obrazové `src` referencie sú lokálne.
+
+## Dôležité
+
+- Tento repozitár nepripája ani nemení DNS.
+- Build nič nepublikuje.
+- `dist/` je generovaný výstup a necommitujte ho, ak Cloudflare buildí z GitHubu.
+- Pred cutoverom aj po ňom postupujte podľa `DEPLOY-CHECKLIST.md`.

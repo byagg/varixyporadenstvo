@@ -1,46 +1,28 @@
-# build output
-dist/
-
-# generated types
-.astro/
-
-# dependencies
+# Dependencies
 node_modules/
 
-# logs
+# Astro build and generated types
+dist/
+.astro/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-
-# environment variables
-.env
-.env.local
-.env.staging
-.env.production
-.dev.vars
-
-# cloudflare
-.wrangler
-
-# macOS-specific files
-.DS_Store
-
-# jetbrains setting folder
-.idea/
-
-# Ploy generates wrangler.toml at deploy time — never commit one.
-# Note: wrangler.jsonc IS committed on purpose, as a local-dev fallback that
-# pins the Cloudflare compatibility date. See wrangler.jsonc for why.
-wrangler.toml
-
-# temp files
-/tmp
 logs/
-lost+found/
-.ploy/
-ploy.astro.config.mjs
-ploy.ploydb-client.mjs
-ploy.ploydb-auth-adapter.mjs
-ploy.ploydb-richtext.mjs
-ploy.ploydb-richtext.css
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Temporary files
+/tmp/
+*.tmp
