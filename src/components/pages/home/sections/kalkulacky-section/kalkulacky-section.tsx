@@ -66,7 +66,7 @@ export default function KalkulackySection() {
           {CALCULATORS.map((calculator) => (
             <a
               key={calculator.title}
-              href="https://varixyporadenstvo.com/#kalkulacky"
+              href="/#kalkulacky"
               target="_blank"
               rel="noopener noreferrer"
               className="kalkulacky__card group rounded-[1.1875rem] border border-ploy-border-inverse bg-ploy-neutral-inverse-s2/60 p-6 transition duration-200 hover:-translate-y-1 hover:bg-ploy-background-accent-primary hover:text-black"

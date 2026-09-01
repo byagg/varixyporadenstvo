@@ -37,9 +37,10 @@ const resolveUrl = (value?: string | URL) => {
   return value;
 };
 
+const cleanPathname = Astro.url.pathname.replace(/\.html$/, "") || "/";
 const canonicalUrl =
   resolveUrl(canonical) ??
-  (site ? new URL(Astro.url.pathname, site).toString() : undefined);
+  (site ? new URL(cleanPathname, site).toString() : undefined);
 const imageUrl = resolveUrl(image);
 ---
 

@@ -163,11 +163,11 @@ export default function HeroSection() {
               id="zP0Mal"
               className="self-start break-words w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] layout-element__component--GridTextBox"
             >
-              <h1 className="font-heading text-ploy-text-primary font-bold break-words mb-12 max-[921px]:mb-12 max-lg:leading-[3.25rem] max-lg:text-[2.5rem] lg:leading-tight lg:text-2xl">
+              <h2 className="font-heading text-ploy-text-primary font-bold break-words mb-12 max-[921px]:mb-12 max-lg:leading-[3.25rem] max-lg:text-[2.5rem] lg:leading-tight lg:text-2xl">
                 <strong className="[color:inherit] break-words">
                   {"Čo je celulitída a ako súvisí s varixami?"}
                 </strong>
-              </h1>
+              </h2>
               <p className="font-heading text-ploy-text-primary leading-6 break-words mb-8 max-[921px]:mb-8">
                 {
                   "Celulitída je vážne bakteriálne zápalové ochorenie kože a podkožného tkaniva, ktoré môže byť obzvlášť nebezpečné u pacientov s varixami dolných končatín. Varixy, charakterizované rozšírenými a pokrútenými žilami, často vedú k poruchám krvného obehu, čo zvyšuje riziko vzniku a komplikácií celulitídy."

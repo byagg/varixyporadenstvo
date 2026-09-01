@@ -7,17 +7,17 @@ const PROFESSIONAL_RESOURCES = [
   {
     label: "Kódy pančúch",
     description: "Aktualizovaný zoznam kompresných pomôcok",
-    href: "https://varixyporadenstvo.com/#listpancuchy",
+    href: null,
   },
   {
     label: "Trombofilné stavy",
     description: "Diagnostika a odborný manažment",
-    href: "https://varixyporadenstvo.com/#trombofilnestavy",
+    href: null,
   },
   {
     label: "Klasifikácie",
     description: "CEAP a ďalšie klasifikácie cievnych ochorení",
-    href: "https://varixyporadenstvo.com/#klasifikacie",
+    href: null,
   },
   {
     label: "DRG výkony",
@@ -32,12 +32,12 @@ const PROFESSIONAL_RESOURCES = [
   {
     label: "Vaskulitídy",
     description: "Prehľad klinických znakov a liečby",
-    href: "https://varixyporadenstvo.com/#vaskulitidy",
+    href: null,
   },
   {
     label: "Testy na TOS",
     description: "Testy syndrómu hornej hrudnej apertúry",
-    href: "https://varixyporadenstvo.com/#tos",
+    href: null,
   },
   {
     label: "ADC číselník",
@@ -47,32 +47,32 @@ const PROFESSIONAL_RESOURCES = [
   {
     label: "Opuchy končatín",
     description: "Diferenciálna diagnostika opuchov",
-    href: "https://varixyporadenstvo.com/#opuchykoncatin",
+    href: null,
   },
   {
     label: "Vazoneurózy",
     description: "Raynaudov fenomén a ďalšie stavy",
-    href: "https://varixyporadenstvo.com/#vazoneurozy",
+    href: null,
   },
   {
     label: "Liečba HŽT",
     description: "Manažment hlbokej žilovej trombózy",
-    href: "https://varixyporadenstvo.com/#hzt",
+    href: "/#tromboza",
   },
   {
     label: "BMI kalkulačka",
     description: "Pomocný výpočet indexu telesnej hmotnosti",
-    href: "https://varixyporadenstvo.com/#kalkulacka",
+    href: "/#kalkulacky",
   },
   {
     label: "Komplikácie",
     description: "Komplikácie sklerotizácie a ďalších výkonov",
-    href: "https://varixyporadenstvo.com/#komplikaciesklerotizacie",
+    href: null,
   },
   {
     label: "Prekladač diagnóz",
     description: "Pomôcka na orientáciu v diagnózach",
-    href: "https://varixyporadenstvo.com/#prekladac",
+    href: null,
   },
   {
     label: "CCH kódy VšZP",
@@ -122,22 +122,40 @@ export default function PreLekarovSection() {
         </div>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {PROFESSIONAL_RESOURCES.map((resource) => (
-            <a
-              key={resource.label}
-              href={resource.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="pre-lekarov__resource group rounded-[1.1875rem] border border-ploy-border-inverse bg-ploy-neutral-inverse-s2/60 p-5 transition duration-200 hover:-translate-y-1 hover:bg-ploy-background-accent-primary hover:text-black last:lg:col-start-2 last:lg:col-span-2"
-            >
-              <strong className="block font-heading text-xl">
-                {resource.label}
-              </strong>
-              <span className="mt-2 block font-heading text-sm leading-6 opacity-75 group-hover:opacity-100">
-                {resource.description}
-              </span>
-            </a>
-          ))}
+          {PROFESSIONAL_RESOURCES.map((resource) => {
+            const content = (
+              <>
+                <strong className="block font-heading text-xl">
+                  {resource.label}
+                </strong>
+                <span className="mt-2 block font-heading text-sm leading-6 opacity-75 group-hover:opacity-100">
+                  {resource.description}
+                </span>
+              </>
+            );
+            const className =
+              "pre-lekarov__resource group rounded-[1.1875rem] border border-ploy-border-inverse bg-ploy-neutral-inverse-s2/60 p-5 transition duration-200 last:lg:col-start-2 last:lg:col-span-2";
+
+            return resource.href ? (
+              <a
+                key={resource.label}
+                href={resource.href}
+                target={resource.href.startsWith("http") ? "_blank" : undefined}
+                rel={
+                  resource.href.startsWith("http")
+                    ? "noopener noreferrer"
+                    : undefined
+                }
+                className={`${className} hover:-translate-y-1 hover:bg-ploy-background-accent-primary hover:text-black`}
+              >
+                {content}
+              </a>
+            ) : (
+              <div key={resource.label} className={className}>
+                {content}
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
