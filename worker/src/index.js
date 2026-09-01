@@ -61,7 +61,7 @@ function buildMessage({ sender, recipient, name, email, message, pageUrl }) {
   const raw = [
     `From: Varixy Poradenstvo <${sender}>`,
     `To: ${recipient}`,
-    `Reply-To: ${safeName} <${safeEmail}>`,
+    `Reply-To: ${safeEmail}`,
     `Subject: ${subject}`,
     "MIME-Version: 1.0",
     'Content-Type: text/plain; charset="UTF-8"',
