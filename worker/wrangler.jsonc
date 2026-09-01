@@ -12,8 +12,7 @@
   "send_email": [
     {
       "name": "EMAIL",
-      "remote": true,
-      "allowed_sender_addresses": ["kontakt@varixyporadenstvo.com"]
+      "destination_address": "varixyporadenstvo@gmail.com"
     }
   ],
   "ratelimits": [
