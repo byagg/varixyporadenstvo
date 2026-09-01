@@ -256,7 +256,8 @@ export default function Footer() {
             width="100vw"
             loading="eager"
             className="w-full h-svh max-w-none fixed z-0 object-cover left-0 top-0 block-background__image block-background__image--fixed overflow-clip"
-          />
+          
+          alt=""/>
           <div className="!hidden bg-ploy-background-secondary w-full h-svh fixed z-[2] opacity-0 left-0 top-0 block-background__overlay--fixed block-background__overlay" />
         </div>
         <div className="w-full z-[14] grid mx-auto max-lg:min-h-[12.75rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(15px,auto)_minmax(52px,auto)_minmax(85px,auto)_minmax(260px,auto)_minmax(16px,auto)_minmax(4503px,auto)_minmax(16px,auto)_minmax(140px,auto)_1fr] max-lg:px-4 lg:min-h-[327.5rem] lg:max-w-[76.5rem] lg:grid-cols-[19.8529%_7.27124%_6.53595%_3.83987%_25%_3.83987%_12.9085%_7.27124%_13.4804%] lg:grid-rows-[minmax(120px,auto)_minmax(83px,auto)_minmax(101px,auto)_minmax(207px,auto)_minmax(135px,auto)_minmax(125px,auto)_minmax(92px,auto)_minmax(4280px,auto)_1fr] lg:px-0">

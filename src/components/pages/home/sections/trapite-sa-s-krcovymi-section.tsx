@@ -75,7 +75,8 @@ export default function TrapiteSaSKrcovymiSection({
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-        />
+        
+        alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.71] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[133.75rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[8.84146%_82.0122%_9.14634%] max-lg:grid-rows-[minmax(24px,auto)_minmax(316px,auto)_minmax(20px,auto)_minmax(262px,auto)_minmax(16px,auto)_minmax(262px,auto)_minmax(16px,auto)_minmax(262px,auto)_minmax(62px,auto)_minmax(671px,auto)_minmax(93px,auto)_minmax(668px,auto)_1fr] max-lg:px-4 lg:min-h-[82.4375rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_45.098%_3.18627%_1.96078%_0.245098%_15.8497%_5.88235%_0.326797%_0.0816993%_10.5392%] lg:grid-rows-[minmax(26px,auto)_minmax(14px,auto)_minmax(211px,auto)_minmax(15px,auto)_minmax(38px,auto)_minmax(244px,auto)_minmax(31px,auto)_minmax(186px,auto)_minmax(69px,auto)_minmax(18px,auto)_minmax(398px,auto)_1fr] lg:px-0">

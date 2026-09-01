@@ -65,7 +65,8 @@ export default function UcinneLatkyVLiecbeSection() {
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-        />
+        
+        alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-75 left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[244.3125rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[15.8537%_68.2927%_15.8537%] max-lg:grid-rows-[minmax(16px,auto)_minmax(3556px,auto)_minmax(49px,auto)_minmax(219px,auto)_1fr] max-lg:px-4 lg:min-h-[166.6875rem] lg:max-w-[76.5rem] lg:grid-cols-[12.1732%_45.7516%_5.14706%_21.5686%_15.3595%] lg:grid-rows-[minmax(35px,auto)_minmax(71px,auto)_minmax(338px,auto)_minmax(2156px,auto)_1fr] lg:px-0">

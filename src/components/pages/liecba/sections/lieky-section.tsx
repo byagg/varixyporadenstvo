@@ -160,7 +160,8 @@ export default function LiekySection() {
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-        />
+        
+        alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-70 left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[266.8125rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[8.53659%_13.4146%_0.914634%_25.3049%_3.65854%_25.3049%_0.609756%_13.7195%_8.53659%] max-lg:grid-rows-[minmax(38px,auto)_minmax(42px,auto)_minmax(26px,auto)_minmax(174px,auto)_minmax(40px,auto)_minmax(2px,auto)_minmax(48px,auto)_minmax(2px,auto)_minmax(12px,auto)_minmax(50px,auto)_minmax(43px,auto)_minmax(3787px,auto)_1fr] max-lg:px-4 lg:min-h-[175.375rem] lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_0.0816993%_0.735294%_9.80392%_1.47059%_14.134%_1.22549%_0.490196%_10.6209%_10.9477%_3.43137%_32.6797%_5.96405%] lg:grid-rows-[minmax(42px,auto)_minmax(38px,auto)_minmax(24px,auto)_minmax(30px,auto)_minmax(50px,auto)_minmax(35px,auto)_minmax(230px,auto)_minmax(2290px,auto)_1fr] lg:px-0">

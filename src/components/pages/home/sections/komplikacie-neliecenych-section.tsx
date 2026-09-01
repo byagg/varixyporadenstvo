@@ -97,7 +97,8 @@ export default function KomplikacieNeliecenychSection({
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-        />
+        
+        alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.77] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[145.8125rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[13.4146%_2.7439%_11.2805%_42.378%_13.7195%_3.35366%_8.53659%_4.57317%] max-lg:grid-rows-[minmax(24px,auto)_minmax(324px,auto)_minmax(12px,auto)_minmax(158px,auto)_minmax(65px,auto)_minmax(97px,auto)_minmax(61px,auto)_minmax(459px,auto)_minmax(24px,auto)_minmax(243px,auto)_minmax(37px,auto)_minmax(484px,auto)_minmax(41px,auto)_minmax(235px,auto)_1fr] max-lg:px-4 lg:min-h-[85.5rem] lg:max-w-[76.5rem] lg:grid-cols-[11.5196%_3.43137%_0.163399%_11.1111%_6.45425%_15.1144%_4.57516%_0.408497%_2.53268%_1.30719%_25.817%_0.735294%_16.8301%] lg:grid-rows-[minmax(38px,auto)_minmax(2px,auto)_minmax(117px,auto)_minmax(67px,auto)_minmax(86px,auto)_minmax(45px,auto)_minmax(45px,auto)_minmax(270px,auto)_minmax(45px,auto)_minmax(97px,auto)_minmax(11px,auto)_minmax(496px,auto)_minmax(11px,auto)_1fr] lg:px-0">

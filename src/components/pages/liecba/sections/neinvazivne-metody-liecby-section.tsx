@@ -24,7 +24,8 @@ export default function NeinvazivneMetodyLiecbySection() {
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-        />
+        
+        alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.77] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[104.9375rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[19.5122%_0.609756%_6.40244%_3.65854%_39.6341%_3.35366%_6.40244%_0.609756%_19.8171%] max-lg:grid-rows-[minmax(37px,auto)_minmax(187px,auto)_minmax(40px,auto)_minmax(194px,auto)_minmax(6px,auto)_minmax(162px,auto)_minmax(12px,auto)_minmax(50px,auto)_minmax(83px,auto)_minmax(149px,auto)_minmax(9px,auto)_minmax(162px,auto)_minmax(13px,auto)_minmax(50px,auto)_minmax(86px,auto)_minmax(190px,auto)_minmax(10px,auto)_minmax(81px,auto)_minmax(13px,auto)_minmax(50px,auto)_1fr] max-lg:px-4 lg:min-h-[50.0625rem] lg:max-w-[76.5rem] lg:grid-cols-[11.0294%_1.63399%_4.16667%_9.55882%_1.38889%_2.36928%_2.77778%_2.36928%_2.53268%_11.683%_2.04248%_0.490196%_2.20588%_0.0816993%_24.5098%_4.33007%_2.04248%_0.0816993%_14.7059%] lg:grid-rows-[minmax(59px,auto)_minmax(146px,auto)_minmax(72px,auto)_minmax(3px,auto)_minmax(128px,auto)_minmax(4px,auto)_minmax(1px,auto)_minmax(23px,auto)_minmax(1px,auto)_minmax(3px,auto)_minmax(128px,auto)_minmax(4px,auto)_minmax(28px,auto)_minmax(108px,auto)_minmax(20px,auto)_minmax(8px,auto)_1fr] lg:px-0">

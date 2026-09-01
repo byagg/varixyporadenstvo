@@ -102,7 +102,8 @@ export default function KompresnePancuchySection() {
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-        />
+        
+        alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-70 left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[287.875rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[3.96341%_0.609756%_10.6707%_14.939%_3.65854%_1.82927%_30.4878%_0.304878%_3.35366%_14.939%_9.45122%_1.52439%_4.26829%] max-lg:grid-rows-[minmax(16px,auto)_minmax(83px,auto)_minmax(23px,auto)_minmax(222px,auto)_minmax(14px,auto)_minmax(42px,auto)_minmax(24px,auto)_minmax(3525px,auto)_minmax(11px,auto)_minmax(80px,auto)_minmax(120px,auto)_minmax(67px,auto)_minmax(16px,auto)_minmax(146px,auto)_minmax(51px,auto)_minmax(147px,auto)_1fr] max-lg:px-4 lg:min-h-[171.6875rem] lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_0.0816993%_27.3693%_0.735294%_10.6209%_9.88562%_4.57516%_0.980392%_0.163399%_0.0816993%_24.5915%_0.980392%_0.163399%_0.326797%_0.0816993%_10.9477%] lg:grid-rows-[minmax(42px,auto)_minmax(78px,auto)_minmax(47px,auto)_minmax(3px,auto)_minmax(33px,auto)_minmax(344px,auto)_minmax(39px,auto)_minmax(454px,auto)_minmax(35px,auto)_minmax(445px,auto)_minmax(40px,auto)_minmax(448px,auto)_minmax(32px,auto)_minmax(224px,auto)_minmax(225px,auto)_1fr] lg:px-0">

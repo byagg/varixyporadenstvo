@@ -60,7 +60,8 @@ export default function KompresnaBandazSection({
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-        />
+        
+        alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-70 left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[119.125rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[15.8537%_10.6707%_12.5%_29.5732%_4.87805%_10.3659%_16.1585%] max-lg:grid-rows-[minmax(24px,auto)_minmax(42px,auto)_minmax(38px,auto)_minmax(150px,auto)_minmax(25px,auto)_minmax(1345px,auto)_minmax(16px,auto)_minmax(96px,auto)_minmax(73px,auto)_minmax(55px,auto)_1fr] max-lg:px-4 lg:min-h-[71rem] lg:max-w-[76.5rem] lg:grid-cols-[12.8268%_32.6797%_8.74183%_2.77778%_9.47712%_10.2941%_7.27124%_4.98366%_10.9477%] lg:grid-rows-[minmax(38px,auto)_minmax(122px,auto)_minmax(3px,auto)_minmax(54px,auto)_minmax(248px,auto)_minmax(79px,auto)_minmax(216px,auto)_minmax(39px,auto)_minmax(182px,auto)_minmax(34px,auto)_1fr] lg:px-0">

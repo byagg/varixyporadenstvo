@@ -97,7 +97,8 @@ export default function VseobecneZasadyPoOperaciiSection() {
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-        />
+        
+        alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-75 left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[293.5rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(40px,auto)_minmax(140px,auto)_minmax(22px,auto)_minmax(4021px,auto)_minmax(16px,auto)_minmax(498px,auto)_1fr] max-lg:px-4 lg:min-h-[192.6875rem] lg:max-w-[76.5rem] lg:grid-cols-[15.768%_1.06209%_41.0948%_9.39542%_14.7876%_6.12745%_11.7647%] lg:grid-rows-[minmax(34px,auto)_minmax(125px,auto)_minmax(25px,auto)_minmax(3px,auto)_minmax(1341px,auto)_minmax(1443px,auto)_1fr] lg:px-0">

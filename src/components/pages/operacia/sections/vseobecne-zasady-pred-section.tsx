@@ -92,7 +92,8 @@ export default function VseobecneZasadyPredSection() {
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-        />
+        
+        alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-70 left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[128.0625rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(24px,auto)_minmax(187px,auto)_minmax(13px,auto)_minmax(1778px,auto)_1fr] max-lg:px-4 lg:min-h-[80.4375rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_66.3399%_16.8301%] lg:grid-rows-[minmax(59px,auto)_minmax(125px,auto)_minmax(32px,auto)_minmax(968px,auto)_1fr] lg:px-0">

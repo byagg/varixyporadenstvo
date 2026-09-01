@@ -198,7 +198,8 @@ export default function HeroSection() {
             width="100vw"
             loading="eager"
             className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-          />
+          
+          alt=""/>
           <div className="bg-ploy-background-primary w-full h-full absolute z-[2] opacity-[0.83] left-0 top-0 block-background__overlay text-ploy-text-primary" />
         </div>
         <div className="w-full z-[14] grid mx-auto max-lg:min-h-[8.75rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(16px,auto)_minmax(2394px,auto)_minmax(16px,auto)_minmax(208px,auto)_1fr] max-lg:px-4 lg:min-h-[155.5rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_4.16667%_57.9248%_4.24837%_16.8301%] lg:grid-rows-[minmax(64px,auto)_minmax(250px,auto)_minmax(100px,auto)_minmax(2033px,auto)_1fr] lg:px-0">

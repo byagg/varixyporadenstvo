@@ -24,7 +24,8 @@ export default function InvazivneMetodyLiecbySection() {
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-        />
+        
+        alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.77] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[124.9375rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[20.4268%_2.13415%_2.43902%_5.18293%_39.6341%_5.18293%_2.13415%_0.304878%_2.13415%_20.4268%] max-lg:grid-rows-[minmax(24px,auto)_minmax(187px,auto)_minmax(53px,auto)_minmax(160px,auto)_minmax(14px,auto)_minmax(162px,auto)_minmax(14px,auto)_minmax(50px,auto)_minmax(64px,auto)_minmax(176px,auto)_minmax(16px,auto)_minmax(135px,auto)_minmax(9px,auto)_minmax(50px,auto)_minmax(46px,auto)_minmax(184px,auto)_minmax(5px,auto)_minmax(130px,auto)_minmax(15px,auto)_minmax(50px,auto)_minmax(56px,auto)_minmax(175px,auto)_minmax(9px,auto)_minmax(108px,auto)_minmax(12px,auto)_minmax(50px,auto)_1fr] max-lg:px-4 lg:min-h-[60.8125rem] lg:max-w-[76.5rem] lg:grid-cols-[10.5392%_0.490196%_1.63399%_4.16667%_7.43464%_2.12418%_0.571895%_0.816993%_7.51634%_2.53268%_13.3987%_0.326797%_0.490196%_0.980392%_1.22549%_0.0816993%_0.0816993%_25.9804%_2.77778%_2.04248%_0.0816993%_14.7059%] lg:grid-rows-[minmax(59px,auto)_minmax(146px,auto)_minmax(72px,auto)_minmax(4px,auto)_minmax(128px,auto)_minmax(3px,auto)_minmax(1px,auto)_minmax(23px,auto)_minmax(1px,auto)_minmax(3px,auto)_minmax(128px,auto)_minmax(4px,auto)_minmax(28px,auto)_minmax(1px,auto)_minmax(127px,auto)_minmax(8px,auto)_minmax(24px,auto)_minmax(4px,auto)_minmax(10px,auto)_minmax(108px,auto)_minmax(10px,auto)_minmax(4px,auto)_1fr] lg:px-0">

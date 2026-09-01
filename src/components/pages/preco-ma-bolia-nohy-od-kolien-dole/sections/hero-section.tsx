@@ -352,7 +352,7 @@ export default function HeroSection() {
                 title="custom code element"
                 className="w-full h-auto inline grid-embed__iframe overflow-clip"
                 srcDoc={
-                  '<!DOCTYPE html>\n\t<head>\n\n</head>\n\t<body><a href="https://www.tkqlhce.com/click-100810134-13484074?url=https%3A%2F%2Fwww.mojalekaren.sk%2Ffluxoven-500-mg-60-tabliet%2F&cjsku=495784" target="_top"><img src="/external-assets/d3acb2a3506dcba3.jpg" border="0" alt="FLUXOVEN 500 mg 60 tabliet"></a><img src="/external-assets/4b47c9e5818bb595.gif" width="1" height="1" border="0">\n\n</body>\n</html>'
+                  '<!DOCTYPE html>\n\t<head>\n\n</head>\n\t<body><a href="https://www.tkqlhce.com/click-100810134-13484074?url=https%3A%2F%2Fwww.mojalekaren.sk%2Ffluxoven-500-mg-60-tabliet%2F&cjsku=495784" target="_top"><img src="/external-assets/d3acb2a3506dcba3.jpg" border="0" alt="FLUXOVEN 500 mg 60 tabliet"></a><img alt="" src="/external-assets/4b47c9e5818bb595.gif" width="1" height="1" border="0">\n\n</body>\n</html>'
                 }
               />
             </div>
@@ -366,7 +366,7 @@ export default function HeroSection() {
                 title="custom code element"
                 className="w-full h-auto inline grid-embed__iframe overflow-clip"
                 srcDoc={
-                  '<!DOCTYPE html>\n\t<head>\n\n</head>\n\t<body><a href="https://www.jdoqocy.com/click-100810134-13484074?url=https%3A%2F%2Fwww.mojalekaren.sk%2Fdetralex-1000-mg-peroralna-suspenzia-vo-vrecku-30-kusov%2F&cjsku=459157" target="_top"><img src="/external-assets/c3140789896a5116.jpg" border="0" alt="DETRALEX 1000 mg peror�lna suspenzia vo vrecku 30 kusov"></a><img src="/external-assets/914f78a89b87889a.gif" width="1" height="1" border="0">\n\n</body>\n</html>'
+                  '<!DOCTYPE html>\n\t<head>\n\n</head>\n\t<body><a href="https://www.jdoqocy.com/click-100810134-13484074?url=https%3A%2F%2Fwww.mojalekaren.sk%2Fdetralex-1000-mg-peroralna-suspenzia-vo-vrecku-30-kusov%2F&cjsku=459157" target="_top"><img src="/external-assets/c3140789896a5116.jpg" border="0" alt="DETRALEX 1000 mg peror�lna suspenzia vo vrecku 30 kusov"></a><img alt="" src="/external-assets/914f78a89b87889a.gif" width="1" height="1" border="0">\n\n</body>\n</html>'
                 }
               />
             </div>

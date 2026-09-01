@@ -210,7 +210,8 @@ export default function HeroSection() {
             width="100vw"
             loading="eager"
             className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-          />
+          
+          alt=""/>
           <div className="bg-ploy-background-primary w-full h-full absolute z-[2] opacity-[0.61] left-0 top-0 block-background__overlay text-ploy-text-primary" />
         </div>
         <div className="w-full z-[14] grid mx-auto max-lg:min-h-[159.625rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(78px,auto)_minmax(54px,auto)_minmax(52px,auto)_minmax(4px,auto)_minmax(26px,auto)_minmax(26px,auto)_minmax(61px,auto)_minmax(47px,auto)_minmax(10px,auto)_minmax(54px,auto)_minmax(26px,auto)_minmax(4px,auto)_minmax(26px,auto)_minmax(12px,auto)_minmax(52px,auto)_minmax(56px,auto)_minmax(209px,auto)_minmax(55px,auto)_minmax(200px,auto)_minmax(56px,auto)_minmax(52px,auto)_minmax(28px,auto)_minmax(320px,auto)_minmax(16px,auto)_minmax(320px,auto)_minmax(16px,auto)_minmax(320px,auto)_minmax(16px,auto)_minmax(320px,auto)_1fr] max-lg:px-4 lg:min-h-[143.4375rem] lg:max-w-[76.5rem] lg:grid-cols-[10.2941%_11.683%_1.55229%_1.79739%_0.245098%_1.38889%_1.55229%_0.408497%_1.22549%_2.53268%_0.980392%_15.8497%_0.980392%_7.43464%_0.980392%_24.2647%_6.53595%_10.2941%] lg:grid-rows-[minmax(98px,auto)_minmax(6px,auto)_minmax(56px,auto)_minmax(10px,auto)_minmax(54px,auto)_minmax(16px,auto)_minmax(21px,auto)_minmax(28px,auto)_minmax(31px,auto)_minmax(26px,auto)_minmax(62px,auto)_minmax(16px,auto)_minmax(62px,auto)_minmax(13px,auto)_minmax(54px,auto)_minmax(5px,auto)_minmax(21px,auto)_minmax(23px,auto)_minmax(62px,auto)_minmax(424px,auto)_minmax(456px,auto)_minmax(16px,auto)_minmax(456px,auto)_1fr] lg:px-0">

@@ -20,7 +20,8 @@ export default function PoradimeNajlepsieRiesenieSection() {
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-        />
+        
+        alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.71] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[56.3125rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[13.7195%_5.79268%_0.609756%_59.4512%_0.609756%_6.09756%_13.7195%] max-lg:grid-rows-[minmax(35px,auto)_minmax(83px,auto)_minmax(19px,auto)_minmax(48px,auto)_minmax(29px,auto)_minmax(50px,auto)_minmax(40px,auto)_minmax(140px,auto)_minmax(36px,auto)_minmax(83px,auto)_minmax(1px,auto)_minmax(96px,auto)_minmax(37px,auto)_minmax(167px,auto)_1fr] max-lg:px-4 lg:min-h-[41.4375rem] lg:max-w-[76.5rem] lg:grid-cols-[19.6078%_1.14379%_0.0816993%_27.6144%_0.0816993%_0.980392%_6.20915%_1.06209%_2.12418%_19.281%_4.98366%_5.22876%_11.6013%] lg:grid-rows-[minmax(40px,auto)_minmax(18px,auto)_minmax(83px,auto)_minmax(9px,auto)_minmax(50px,auto)_minmax(40px,auto)_minmax(64px,auto)_minmax(40px,auto)_minmax(4px,auto)_minmax(31px,auto)_minmax(42px,auto)_minmax(19px,auto)_minmax(100px,auto)_minmax(43px,auto)_1fr] lg:px-0">

@@ -21,7 +21,8 @@ export default function HeroSection() {
           width="100vw"
           loading="eager"
           className="w-full h-svh max-w-none fixed z-0 object-cover left-0 top-0 block-background__image block-background__image--fixed overflow-clip"
-        />
+        
+        alt=""/>
         <div className="!hidden bg-ploy-background-inverse w-full h-svh fixed z-[2] opacity-0 left-0 top-0 block-background__overlay--fixed block-background__overlay text-ploy-text-inverse" />
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[49.8125rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[12.5%_2.43902%_0.914634%_0.914634%_66.4634%_0.609756%_1.21951%_2.43902%_12.5%] max-lg:grid-rows-[minmax(40px,auto)_minmax(208px,auto)_minmax(16px,auto)_minmax(50px,auto)_minmax(30px,auto)_minmax(240px,auto)_minmax(30px,auto)_minmax(50px,auto)_minmax(30px,auto)_minmax(50px,auto)_1fr] max-lg:px-4 lg:min-h-[37rem] lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_0.490196%_7.92484%_10.6209%_1.38889%_7.02614%_12.0098%_1.63399%_0.980392%_30.6373%_18.8725%] lg:grid-rows-[minmax(50px,auto)_minmax(14px,auto)_minmax(201px,auto)_minmax(55px,auto)_minmax(64px,auto)_minmax(16px,auto)_minmax(64px,auto)_minmax(80px,auto)_1fr] lg:px-0">

@@ -146,7 +146,8 @@ export default function PrirodnaLekarenSection() {
           width="100vw"
           loading="eager"
           className="w-full h-[101%] max-w-none absolute z-0 object-cover left-0 top-0 block-background__image overflow-clip"
-        />
+        
+        alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-75 left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
       <div className="w-full z-[14] grid mx-auto max-lg:min-h-[296.5625rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(16px,auto)_minmax(4676px,auto)_1fr] max-lg:px-4 lg:min-h-[169.1875rem] lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_54.3301%_37.2549%] lg:grid-rows-[minmax(39px,auto)_minmax(2595px,auto)_1fr] lg:px-0">
