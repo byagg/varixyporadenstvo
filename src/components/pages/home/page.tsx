@@ -20,7 +20,7 @@ import PreLekarovSection from "./sections/pre-lekarov-section";
 import PageIcon1 from "./svgs/page-icon-1";
 import PageIcon2 from "./svgs/page-icon-2";
 import { useState, type SyntheticEvent } from "react";
-import { submitForm } from "@/lib/ploy-forms/submit-form";
+import { submitContactForm } from "@/lib/contact-form";
 
 /**
  * @ployComponent
@@ -34,6 +34,7 @@ export default function Page() {
   const [formStatus, setFormStatus] = useState<
     "idle" | "submitting" | "success" | "error"
   >("idle");
+  const [formError, setFormError] = useState("");
 
   async function handleContactSubmit(
     event: SyntheticEvent<HTMLFormElement, SubmitEvent>,
@@ -42,16 +43,22 @@ export default function Page() {
     const form = event.currentTarget;
     const formData = new FormData(form);
 
+    setFormError("");
     setFormStatus("submitting");
     try {
-      await submitForm("Kontaktný formulár", {
+      await submitContactForm({
         meno: String(formData.get("meno") ?? ""),
         email: String(formData.get("email") ?? ""),
         sprava: String(formData.get("sprava") ?? ""),
       });
       form.reset();
       setFormStatus("success");
-    } catch {
+    } catch (error) {
+      setFormError(
+        error instanceof Error
+          ? error.message
+          : "Správu sa nepodarilo odoslať. Skúste to, prosím, znova.",
+      );
       setFormStatus("error");
     }
   }
@@ -660,7 +667,7 @@ export default function Page() {
                           role="alert"
                           className="text-ploy-text-primary text-center font-heading leading-6"
                         >
-                          Správu sa nepodarilo odoslať. Skúste to, prosím, znova.
+                          {formError}
                         </p>
                       )}
                     </form>
