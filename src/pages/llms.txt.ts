@@ -21,7 +21,7 @@ const pagePathForEntryId = (id: string) => {
 };
 
 export const GET: APIRoute = async ({ site }) => {
-  const origin = site?.origin ?? "https://example.com";
+  const origin = site?.origin ?? "https://varixyporadenstvo.com";
   const pages = await getPublishedPages();
 
   const contentLinks = pages
@@ -54,7 +54,7 @@ export const GET: APIRoute = async ({ site }) => {
       : []),
     "## Discovery",
     "",
-    `- [Sitemap](${new URL("/sitemap-index.xml", origin).href}): Complete search-engine sitemap, if available.`,
+    `- [Sitemap](${new URL("/sitemap.xml", origin).href}): Complete search-engine sitemap.`,
     `- [Robots policy](${new URL("/robots.txt", origin).href}): Crawler permissions for automated agents.`,
     "",
   ];

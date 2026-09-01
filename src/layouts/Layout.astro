@@ -1,6 +1,5 @@
 ---
 import "../styles/globals.css";
-import { STARTER_VERSION } from "../starter-version";
 import { SEO } from "@/components/seo";
 import { SITE_CONFIG } from "@/site-config";
 import type { SeoJsonSchema } from "@/components/seo-json";
@@ -51,7 +50,6 @@ const imageUrl = resolveUrl(image);
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
-    <meta name="ploy-astro-starter-version" content={STARTER_VERSION} />
     <SEO
       title={title}
       description={description}
