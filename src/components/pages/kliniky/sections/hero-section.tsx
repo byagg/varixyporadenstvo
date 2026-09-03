@@ -208,18 +208,6 @@ export default function HeroSection() {
                   {"BANSKOBYSTRICKÝ KRAJ"}
                 </strong>
               </h2>
-              <p className={listItemClassName}>
-                <strong className="[color:inherit] break-words">
-                  {"DL-clinic, BB (M. Vávra "}
-                  <a
-                    href="https://dlclinic.sk/sluzby/jednodnova-chirurgia/chirurgia/"
-                    target="_blank"
-                    className="break-words transition-[color,border,text-decoration-color] duration-200 ease-[ease-in-out]"
-                  >
-                    {")"}
-                  </a>
-                </strong>
-              </p>
               {textSegments4.map((item, index) => (
                 <ListItem key={index} {...item} />
               ))}
