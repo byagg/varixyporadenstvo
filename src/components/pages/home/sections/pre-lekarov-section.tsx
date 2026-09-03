@@ -1,92 +1,139 @@
-const PROFESSIONAL_RESOURCES = [
+import { ArrowUpRight, MoveRight } from "lucide-react";
+
+interface ProfessionalResource {
+  label: string;
+  description: string;
+  href: string;
+  /** Zdroj zobrazený na karte — doména alebo názov materiálu. */
+  source: string;
+  /** Materiál je v angličtine. */
+  english?: boolean;
+}
+
+const PROFESSIONAL_RESOURCES: ProfessionalResource[] = [
   {
     label: "MKCH-10",
     description: "Medzinárodná klasifikácia diagnóz",
     href: "https://mediately.co/sk/icd",
+    source: "mediately.co",
   },
   {
     label: "Kódy pančúch",
     description: "Aktualizovaný zoznam kompresných pomôcok",
     href: "/kody-pancuch",
+    source: "na tejto stránke",
   },
   {
     label: "Trombofilné stavy",
     description: "Diagnostika a odborný manažment",
-    href: null,
+    href: "https://www.ncbi.nlm.nih.gov/books/NBK538251/",
+    source: "StatPearls / NCBI",
+    english: true,
   },
   {
     label: "Klasifikácie",
     description: "CEAP a ďalšie klasifikácie cievnych ochorení",
-    href: null,
+    href: "https://www.ncbi.nlm.nih.gov/books/NBK430975/",
+    source: "StatPearls / NCBI",
+    english: true,
   },
   {
     label: "DRG výkony",
     description: "Vyhľadávanie zdravotných výkonov",
-    href: "https://www.cksdrg.sk/sk/drgsearchers/vykony",
+    href: "https://www.cksdrg.sk/sk/definicna-prirucka/vykony",
+    source: "cksdrg.sk",
   },
   {
     label: "Dotazník pančuchy",
     description: "Pomoc pri výbere kompresívnej pomôcky",
     href: "https://yxuemnnzg0c.typeform.com/to/fN9LMkNN",
+    source: "dotazník",
   },
   {
     label: "Vaskulitídy",
     description: "Prehľad klinických znakov a liečby",
-    href: null,
+    href: "https://www.ncbi.nlm.nih.gov/books/NBK545186/",
+    source: "StatPearls / NCBI",
+    english: true,
   },
   {
     label: "Testy na TOS",
     description: "Testy syndrómu hornej hrudnej apertúry",
-    href: null,
+    href: "https://www.ncbi.nlm.nih.gov/books/NBK557450/",
+    source: "StatPearls / NCBI",
+    english: true,
   },
   {
     label: "ADC číselník",
     description: "Databáza liekov a zdravotníckych produktov",
     href: "https://www.adc.sk/",
+    source: "adc.sk",
   },
   {
     label: "Opuchy končatín",
     description: "Diferenciálna diagnostika opuchov",
-    href: null,
+    href: "https://varixyporadenstvo.webnode.sk/webstranky/",
+    source: "zbierka PDF materiálov",
   },
   {
     label: "Vazoneurózy",
     description: "Raynaudov fenomén a ďalšie stavy",
-    href: null,
+    href: "https://www.ncbi.nlm.nih.gov/books/NBK499833/",
+    source: "StatPearls / NCBI",
+    english: true,
   },
   {
     label: "Liečba HŽT",
     description: "Manažment hlbokej žilovej trombózy",
     href: "/#tromboza",
+    source: "na tejto stránke",
   },
   {
     label: "BMI kalkulačka",
     description: "Pomocný výpočet indexu telesnej hmotnosti",
     href: "/#kalkulacky",
+    source: "na tejto stránke",
   },
   {
     label: "Komplikácie",
     description: "Komplikácie sklerotizácie a ďalších výkonov",
-    href: null,
+    href: "https://www.ncbi.nlm.nih.gov/books/NBK599526/",
+    source: "StatPearls / NCBI",
+    english: true,
   },
   {
     label: "Prekladač diagnóz",
     description: "Pomôcka na orientáciu v diagnózach",
-    href: null,
+    href: "https://www.edusan.sk/diagnozy/diagnozy_uvod.html",
+    source: "edusan.sk",
   },
   {
     label: "CCH kódy VšZP",
     description: "Revízne pravidlá cievnej chirurgie",
     href: "https://www.vszp.sk/files/poskytovatelia/zdravotna-starostlivost/revizne-pravidla/068-reviznepravidla-cievnachirurgia.pdf",
+    source: "vszp.sk (PDF)",
   },
   {
     label: "Zoznam KZT",
     description: "Zoznam kategorizovaných zdravotníckych pomôcok",
     href: "https://www.health.gov.sk/Clanok?zkzp-202504",
+    source: "health.gov.sk",
   },
-] as const;
+];
 
-export default function PreLekarovSection() {
+interface Props {
+  eyebrow?: string;
+  heading?: string;
+  description?: string;
+  resources?: ProfessionalResource[];
+}
+
+export default function PreLekarovSection({
+  eyebrow = "Odborné zdroje",
+  heading = "Pre lekárov",
+  description = "Praktický rozcestník ku klasifikáciám, výkonom a odborným materiálom pre diagnostiku a liečbu cievnych ochorení.",
+  resources = PROFESSIONAL_RESOURCES,
+}: Props) {
   return (
     <section
       id="prelekarov"
@@ -102,50 +149,44 @@ export default function PreLekarovSection() {
       <div className="mx-auto max-w-[76.5rem]">
         <div className="max-w-3xl">
           <p className="font-heading text-sm font-bold uppercase tracking-[0.18em] text-ploy-accent-primary">
-            Odborné zdroje
+            {eyebrow}
           </p>
           <h2 className="mt-4 font-heading text-4xl font-bold leading-tight text-ploy-text-inverse lg:text-5xl">
-            Pre lekárov
+            {heading}
           </h2>
           <p className="mt-5 font-heading text-lg leading-8 text-ploy-text-inverse/80">
-            Praktický rozcestník ku klasifikáciám, výkonom a odborným materiálom
-            pre diagnostiku a liečbu cievnych ochorení.
+            {description}
           </p>
         </div>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {PROFESSIONAL_RESOURCES.map((resource) => {
-            const content = (
-              <>
+          {resources.map((resource) => {
+            const isExternal = resource.href.startsWith("http");
+
+            return (
+              <a
+                key={resource.label}
+                href={resource.href}
+                target={isExternal ? "_blank" : undefined}
+                rel={isExternal ? "noopener noreferrer" : undefined}
+                className="pre-lekarov__resource group flex flex-col rounded-[1.1875rem] border border-ploy-border-inverse bg-ploy-neutral-inverse-s2/60 p-5 transition duration-200 hover:-translate-y-1 hover:bg-ploy-background-accent-primary hover:text-black"
+              >
                 <strong className="block font-heading text-xl">
                   {resource.label}
                 </strong>
                 <span className="mt-2 block font-heading text-sm leading-6 opacity-75 group-hover:opacity-100">
                   {resource.description}
                 </span>
-              </>
-            );
-            const className =
-              "pre-lekarov__resource group rounded-[1.1875rem] border border-ploy-border-inverse bg-ploy-neutral-inverse-s2/60 p-5 transition duration-200 last:lg:col-start-2 last:lg:col-span-2";
-
-            return resource.href ? (
-              <a
-                key={resource.label}
-                href={resource.href}
-                target={resource.href.startsWith("http") ? "_blank" : undefined}
-                rel={
-                  resource.href.startsWith("http")
-                    ? "noopener noreferrer"
-                    : undefined
-                }
-                className={`${className} hover:-translate-y-1 hover:bg-ploy-background-accent-primary hover:text-black`}
-              >
-                {content}
+                <span className="mt-4 flex items-center gap-1.5 font-heading text-xs uppercase tracking-[0.12em] opacity-60 group-hover:opacity-100">
+                  {isExternal ? (
+                    <ArrowUpRight aria-hidden="true" className="h-3.5 w-3.5" />
+                  ) : (
+                    <MoveRight aria-hidden="true" className="h-3.5 w-3.5" />
+                  )}
+                  {resource.source}
+                  {resource.english ? " · EN" : null}
+                </span>
               </a>
-            ) : (
-              <div key={resource.label} className={className}>
-                {content}
-              </div>
             );
           })}
         </div>
