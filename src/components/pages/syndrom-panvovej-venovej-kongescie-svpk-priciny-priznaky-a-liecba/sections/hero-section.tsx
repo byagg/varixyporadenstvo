@@ -178,9 +178,9 @@ export default function HeroSection() {
                   {"VP team"}
                 </p>
                 <p className="[color:inherit] blog-list-item-meta__subtitle">
-                  <span className="[color:inherit]">{"7/15/2025" + " "}</span>
+                  <span className="[color:inherit]">{"15. 7. 2025" + " "}</span>
                   <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                    {" " + "12 min read"}
+                    {" " + "12 min čítania"}
                   </span>
                 </p>
               </div>

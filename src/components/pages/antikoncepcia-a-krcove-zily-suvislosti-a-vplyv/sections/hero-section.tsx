@@ -148,7 +148,7 @@ export default function HeroSection() {
               <div className="font-heading leading-tight">
                 <p className="[color:inherit] mb-1 blog-list-item-meta__author-name" />
                 <p className="[color:inherit] blog-list-item-meta__subtitle">
-                  <span className="[color:inherit]">7 min read</span>
+                  <span className="[color:inherit]">7 min čítania</span>
                 </p>
               </div>
             </div>

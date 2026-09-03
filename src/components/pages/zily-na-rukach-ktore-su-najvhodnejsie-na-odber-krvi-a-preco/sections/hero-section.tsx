@@ -74,7 +74,7 @@ export default function HeroSection({
                   {"VP team"}
                 </p>
                 <p className="[color:inherit] blog-list-item-meta__subtitle">
-                  <span className="[color:inherit]">5 min read</span>
+                  <span className="[color:inherit]">5 min čítania</span>
                 </p>
               </div>
             </div>

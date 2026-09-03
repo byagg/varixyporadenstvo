@@ -81,10 +81,10 @@ export default function Page() {
                           <p className="[color:inherit] mb-1 blog-list-item-meta__author-name" />
                           <p className="[color:inherit] blog-list-item-meta__subtitle">
                             <span className="[color:inherit]">
-                              {"7/15/2025" + " "}
+                              {"15. 7. 2025" + " "}
                             </span>
                             <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                              {" " + "4 min read"}
+                              {" " + "4 min čítania"}
                             </span>
                           </p>
                         </div>
@@ -125,10 +125,10 @@ export default function Page() {
                           <p className="[color:inherit] mb-1 blog-list-item-meta__author-name" />
                           <p className="[color:inherit] blog-list-item-meta__subtitle">
                             <span className="[color:inherit]">
-                              {"7/15/2025" + " "}
+                              {"15. 7. 2025" + " "}
                             </span>
                             <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                              {" " + "5 min read"}
+                              {" " + "5 min čítania"}
                             </span>
                           </p>
                         </div>
@@ -169,10 +169,10 @@ export default function Page() {
                           <p className="[color:inherit] mb-1 blog-list-item-meta__author-name" />
                           <p className="[color:inherit] blog-list-item-meta__subtitle">
                             <span className="[color:inherit]">
-                              {"7/15/2025" + " "}
+                              {"15. 7. 2025" + " "}
                             </span>
                             <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                              {" " + "7 min read"}
+                              {" " + "7 min čítania"}
                             </span>
                           </p>
                         </div>
@@ -213,10 +213,10 @@ export default function Page() {
                           <p className="[color:inherit] mb-1 blog-list-item-meta__author-name" />
                           <p className="[color:inherit] blog-list-item-meta__subtitle">
                             <span className="[color:inherit]">
-                              {"7/15/2025" + " "}
+                              {"15. 7. 2025" + " "}
                             </span>
                             <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                              {" " + "6 min read"}
+                              {" " + "6 min čítania"}
                             </span>
                           </p>
                         </div>
@@ -259,10 +259,10 @@ export default function Page() {
                           <p className="[color:inherit] mb-1 blog-list-item-meta__author-name" />
                           <p className="[color:inherit] blog-list-item-meta__subtitle">
                             <span className="[color:inherit]">
-                              {"7/15/2025" + " "}
+                              {"15. 7. 2025" + " "}
                             </span>
                             <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                              {" " + "6 min read"}
+                              {" " + "6 min čítania"}
                             </span>
                           </p>
                         </div>
@@ -305,10 +305,10 @@ export default function Page() {
                           <p className="[color:inherit] mb-1 blog-list-item-meta__author-name" />
                           <p className="[color:inherit] blog-list-item-meta__subtitle">
                             <span className="[color:inherit]">
-                              {"7/15/2025" + " "}
+                              {"15. 7. 2025" + " "}
                             </span>
                             <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                              {" " + "6 min read"}
+                              {" " + "6 min čítania"}
                             </span>
                           </p>
                         </div>
@@ -353,10 +353,10 @@ export default function Page() {
                           </p>
                           <p className="[color:inherit] blog-list-item-meta__subtitle">
                             <span className="[color:inherit]">
-                              {"7/15/2025" + " "}
+                              {"15. 7. 2025" + " "}
                             </span>
                             <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                              {" " + "6 min read"}
+                              {" " + "6 min čítania"}
                             </span>
                           </p>
                         </div>
@@ -399,10 +399,10 @@ export default function Page() {
                           <p className="[color:inherit] mb-1 blog-list-item-meta__author-name" />
                           <p className="[color:inherit] blog-list-item-meta__subtitle">
                             <span className="[color:inherit]">
-                              {"7/15/2025" + " "}
+                              {"15. 7. 2025" + " "}
                             </span>
                             <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                              {" " + "3 min read"}
+                              {" " + "3 min čítania"}
                             </span>
                           </p>
                         </div>
@@ -444,10 +444,10 @@ export default function Page() {
                           <p className="[color:inherit] mb-1 blog-list-item-meta__author-name" />
                           <p className="[color:inherit] blog-list-item-meta__subtitle">
                             <span className="[color:inherit]">
-                              {"7/15/2025" + " "}
+                              {"15. 7. 2025" + " "}
                             </span>
                             <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                              {" " + "4 min read"}
+                              {" " + "4 min čítania"}
                             </span>
                           </p>
                         </div>
@@ -491,10 +491,10 @@ export default function Page() {
                           <p className="[color:inherit] mb-1 blog-list-item-meta__author-name" />
                           <p className="[color:inherit] blog-list-item-meta__subtitle">
                             <span className="[color:inherit]">
-                              {"7/15/2025" + " "}
+                              {"15. 7. 2025" + " "}
                             </span>
                             <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                              {" " + "8 min read"}
+                              {" " + "8 min čítania"}
                             </span>
                           </p>
                         </div>
@@ -536,10 +536,10 @@ export default function Page() {
                           <p className="[color:inherit] mb-1 blog-list-item-meta__author-name" />
                           <p className="[color:inherit] blog-list-item-meta__subtitle">
                             <span className="[color:inherit]">
-                              {"7/15/2025" + " "}
+                              {"15. 7. 2025" + " "}
                             </span>
                             <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                              {" " + "5 min read"}
+                              {" " + "5 min čítania"}
                             </span>
                           </p>
                         </div>
@@ -581,10 +581,10 @@ export default function Page() {
                           <p className="[color:inherit] mb-1 blog-list-item-meta__author-name" />
                           <p className="[color:inherit] blog-list-item-meta__subtitle">
                             <span className="[color:inherit]">
-                              {"7/15/2025" + " "}
+                              {"15. 7. 2025" + " "}
                             </span>
                             <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                              {" " + "7 min read"}
+                              {" " + "7 min čítania"}
                             </span>
                           </p>
                         </div>

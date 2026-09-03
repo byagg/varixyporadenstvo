@@ -27,9 +27,9 @@ export default function HeroSection() {
               <div className="font-heading leading-tight">
                 <p className="[color:inherit] mb-1 blog-list-item-meta__author-name" />
                 <p className="[color:inherit] blog-list-item-meta__subtitle">
-                  <span className="[color:inherit]">{"7/15/2025" + " "}</span>
+                  <span className="[color:inherit]">{"15. 7. 2025" + " "}</span>
                   <span className="[color:inherit] before:content-['_·_'] before:text-ploy-text-primary">
-                    {" " + "4 min read"}
+                    {" " + "4 min čítania"}
                   </span>
                 </p>
               </div>
