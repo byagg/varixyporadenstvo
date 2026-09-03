@@ -7,7 +7,7 @@ const PROFESSIONAL_RESOURCES = [
   {
     label: "Kódy pančúch",
     description: "Aktualizovaný zoznam kompresných pomôcok",
-    href: null,
+    href: "/kody-pancuch",
   },
   {
     label: "Trombofilné stavy",
