@@ -14,7 +14,7 @@ export default function HeroSection() {
         alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.51] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
-      <div className="w-full z-[14] grid mx-auto max-lg:min-h-[41.3125rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[18.9024%_61.8902%_19.2073%] max-lg:grid-rows-[minmax(16px,auto)_minmax(52px,auto)_minmax(36px,auto)_minmax(198px,auto)_minmax(25px,auto)_minmax(297px,auto)_1fr] max-lg:px-4 lg:min-h-[37.0625rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_28.5131%_4.16667%_4.41176%_25.4085%_20.6699%] lg:grid-rows-[minmax(117px,auto)_minmax(83px,auto)_minmax(8px,auto)_minmax(16px,auto)_minmax(243px,auto)_minmax(18px,auto)_1fr] lg:px-0">
+      <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[18.9024%_61.8902%_19.2073%] max-lg:grid-rows-[minmax(16px,auto)_minmax(52px,auto)_minmax(36px,auto)_minmax(198px,auto)_minmax(25px,auto)_minmax(297px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_28.5131%_4.16667%_4.41176%_25.4085%_20.6699%] lg:grid-rows-[minmax(117px,auto)_minmax(83px,auto)_minmax(8px,auto)_minmax(16px,auto)_minmax(243px,auto)_minmax(18px,auto)_1fr] lg:px-0">
         <div className="w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 row-end-3 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-4 lg:text-left lg:col-start-2 lg:col-end-3">
           <div
             id="zd0mfX"

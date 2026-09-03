@@ -48,12 +48,12 @@ function ItemRow({ item }: { item: StockingItem }) {
       <td className="min-w-[18rem] px-4 py-3 font-heading text-sm leading-6">
         {item.name}
         {item.detail ? (
-          <span className="mt-1 block text-xs leading-5 text-ploy-text-secondary">
+          <span className="mt-1 block text-[0.8125rem] leading-5 text-ploy-text-secondary">
             {item.detail}
           </span>
         ) : null}
         {item.note ? (
-          <span className="mt-1 block text-xs leading-5 text-ploy-accent-primary-700">
+          <span className="mt-1 block text-[0.8125rem] leading-5 text-ploy-accent-primary-700">
             {item.note}
           </span>
         ) : null}
@@ -76,7 +76,7 @@ function ItemRow({ item }: { item: StockingItem }) {
       <td className="whitespace-nowrap px-4 py-3 text-right font-heading text-sm font-bold">
         {formatPrice(item.copay)}
       </td>
-      <td className="px-4 py-3 font-heading text-xs leading-5 text-ploy-text-secondary">
+      <td className="px-4 py-3 font-heading text-[0.8125rem] leading-5 text-ploy-text-secondary">
         {item.prescription.length ? item.prescription.join(", ") : "—"}
       </td>
     </tr>
@@ -215,7 +215,7 @@ export default function Page({
           >
             ← Pre lekárov
           </a>
-          <h1 className="mt-4 font-heading text-4xl font-bold leading-tight lg:text-5xl">
+          <h1 className="mt-4 font-heading text-4xl font-bold leading-tight lg:text-[4rem] lg:leading-[1.15]">
             {heading}
           </h1>
           <p className="mt-5 max-w-3xl font-heading text-lg leading-8 text-ploy-text-inverse/80">

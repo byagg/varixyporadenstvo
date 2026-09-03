@@ -89,7 +89,7 @@ export default function VseobecneZasadyPredSection() {
         alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-70 left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
-      <div className="w-full z-[14] grid mx-auto max-lg:min-h-[128.0625rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(24px,auto)_minmax(187px,auto)_minmax(13px,auto)_minmax(1778px,auto)_1fr] max-lg:px-4 lg:min-h-[80.4375rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_66.3399%_16.8301%] lg:grid-rows-[minmax(59px,auto)_minmax(125px,auto)_minmax(32px,auto)_minmax(968px,auto)_1fr] lg:px-0">
+      <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(24px,auto)_minmax(187px,auto)_minmax(13px,auto)_auto_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_66.3399%_16.8301%] lg:grid-rows-[minmax(59px,auto)_minmax(125px,auto)_minmax(32px,auto)_minmax(968px,auto)_1fr] lg:px-0">
         <div className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] row-start-4 row-end-5 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-2 lg:col-end-3">
           <div
             id="z9Yk3i"

@@ -340,7 +340,7 @@ export default function Page() {
                 alt=""/>
                 <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.84] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
               </div>
-              <div className="w-full z-[14] grid mx-auto max-lg:min-h-[67.1875rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(16px,auto)_minmax(1014px,auto)_1fr] max-lg:px-4 lg:min-h-[51.5625rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_42.2386%_40.9314%] lg:grid-rows-[minmax(64px,auto)_minmax(718px,auto)_1fr] lg:px-0">
+              <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(16px,auto)_auto_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_42.2386%_40.9314%] lg:grid-rows-[minmax(64px,auto)_minmax(718px,auto)_1fr] lg:px-0">
                 <div
                   className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 row-end-3 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-2 lg:col-end-3"
                 >
@@ -487,7 +487,7 @@ export default function Page() {
                 alt=""/>
                 <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.84] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
               </div>
-              <div className="w-full z-[14] grid mx-auto max-lg:min-h-[88.5rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(16px,auto)_minmax(1319px,auto)_1fr] max-lg:px-4 lg:min-h-[69.1875rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_42.2386%_40.9314%] lg:grid-rows-[minmax(64px,auto)_minmax(917px,auto)_1fr] lg:px-0">
+              <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(16px,auto)_auto_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_42.2386%_40.9314%] lg:grid-rows-[minmax(64px,auto)_minmax(917px,auto)_1fr] lg:px-0">
                 <div
                   className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 row-end-3 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-2 lg:col-end-3"
                 >
@@ -558,7 +558,7 @@ export default function Page() {
               className="w-full relative grid grow grid-cols-[100%] grid-rows-[100%]"
             >
               <div className="bg-ploy-neutral-primary-100 absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden" />
-              <div className="w-full z-[14] grid mx-auto max-lg:min-h-[55.1875rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[35.061%_64.939%] max-lg:grid-rows-[minmax(35px,auto)_minmax(284px,auto)_minmax(24px,auto)_minmax(45px,auto)_minmax(34px,auto)_minmax(25px,auto)_minmax(357px,auto)_1fr] max-lg:px-4 lg:min-h-[37.3125rem] lg:max-w-[76.5rem] lg:grid-cols-[2.53268%_0.653595%_9.39542%_22.6307%_8.41503%_6.86275%_49.5098%] lg:grid-rows-[minmax(64px,auto)_minmax(16px,auto)_minmax(279px,auto)_minmax(25px,auto)_minmax(16px,auto)_minmax(34px,auto)_minmax(16px,auto)_minmax(34px,auto)_1fr] lg:px-0">
+              <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[35.061%_64.939%] max-lg:grid-rows-[minmax(35px,auto)_minmax(284px,auto)_minmax(24px,auto)_minmax(45px,auto)_minmax(34px,auto)_minmax(25px,auto)_minmax(357px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[2.53268%_0.653595%_9.39542%_22.6307%_8.41503%_6.86275%_49.5098%] lg:grid-rows-[minmax(64px,auto)_minmax(16px,auto)_minmax(279px,auto)_minmax(25px,auto)_minmax(16px,auto)_minmax(34px,auto)_minmax(16px,auto)_minmax(34px,auto)_1fr] lg:px-0">
                 <div className="text-start w-full h-full relative z-[1] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] max-lg:col-start-1 max-lg:col-end-3 max-lg:row-start-7 max-lg:row-end-8 lg:col-start-7 lg:col-end-8 lg:row-start-3 lg:row-end-9">
                   <div
                     id="ztzTNb"

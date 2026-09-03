@@ -102,7 +102,7 @@ export default function Page({ topic, related = TOPICS }: Props) {
           >
             ← Pre lekárov
           </a>
-          <h1 className="mt-4 font-heading text-4xl font-bold leading-tight lg:text-5xl">
+          <h1 className="mt-4 font-heading text-4xl font-bold leading-tight lg:text-[4rem] lg:leading-[1.15]">
             {topic.title}
           </h1>
           <p className="mt-5 max-w-3xl font-heading text-lg leading-8 text-ploy-text-inverse/80">

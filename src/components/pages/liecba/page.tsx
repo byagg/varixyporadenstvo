@@ -303,7 +303,7 @@ export default function Page() {
                 alt=""/>
                 <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.64] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
               </div>
-              <div className="w-full z-[14] grid mx-auto max-lg:min-h-[55.25rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(16px,auto)_minmax(3148px,auto)_1fr] max-lg:px-4 lg:min-h-[150.125rem] lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_41.0948%_50.4902%] lg:grid-rows-[minmax(64px,auto)_minmax(2267px,auto)_1fr] lg:px-0">
+              <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(16px,auto)_auto_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_41.0948%_50.4902%] lg:grid-rows-[minmax(64px,auto)_auto_1fr] lg:px-0">
                 <div className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 row-end-3 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-2 lg:col-end-3">
                   <div
                     id="zAilLU"
@@ -575,7 +575,7 @@ export default function Page() {
                 alt=""/>
                 <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.64] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
               </div>
-              <div className="w-full z-[14] grid mx-auto max-lg:min-h-[315.6875rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(16px,auto)_minmax(4967px,auto)_1fr] max-lg:px-4 lg:min-h-[251.6875rem] lg:max-w-[76.5rem] lg:grid-cols-[50.4902%_41.0948%_8.41503%] lg:grid-rows-[minmax(104px,auto)_minmax(3847px,auto)_1fr] lg:px-0">
+              <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(16px,auto)_auto_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[50.4902%_41.0948%_8.41503%] lg:grid-rows-[minmax(104px,auto)_auto_1fr] lg:px-0">
                 <div className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 row-end-3 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-2 lg:col-end-3">
                   <div
                     id="zbFGJh"
@@ -931,7 +931,7 @@ export default function Page() {
                 alt=""/>
                 <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.64] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
               </div>
-              <div className="w-full z-[14] grid mx-auto max-lg:min-h-[182.375rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[13.4146%_72.8659%_13.7195%] max-lg:grid-rows-[minmax(16px,auto)_minmax(2566px,auto)_minmax(42px,auto)_minmax(233px,auto)_1fr] max-lg:px-4 lg:min-h-[129.9375rem] lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_39.2157%_2.85948%_41.0948%_8.41503%] lg:grid-rows-[minmax(104px,auto)_minmax(560px,auto)_minmax(1342px,auto)_1fr] lg:px-0">
+              <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[13.4146%_72.8659%_13.7195%] max-lg:grid-rows-[minmax(16px,auto)_auto_minmax(42px,auto)_minmax(233px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_39.2157%_2.85948%_41.0948%_8.41503%] lg:grid-rows-[minmax(104px,auto)_minmax(560px,auto)_auto_1fr] lg:px-0">
                 <div className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-4 max-lg:row-end-3 lg:col-start-4 lg:col-end-5 lg:row-end-4">
                   <div
                     id="z4xB3e"
@@ -1136,7 +1136,7 @@ export default function Page() {
                 alt=""/>
                 <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.64] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
               </div>
-              <div className="w-full z-[14] grid mx-auto max-lg:min-h-[177.8125rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[8.84146%_11.5854%_59.1463%_11.5854%_8.84146%] max-lg:grid-rows-[minmax(40px,auto)_minmax(189px,auto)_minmax(51px,auto)_minmax(2172px,auto)_minmax(94px,auto)_minmax(245px,auto)_1fr] max-lg:px-4 lg:min-h-[119.8125rem] lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_4.82026%_27.8595%_6.53595%_2.85948%_41.0948%_8.41503%] lg:grid-rows-[minmax(104px,auto)_minmax(560px,auto)_minmax(636px,auto)_minmax(284px,auto)_minmax(70px,auto)_1fr] lg:px-0">
+              <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[8.84146%_11.5854%_59.1463%_11.5854%_8.84146%] max-lg:grid-rows-[minmax(40px,auto)_minmax(189px,auto)_minmax(51px,auto)_auto_minmax(94px,auto)_minmax(245px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_4.82026%_27.8595%_6.53595%_2.85948%_41.0948%_8.41503%] lg:grid-rows-[minmax(104px,auto)_minmax(560px,auto)_minmax(636px,auto)_minmax(284px,auto)_minmax(70px,auto)_1fr] lg:px-0">
                 <div className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-6 max-lg:row-start-4 max-lg:row-end-5 lg:col-start-6 lg:col-end-7 lg:row-start-2 lg:row-end-6">
                   <div
                     id="zSkdSO"

@@ -20,7 +20,7 @@ export default function Page() {
               className="w-full relative grid grid-cols-[100%] grid-rows-[100%]"
             >
               <div className="bg-ploy-background-primary absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden text-ploy-text-primary" />
-              <div className="w-full z-[14] grid mx-auto max-lg:min-h-[10.625rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(64px,auto)_minmax(208px,auto)_1fr] max-lg:px-4 lg:min-h-[24.1875rem] lg:max-w-[76.5rem] lg:grid-cols-[25.2451%_49.5098%_25.2451%] lg:grid-rows-[minmax(80px,auto)_minmax(250px,auto)_1fr] lg:px-0">
+              <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(64px,auto)_minmax(208px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[25.2451%_49.5098%_25.2451%] lg:grid-rows-[minmax(80px,auto)_minmax(250px,auto)_1fr] lg:px-0">
                 <div className="text-center w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 row-end-3 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-2 lg:col-end-3">
                   <div
                     id="zw18xQ"

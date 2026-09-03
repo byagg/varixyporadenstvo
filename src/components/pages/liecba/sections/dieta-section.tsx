@@ -224,7 +224,7 @@ export default function DietaSection() {
         alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.64] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
-      <div className="w-full z-[14] grid mx-auto max-lg:min-h-[334.5625rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[12.5%_75%_12.5%] max-lg:grid-rows-[minmax(16px,auto)_minmax(4976px,auto)_minmax(48px,auto)_minmax(240px,auto)_1fr] max-lg:px-4 lg:min-h-[184.3125rem] lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_22.0588%_3.18627%_57.9248%_8.41503%] lg:grid-rows-[minmax(29px,auto)_minmax(11px,auto)_minmax(304px,auto)_minmax(2514px,auto)_1fr] lg:px-0">
+      <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[12.5%_75%_12.5%] max-lg:grid-rows-[minmax(16px,auto)_auto_minmax(48px,auto)_minmax(240px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_22.0588%_3.18627%_57.9248%_8.41503%] lg:grid-rows-[minmax(29px,auto)_minmax(11px,auto)_minmax(304px,auto)_auto_1fr] lg:px-0">
         <div className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-4 max-lg:row-start-2 max-lg:row-end-3 lg:col-start-4 lg:col-end-5 lg:row-start-3 lg:row-end-5">
           <div
             id="zE0EAv"

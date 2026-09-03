@@ -316,7 +316,7 @@ export default function ZapalZilyFlebitidaSection() {
         alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.84] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
-      <div className="w-full z-[14] grid mx-auto max-lg:min-h-[240.3125rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[3.96341%_90.8537%_5.18293%] max-lg:grid-rows-[minmax(16px,auto)_minmax(3066px,auto)_minmax(339px,auto)_minmax(379px,auto)_1fr] max-lg:px-4 lg:min-h-[160.25rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_42.2386%_4.57516%_22.7941%_13.5621%] lg:grid-rows-[minmax(64px,auto)_minmax(96px,auto)_minmax(2218px,auto)_minmax(79px,auto)_1fr] lg:px-0">
+      <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[3.96341%_90.8537%_5.18293%] max-lg:grid-rows-[minmax(16px,auto)_auto_minmax(339px,auto)_minmax(379px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_42.2386%_4.57516%_22.7941%_13.5621%] lg:grid-rows-[minmax(64px,auto)_minmax(96px,auto)_auto_minmax(79px,auto)_1fr] lg:px-0">
         <div
           className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-4 max-lg:row-end-3 lg:col-start-2 lg:col-end-3 lg:row-end-4"
         >

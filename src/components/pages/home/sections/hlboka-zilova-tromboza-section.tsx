@@ -254,7 +254,7 @@ export default function HlbokaZilovaTrombozaSection() {
         alt=""/>
         <div className="bg-ploy-background-inverse w-full h-full absolute z-[2] opacity-[0.84] left-0 top-0 block-background__overlay text-ploy-text-inverse" />
       </div>
-      <div className="w-full z-[14] grid mx-auto max-lg:min-h-[180.875rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[3.96341%_90.8537%_5.18293%] max-lg:grid-rows-[minmax(16px,auto)_minmax(2445px,auto)_minmax(147px,auto)_minmax(246px,auto)_1fr] max-lg:px-4 lg:min-h-[135.1875rem] lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_36.6013%_4.65686%_16.6667%_25.2451%] lg:grid-rows-[minmax(64px,auto)_minmax(160px,auto)_minmax(1391px,auto)_minmax(515px,auto)_1fr] lg:px-0">
+      <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[3.96341%_90.8537%_5.18293%] max-lg:grid-rows-[minmax(16px,auto)_auto_minmax(147px,auto)_minmax(246px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_36.6013%_4.65686%_16.6667%_25.2451%] lg:grid-rows-[minmax(64px,auto)_minmax(160px,auto)_auto_minmax(515px,auto)_1fr] lg:px-0">
         <div
           className="text-left w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-4 max-lg:row-end-3 lg:col-start-2 lg:col-end-3 lg:row-end-5"
         >
