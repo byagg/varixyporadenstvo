@@ -73,7 +73,7 @@ export default function HeroSection() {
         className="w-full relative grid grow grid-cols-[100%] grid-rows-[100%]"
       >
         <div className="bg-ploy-background-primary absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden text-ploy-text-primary" />
-        <div className="w-full z-[14] grid mx-auto max-lg:min-h-[8.75rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(40px,auto)_minmax(320px,auto)_minmax(64px,auto)_auto_minmax(16px,auto)_minmax(320px,auto)_minmax(16px,auto)_minmax(320px,auto)_minmax(16px,auto)_minmax(320px,auto)_minmax(16px,auto)_minmax(200px,auto)_minmax(16px,auto)_minmax(200px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_8.90523%_4.65686%_3.26797%_32.6797%_3.26797%_4.65686%_8.90523%_16.8301%] lg:grid-rows-[minmax(40px,auto)_minmax(344px,auto)_minmax(56px,auto)_minmax(304px,auto)_minmax(480px,auto)_minmax(560px,auto)_minmax(320px,auto)_minmax(600px,auto)_minmax(320px,auto)_minmax(611px,auto)_minmax(445px,auto)_minmax(800px,auto)_minmax(476px,auto)_minmax(960px,auto)_1fr] lg:px-0">
+        <div className="w-full z-[14] grid mx-auto max-lg:min-h-[8.75rem] max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(40px,auto)_minmax(320px,auto)_minmax(64px,auto)_auto_minmax(16px,auto)_minmax(320px,auto)_minmax(16px,auto)_minmax(320px,auto)_minmax(16px,auto)_minmax(320px,auto)_minmax(16px,auto)_minmax(200px,auto)_minmax(16px,auto)_minmax(200px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[16.8301%_8.90523%_4.65686%_3.26797%_32.6797%_3.26797%_4.65686%_8.90523%_16.8301%] lg:grid-rows-[minmax(40px,auto)_minmax(344px,auto)_minmax(56px,auto)_auto_minmax(32px,auto)_auto_minmax(32px,auto)_auto_minmax(32px,auto)_auto_minmax(32px,auto)_auto_minmax(32px,auto)_auto_1fr] lg:px-0">
           <div className="text-start w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 row-end-3 max-lg:col-start-1 max-lg:col-end-2 lg:col-start-3 lg:col-end-8">
             <div
               id="zwmspl"
@@ -111,7 +111,7 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-          <div className="text-start w-full h-full relative z-[2] grid grid-cols-[100%] row-start-4 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-end-5 lg:col-start-2 lg:col-end-9 lg:row-end-[15]">
+          <div className="text-start w-full h-full relative z-[2] grid grid-cols-[100%] row-start-4 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-end-5 lg:col-start-2 lg:col-end-9 lg:row-end-5">
             <div
               id="zq9aCV"
               className="self-start break-words w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] layout-element__component--GridTextBox"
@@ -430,7 +430,7 @@ export default function HeroSection() {
               </p>
             </div>
           </div>
-          <div className="text-start w-full h-full relative z-[3] grid grid-cols-[100%] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-6 max-lg:row-end-7 lg:col-start-4 lg:col-end-7 lg:row-start-5 lg:row-end-6">
+          <div className="text-start w-full h-full relative z-[3] grid grid-cols-[100%] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-6 max-lg:row-end-7 lg:col-start-4 lg:col-end-7 lg:row-start-6 lg:row-end-7">
             <div
               id="zZWO7H"
               className="self-start w-full h-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] image-wrapper image-wrapper--layout layout-element__component--GridImage max-[921px]:w-full max-[921px]:h-full max-lg:max-h-80 lg:max-h-[30.0313rem]"
@@ -467,7 +467,7 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-          <div className="text-start w-full h-full relative z-[4] grid grid-cols-[100%] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-8 max-lg:row-end-9 lg:col-start-4 lg:col-end-7 lg:row-start-7 lg:row-end-8">
+          <div className="text-start w-full h-full relative z-[4] grid grid-cols-[100%] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-8 max-lg:row-end-9 lg:col-start-4 lg:col-end-7 lg:row-start-8 lg:row-end-9">
             <div
               id="zlGFHp"
               className="self-start w-full h-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] image-wrapper image-wrapper--layout layout-element__component--GridImage max-[921px]:w-full max-[921px]:h-full max-lg:max-h-80 lg:max-h-80"
@@ -504,7 +504,7 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-          <div className="text-start w-full h-full relative z-[5] grid grid-cols-[100%] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-10 max-lg:row-end-11 lg:col-start-4 lg:col-end-7 lg:row-start-9 lg:row-end-10">
+          <div className="text-start w-full h-full relative z-[5] grid grid-cols-[100%] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-10 max-lg:row-end-11 lg:col-start-4 lg:col-end-7 lg:row-start-10 lg:row-end-11">
             <div
               id="zXPOH9"
               className="self-start w-full h-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] image-wrapper image-wrapper--layout layout-element__component--GridImage max-[921px]:w-full max-[921px]:h-full max-lg:max-h-80 lg:max-h-80"
@@ -541,7 +541,7 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-          <div className="text-start w-full h-full relative z-[6] grid grid-cols-[100%] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-12 max-lg:row-end-13 lg:col-start-5 lg:col-end-6 lg:row-start-11 lg:row-end-12">
+          <div className="text-start w-full h-full relative z-[6] grid grid-cols-[100%] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-12 max-lg:row-end-13 lg:col-start-5 lg:col-end-6 lg:row-start-12 lg:row-end-13">
             <div
               id="z5TVAC"
               className="self-start w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] grid-embed layout-element__component--GridEmbed"
@@ -555,7 +555,7 @@ export default function HeroSection() {
               />
             </div>
           </div>
-          <div className="text-start w-full h-full relative z-[7] grid grid-cols-[100%] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-[14] max-lg:row-end-[15] lg:col-start-5 lg:col-end-6 lg:row-start-13 lg:row-end-[14]">
+          <div className="text-start w-full h-full relative z-[7] grid grid-cols-[100%] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-[14] max-lg:row-end-[15] lg:col-start-5 lg:col-end-6 lg:row-start-[14] lg:row-end-[15]">
             <div
               id="zJqpbL"
               className="self-start w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] grid-embed layout-element__component--GridEmbed"
