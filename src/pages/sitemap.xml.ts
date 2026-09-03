@@ -1,5 +1,6 @@
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
+import { TOPICS } from "../components/pages/odborne-zdroje/topics";
 
 export const prerender = true;
 
@@ -17,7 +18,12 @@ export const GET: APIRoute = async () => {
   const contentPaths = (await getCollection("pages"))
     .filter((entry) => !entry.data.draft)
     .map((entry) => `/${entry.id.replace(/\/index$/, "")}`);
-  const paths = [...new Set([...staticPaths(), ...contentPaths])].sort();
+  // Nested dynamic routes aren't covered by the top-level glob above, so the
+  // odborne-zdroje topic pages are enumerated from their own source of truth.
+  const topicPaths = TOPICS.map((topic) => `/odborne-zdroje/${topic.slug}`);
+  const paths = [
+    ...new Set([...staticPaths(), ...contentPaths, ...topicPaths]),
+  ].sort();
   const body = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',

@@ -1,0 +1,22 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Page from "../../components/pages/odborne-zdroje/page";
+import { TOPICS, getTopic } from "../../components/pages/odborne-zdroje/topics";
+
+export const prerender = true;
+
+export function getStaticPaths() {
+  return TOPICS.map((topic) => ({ params: { topic: topic.slug } }));
+}
+
+const { topic: slug } = Astro.params;
+const topic = getTopic(slug!);
+
+if (!topic) {
+  return new Response(null, { status: 404 });
+}
+---
+
+<Layout title={topic.seoTitle} description={topic.description}>
+  <Page topic={topic} client:load />
+</Layout>

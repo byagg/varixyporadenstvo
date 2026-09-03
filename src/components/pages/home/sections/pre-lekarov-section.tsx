@@ -6,8 +6,6 @@ interface ProfessionalResource {
   href: string;
   /** Zdroj zobrazený na karte — doména alebo názov materiálu. */
   source: string;
-  /** Materiál je v angličtine. */
-  english?: boolean;
 }
 
 const PROFESSIONAL_RESOURCES: ProfessionalResource[] = [
@@ -26,16 +24,14 @@ const PROFESSIONAL_RESOURCES: ProfessionalResource[] = [
   {
     label: "Trombofilné stavy",
     description: "Diagnostika a odborný manažment",
-    href: "https://www.ncbi.nlm.nih.gov/books/NBK538251/",
-    source: "StatPearls / NCBI",
-    english: true,
+    href: "/odborne-zdroje/trombofilne-stavy",
+    source: "na tejto stránke",
   },
   {
     label: "Klasifikácie",
     description: "CEAP a ďalšie klasifikácie cievnych ochorení",
-    href: "https://www.ncbi.nlm.nih.gov/books/NBK430975/",
-    source: "StatPearls / NCBI",
-    english: true,
+    href: "/odborne-zdroje/ceap-klasifikacia",
+    source: "na tejto stránke",
   },
   {
     label: "DRG výkony",
@@ -52,16 +48,14 @@ const PROFESSIONAL_RESOURCES: ProfessionalResource[] = [
   {
     label: "Vaskulitídy",
     description: "Prehľad klinických znakov a liečby",
-    href: "https://www.ncbi.nlm.nih.gov/books/NBK545186/",
-    source: "StatPearls / NCBI",
-    english: true,
+    href: "/odborne-zdroje/vaskulitidy",
+    source: "na tejto stránke",
   },
   {
     label: "Testy na TOS",
     description: "Testy syndrómu hornej hrudnej apertúry",
-    href: "https://www.ncbi.nlm.nih.gov/books/NBK557450/",
-    source: "StatPearls / NCBI",
-    english: true,
+    href: "/odborne-zdroje/testy-tos",
+    source: "na tejto stránke",
   },
   {
     label: "ADC číselník",
@@ -72,15 +66,14 @@ const PROFESSIONAL_RESOURCES: ProfessionalResource[] = [
   {
     label: "Opuchy končatín",
     description: "Diferenciálna diagnostika opuchov",
-    href: "https://varixyporadenstvo.webnode.sk/webstranky/",
-    source: "zbierka PDF materiálov",
+    href: "/odborne-zdroje/opuchy-koncatin",
+    source: "na tejto stránke",
   },
   {
     label: "Vazoneurózy",
     description: "Raynaudov fenomén a ďalšie stavy",
-    href: "https://www.ncbi.nlm.nih.gov/books/NBK499833/",
-    source: "StatPearls / NCBI",
-    english: true,
+    href: "/odborne-zdroje/vazoneurozy",
+    source: "na tejto stránke",
   },
   {
     label: "Liečba HŽT",
@@ -97,9 +90,8 @@ const PROFESSIONAL_RESOURCES: ProfessionalResource[] = [
   {
     label: "Komplikácie",
     description: "Komplikácie sklerotizácie a ďalších výkonov",
-    href: "https://www.ncbi.nlm.nih.gov/books/NBK599526/",
-    source: "StatPearls / NCBI",
-    english: true,
+    href: "/odborne-zdroje/komplikacie-sklerotizacie",
+    source: "na tejto stránke",
   },
   {
     label: "Prekladač diagnóz",
@@ -184,7 +176,6 @@ export default function PreLekarovSection({
                     <MoveRight aria-hidden="true" className="h-3.5 w-3.5" />
                   )}
                   {resource.source}
-                  {resource.english ? " · EN" : null}
                 </span>
               </a>
             );
