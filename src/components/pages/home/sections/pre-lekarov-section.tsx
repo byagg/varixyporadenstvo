@@ -108,7 +108,7 @@ const PROFESSIONAL_RESOURCES: ProfessionalResource[] = [
   {
     label: "Zoznam KZT",
     description: "Zoznam kategorizovaných zdravotníckych pomôcok",
-    href: "https://www.health.gov.sk/Clanok?zkzp-202504",
+    href: "https://www.health.gov.sk/Clanok?zkzp-202607",
     source: "health.gov.sk",
   },
 ];

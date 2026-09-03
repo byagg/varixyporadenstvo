@@ -1,13 +1,12 @@
 import { useMemo, useState } from "react";
 import { Search, X } from "lucide-react";
 import {
+  CATEGORISATION,
   MANUFACTURERS,
   STOCKING_GROUPS,
   type StockingGroup,
   type StockingItem,
 } from "./data";
-
-const SOURCE_URL = "https://varixyporadenstvo.webnode.sk/zoznamp/";
 
 const euro = new Intl.NumberFormat("sk-SK", {
   style: "currency",
@@ -28,6 +27,7 @@ function matches(item: StockingItem, query: string) {
   const haystack = [
     item.code,
     item.name,
+    item.detail,
     item.manufacturer,
     item.country,
     item.note,
@@ -47,8 +47,13 @@ function ItemRow({ item }: { item: StockingItem }) {
       </td>
       <td className="min-w-[18rem] px-4 py-3 font-heading text-sm leading-6">
         {item.name}
-        {item.note ? (
+        {item.detail ? (
           <span className="mt-1 block text-xs leading-5 text-ploy-text-secondary">
+            {item.detail}
+          </span>
+        ) : null}
+        {item.note ? (
+          <span className="mt-1 block text-xs leading-5 text-ploy-accent-primary-700">
             {item.note}
           </span>
         ) : null}
@@ -95,7 +100,7 @@ function GroupBlock({ group }: { group: StockingGroup }) {
             </h3>
             {subgroup.limit !== null ? (
               <span className="font-heading text-sm text-ploy-text-secondary">
-                limit spoluúčasti {euro.format(subgroup.limit)}
+                najvyššia úhrada ZP {euro.format(subgroup.limit)}
               </span>
             ) : null}
           </div>
@@ -280,27 +285,26 @@ export default function Page({
             uvedené v zdrojovom zozname.
           </p>
           <p className="mt-4 font-heading text-sm leading-6 text-ploy-text-secondary">
-            Údaje sú prevzaté zo zoznamu kategorizovaných kompresívnych pomôcok
-            publikovaného na{" "}
+            Údaje sú prevzaté priamo zo{" "}
             <a
-              href={SOURCE_URL}
+              href={CATEGORISATION.sourceUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="font-bold text-ploy-accent-primary-700 underline"
             >
-              varixyporadenstvo.webnode.sk
-            </a>
-            . Ceny a úhrady sa menia s každou kategorizáciou – pred predpísaním
-            pomôcky si ich overte v aktuálnom{" "}
-            <a
-              href="https://www.health.gov.sk/Clanok?zkzp-202504"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-bold text-ploy-accent-primary-700 underline"
-            >
-              zozname kategorizovaných zdravotníckych pomôcok
-            </a>
-            .
+              Zoznamu kategorizovaných zdravotníckych pomôcok
+            </a>{" "}
+            Ministerstva zdravotníctva SR, ktorý platí pre obdobie{" "}
+            <strong className="text-ploy-text-primary">
+              {CATEGORISATION.label}
+            </strong>
+            . Kategorizácia sa mení každý štvrťrok – po jeho uplynutí si ceny
+            overte v novom zozname.
+          </p>
+          <p className="mt-4 font-heading text-sm leading-6 text-ploy-text-secondary">
+            Poznámky zvýraznené farebne (napríklad k navliekaniu alebo
+            materiálu) nie sú súčasťou kategorizácie – ide o praktické
+            skúsenosti z ambulancie.
           </p>
         </div>
       </div>
