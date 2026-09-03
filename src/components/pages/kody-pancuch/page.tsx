@@ -158,8 +158,8 @@ interface Props {
 }
 
 export default function Page({
-  heading = "Kódy kompresívnych pančúch",
-  description = "Kompletný zoznam kategorizovaných kompresívnych pančúch s G kódmi, úhradou zdravotnej poisťovne, doplatkom pacienta a preskripčnými obmedzeniami.",
+  heading = "Kódy kompresívnych pomôcok",
+  description = "Celá kapitola G kategorizácie – pančuchy, ramenné návleky a rukavice, prístroje na kompresívnu liečbu aj pomôcky na liečbu lymfedému. Ku každému kódu úradná cena, úhrada zdravotnej poisťovne, doplatok pacienta a preskripčné obmedzenia.",
   groups = STOCKING_GROUPS,
 }: Props) {
   const [query, setQuery] = useState("");

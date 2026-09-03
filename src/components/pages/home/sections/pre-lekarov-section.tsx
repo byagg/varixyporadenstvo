@@ -17,7 +17,7 @@ const PROFESSIONAL_RESOURCES: ProfessionalResource[] = [
   },
   {
     label: "Kódy pančúch",
-    description: "Aktualizovaný zoznam kompresných pomôcok",
+    description: "Pančuchy, návleky aj pomôcky na lymfedém",
     href: "/kody-pancuch",
     source: "na tejto stránke",
   },
