@@ -1140,3 +1140,27 @@ html {
     position: static !important;
   }
 }
+
+/* Vertical rhythm in migrated rich text.
+   Ploy exported lists with my-0 and list items without any spacing, so bullets
+   ran flush into each other and into the surrounding copy. Scoped to the
+   migrated text blocks on purpose - the header navigation is a <ul> too. */
+.layout-element__component--GridTextBox :is(ul, ol) {
+  margin-block: 0.875rem;
+}
+
+.layout-element__component--GridTextBox :is(ul, ol) > li + li {
+  margin-top: 0.5rem;
+}
+
+/* Nested lists sit tighter than top-level ones. */
+.layout-element__component--GridTextBox :is(ul, ol) :is(ul, ol) {
+  margin-block: 0.5rem;
+}
+
+/* Consecutive paragraphs of prose ran flush together where the export left no
+   bottom margin. Margin collapsing means this only fills in the gaps that are
+   missing - paragraphs that already carry a larger margin keep it. */
+.layout-element__component--GridTextBox p + p {
+  margin-top: 1rem;
+}
