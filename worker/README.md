@@ -5,7 +5,7 @@ Worker prijíma iba `POST /api/contact`, validuje formulár, limituje požiadavk
 ## Pred nasadením
 
 1. V Cloudflare zapnite Email Routing pre `varixyporadenstvo.com`.
-2. Overte cieľovú adresu `varixyporadenstvo@gmail.com`.
+2. Overte cieľovú adresu `medcodeapp@gmail.com`.
 3. Overte, že `kontakt@varixyporadenstvo.com` môže byť použitá ako odosielateľ.
 
 ## Kontrola a nasadenie

@@ -6,13 +6,13 @@
   "workers_dev": true,
   "vars": {
     "ALLOWED_ORIGINS": "https://varixyporadenstvo.com,https://varixyporadenstvo.pages.dev,https://9f886e99.varixyporadenstvo.pages.dev",
-    "RECIPIENT_EMAIL": "varixyporadenstvo@gmail.com",
+    "RECIPIENT_EMAIL": "medcodeapp@gmail.com",
     "SENDER_EMAIL": "kontakt@varixyporadenstvo.com"
   },
   "send_email": [
     {
       "name": "EMAIL",
-      "destination_address": "varixyporadenstvo@gmail.com"
+      "destination_address": "medcodeapp@gmail.com"
     }
   ],
   "ratelimits": [
