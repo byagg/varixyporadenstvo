@@ -1,9 +1,9 @@
 const linkItemClassName =
-  "font-button border-solid border-white bg-ploy-button-secondary-background text-ploy-button-secondary-text leading-relaxed font-bold text-lg text-center break-words inline-block shadow-[0px_8px_25px_0px_color-mix(in_srgb,var(--ploy-border-primary)_10%,transparent)] duration-300 px-8 py-3.5 rounded-[3.125rem] border";
+  "font-button border-solid border-ploy-button-primary-border bg-ploy-button-primary-background text-black leading-relaxed font-bold text-lg hover:bg-ploy-button-primary-background/90 text-center break-words inline-block shadow-[0px_8px_25px_0px_color-mix(in_srgb,var(--ploy-border-primary)_10%,transparent)] duration-300 px-8 py-3.5 rounded-[3.125rem] border";
 const linkItemClassName2 =
   "self-start break-words w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] layout-element__component--GridTextBox";
 const linkItemClassName3 =
-  "font-heading text-ploy-text-inverse text-3xl break-words max-[921px]:mb-8 max-lg:leading-6 lg:leading-tight";
+  "font-heading text-ploy-text-inverse text-2xl break-words mt-12 leading-tight lg:text-3xl";
 
 type LinkItemProps = {
   className: string;
@@ -247,7 +247,7 @@ export default function Footer() {
             className="w-full h-svh max-w-none fixed z-0 object-cover left-0 top-0 block-background__image block-background__image--fixed overflow-clip"
           
           alt=""/>
-          <div className="!hidden bg-ploy-background-secondary w-full h-svh fixed z-[2] opacity-0 left-0 top-0 block-background__overlay--fixed block-background__overlay" />
+          <div className="bg-ploy-background-inverse w-full h-svh fixed z-[2] opacity-[0.72] left-0 top-0 block-background__overlay--fixed block-background__overlay" />
         </div>
         <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[100%] max-lg:grid-rows-[minmax(15px,auto)_minmax(52px,auto)_minmax(85px,auto)_minmax(260px,auto)_minmax(16px,auto)_auto_minmax(16px,auto)_minmax(140px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[19.8529%_7.27124%_6.53595%_3.83987%_25%_3.83987%_12.9085%_7.27124%_13.4804%] lg:grid-rows-[minmax(120px,auto)_minmax(83px,auto)_minmax(101px,auto)_minmax(207px,auto)_minmax(135px,auto)_minmax(125px,auto)_minmax(92px,auto)_auto_1fr] lg:px-0">
           <div className="text-center w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 row-end-3 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-1 max-lg:col-end-2 lg:col-start-5 lg:col-end-6">

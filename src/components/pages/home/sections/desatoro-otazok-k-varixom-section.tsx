@@ -1,7 +1,5 @@
 const desatoroOtazokKVarixomSectionClassName =
-  "font-heading text-ploy-text-primary font-bold break-words mb-2 max-[921px]:mb-8 max-lg:leading-10 max-lg:text-3xl lg:leading-[3.9rem] lg:text-5xl";
-const desatoroOtazokKVarixomSectionClassName2 =
-  "font-heading text-ploy-text-primary font-bold text-3xl break-words mb-2 max-[921px]:mb-8 max-lg:leading-10 lg:leading-tight";
+  "font-heading text-ploy-text-primary font-bold text-2xl leading-tight break-words mb-3 lg:text-3xl";
 
 export default function DesatoroOtazokKVarixomSection() {
   return (
@@ -18,8 +16,8 @@ export default function DesatoroOtazokKVarixomSection() {
             id="zFyOGw"
             className="self-start break-words w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] layout-element__component--GridTextBox"
           >
-            <h3 className="font-heading text-ploy-text-primary font-bold break-words mb-3.5 max-[921px]:mb-8 max-lg:leading-10 max-lg:text-3xl lg:leading-[3.9rem] lg:text-5xl">
-              <span className="[color:inherit] leading-[3.9rem] text-3xl break-words">
+            <h3 className={desatoroOtazokKVarixomSectionClassName}>
+              <span className="[color:inherit] break-words">
                 <strong className="[color:inherit] break-words">
                   {"čo sú varixy / kŕčové žily?"}
                 </strong>
@@ -27,7 +25,6 @@ export default function DesatoroOtazokKVarixomSection() {
             </h3>
             <p className="font-heading text-ploy-text-primary text-lg break-words mb-8 max-[921px]:mb-8">
               <span
-                style={{ fontFamily: "'Open Sans'" }}
                 className="[color:inherit] break-words"
               >
                 {
@@ -36,7 +33,7 @@ export default function DesatoroOtazokKVarixomSection() {
               </span>
             </p>
             <h3 className={desatoroOtazokKVarixomSectionClassName}>
-              <span className="[color:inherit] leading-[3.9rem] text-3xl break-words">
+              <span className="[color:inherit] break-words">
                 <strong className="[color:inherit] break-words">
                   {"čo spôsobuje kŕčové žily na nohách?"}
                 </strong>
@@ -44,7 +41,6 @@ export default function DesatoroOtazokKVarixomSection() {
             </h3>
             <p className="font-heading text-ploy-text-primary text-lg break-words mb-8 max-[921px]:mb-8">
               <span
-                style={{ fontFamily: "Inter" }}
                 className="[color:inherit] break-words"
               >
                 {"vznikajú buď kvôli oslabeným chlopniam a žilám na nohách alebo pre prekážku v odtoku krvi, oba faktory spôsobujú zvýšenie tlaku vo vnútri žily, ktorá sa postupne vydúva. medzi ďalšie faktory ktoré vplývajú na ich vznik patrí vek," +
@@ -61,7 +57,7 @@ export default function DesatoroOtazokKVarixomSection() {
               </span>
             </p>
             <h3 className={desatoroOtazokKVarixomSectionClassName}>
-              <span className="[color:inherit] leading-[3.9rem] text-3xl break-words">
+              <span className="[color:inherit] break-words">
                 <strong className="[color:inherit] break-words">
                   {"sú kŕčové žily na nohách nebezpečné?"}
                 </strong>
@@ -69,7 +65,6 @@ export default function DesatoroOtazokKVarixomSection() {
             </h3>
             <p className="font-heading text-ploy-text-primary text-lg break-words mb-8 max-[921px]:mb-8">
               <span
-                style={{ fontFamily: "Inter" }}
                 className="[color:inherit] break-words"
               >
                 {
@@ -78,7 +73,7 @@ export default function DesatoroOtazokKVarixomSection() {
               </span>
             </p>
             <h3 className={desatoroOtazokKVarixomSectionClassName}>
-              <span className="[color:inherit] leading-[3.9rem] text-3xl break-words">
+              <span className="[color:inherit] break-words">
                 <strong className="[color:inherit] break-words">
                   {"ako môžem kŕčovým žilám predchádzať?"}
                 </strong>
@@ -86,7 +81,6 @@ export default function DesatoroOtazokKVarixomSection() {
             </h3>
             <p className="font-heading text-ploy-text-primary text-lg break-words mb-8 max-[921px]:mb-8">
               <span
-                style={{ fontFamily: "Inter" }}
                 className="[color:inherit] break-words"
               >
                 {
@@ -95,7 +89,7 @@ export default function DesatoroOtazokKVarixomSection() {
               </span>
             </p>
             <h3 className={desatoroOtazokKVarixomSectionClassName}>
-              <span className="[color:inherit] leading-[3.9rem] text-3xl break-words">
+              <span className="[color:inherit] break-words">
                 <strong className="[color:inherit] break-words">
                   {"aké sú možnosti liečby kŕčových žíl?"}
                 </strong>
@@ -103,7 +97,6 @@ export default function DesatoroOtazokKVarixomSection() {
             </h3>
             <p className="font-heading text-ploy-text-primary text-lg break-words mb-8 max-[921px]:mb-8">
               <span
-                style={{ fontFamily: "Inter" }}
                 className="[color:inherit] break-words"
               >
                 {"možnosti liečby siahajú od opatrení zameraných na vlastnú každodennú starostlivosť, ako sú" +
@@ -128,14 +121,13 @@ export default function DesatoroOtazokKVarixomSection() {
                 </u>
               </span>
             </p>
-            <h3 className={desatoroOtazokKVarixomSectionClassName2}>
+            <h3 className={desatoroOtazokKVarixomSectionClassName}>
               <strong className="[color:inherit] break-words">
                 {"koľko stojí zákrok na kŕčových žilách?"}
               </strong>
             </h3>
             <p className="font-heading text-ploy-text-primary text-lg break-words mb-8 max-[921px]:mb-8">
               <span
-                style={{ fontFamily: "Inter" }}
                 className="[color:inherit] break-words"
               >
                 {"závisí od regiónu, pričom najdrahšie sú ceny v Bratislavskom kraji. menší zákrok ako sklerotizácia stojí od 50-300 eur, liečba laserom/RFA od 500 - 2000 eur, a iné metódy a ich kombinácie aj cez 2000 - 3000 eur." +
@@ -152,14 +144,13 @@ export default function DesatoroOtazokKVarixomSection() {
                 </u>
               </span>
             </p>
-            <h3 className={desatoroOtazokKVarixomSectionClassName2}>
+            <h3 className={desatoroOtazokKVarixomSectionClassName}>
               <strong className="[color:inherit] break-words">
                 {"spôsobujú kŕčové žily vždy bolesť?"}
               </strong>
             </h3>
             <p className="font-heading text-ploy-text-primary text-lg break-words mb-8 max-[921px]:mb-8">
               <span
-                style={{ fontFamily: "Inter" }}
                 className="[color:inherit] break-words"
               >
                 {
@@ -167,14 +158,13 @@ export default function DesatoroOtazokKVarixomSection() {
                 }
               </span>
             </p>
-            <h3 className={desatoroOtazokKVarixomSectionClassName2}>
+            <h3 className={desatoroOtazokKVarixomSectionClassName}>
               <strong className="[color:inherit] break-words">
                 {'sú pavúčie "metličkové" žily to isté ako kŕčové žily?'}
               </strong>
             </h3>
             <p className="font-heading text-ploy-text-primary text-lg break-words mb-8 max-[921px]:mb-8">
               <span
-                style={{ fontFamily: "Inter" }}
                 className="[color:inherit] break-words"
               >
                 {
@@ -182,14 +172,13 @@ export default function DesatoroOtazokKVarixomSection() {
                 }
               </span>
             </p>
-            <h3 className={desatoroOtazokKVarixomSectionClassName2}>
+            <h3 className={desatoroOtazokKVarixomSectionClassName}>
               <strong className="[color:inherit] break-words">
                 {"ako dlho trvá zotavenie po operácii?"}
               </strong>
             </h3>
             <p className="font-heading text-ploy-text-primary text-lg break-words mb-8 max-[921px]:mb-8">
               <span
-                style={{ fontFamily: "Inter" }}
                 className="[color:inherit] break-words"
               >
                 {"po klasickej chirurgickej operácii je to v závislosti od rozsahu 5-10 dní (anestézia, operačné rany), pri novších metódach odchádzate po výkone domov a už na ďalší deň zvládnete bežnú činnosť." +
@@ -204,14 +193,13 @@ export default function DesatoroOtazokKVarixomSection() {
                 </u>
               </span>
             </p>
-            <h3 className={desatoroOtazokKVarixomSectionClassName2}>
+            <h3 className={desatoroOtazokKVarixomSectionClassName}>
               <strong className="[color:inherit] break-words">
                 {"čo sa stane, keď sa odstráni žila? nebude chýbať?"}
               </strong>
             </h3>
             <p className="font-heading text-ploy-text-primary text-lg break-words mb-8 max-[921px]:mb-8">
               <span
-                style={{ fontFamily: "Inter" }}
                 className="[color:inherit] break-words"
               >
                 {

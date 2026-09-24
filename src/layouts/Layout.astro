@@ -66,5 +66,16 @@ const imageUrl = resolveUrl(image);
   </head>
   <body class="text-ploy-text-primary decoration-[rgb(29,30,32)] h-full m-0 antialiased" style="font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif font-family: 'DM Sans', sans-serif">
     <slot />
+    <script is:inline>
+      // The migrated header ships a burger button with no behaviour; open and
+      // close the mobile menu here so every page's copy of the header works.
+      document.addEventListener("click", (event) => {
+        const button = event.target.closest(".block-header__hamburger-menu");
+        if (!button) return;
+        const header = button.closest(".block-header");
+        const open = header.classList.toggle("is-menu-open");
+        button.setAttribute("aria-expanded", String(open));
+      });
+    </script>
   </body>
 </html>

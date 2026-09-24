@@ -111,7 +111,7 @@ export default function Page({ topic, related = TOPICS }: Props) {
         </div>
       </header>
 
-      <div className="mx-auto grid max-w-[76.5rem] gap-10 px-4 py-12 lg:grid-cols-[16rem_minmax(0,1fr)] lg:py-16">
+      <div className="mx-auto grid max-w-[76.5rem] grid-cols-[minmax(0,1fr)] gap-10 px-4 py-12 lg:grid-cols-[16rem_minmax(0,1fr)] lg:py-16">
         <nav aria-label="Obsah stránky" className="lg:sticky lg:top-8 lg:self-start">
           <p className="font-heading text-xs font-bold uppercase tracking-[0.16em] text-ploy-text-secondary">
             Obsah

@@ -257,7 +257,7 @@ export default function TopBlocksSection() {
       <header
         className="relative z-[18] grid shadow-[0px_6px_14px_0px_rgba(0,0,0,0.1)] transition-shadow ease-linear block-header block-header--with-shadow max-lg:px-4 lg:px-0"
       >
-        <div className="bg-ploy-background-inverse absolute z-[13] transition-[background-color] duration-300 ease-[ease-in-out] inset-0 text-ploy-text-inverse" />
+        <div className="bg-ploy-background-primary absolute z-[13] transition-[background-color] duration-300 ease-[ease-in-out] inset-0 text-ploy-text-primary" />
         <div className="justify-self-center w-full max-w-[76.5rem] z-[18] items-center grid-cols-[min-content_auto] grid-flow-col px-4 py-6 block-header-layout-desktop block-header-layout-desktop--desktop-1 max-[921px]:hidden min-[921px]:grid">
           <a
             href="/"

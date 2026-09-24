@@ -1164,3 +1164,228 @@ html {
 .layout-element__component--GridTextBox p + p {
   margin-top: 1rem;
 }
+
+/* Article typography.
+   Every blog article (pages with the .block-blog-header hero) renders its body
+   as one migrated text box, and the export baked a different size and margin
+   into nearly every heading: h2 at 30px/56px, h3 at 18px-48px (often larger
+   than the h2 above it), 32px under every heading and paragraph but nothing
+   above, so a heading sat closer to the list before it than to its own text.
+   These rules give all articles one scale and one rhythm: more space above a
+   heading than below it, so each heading groups with the text it introduces.
+   Unlayered on purpose, so they win over the per-element utilities. */
+main:has(.block-blog-header) .layout-element__component--GridTextBox {
+  font-size: 1rem;
+  line-height: 1.7;
+
+  & :is(h2, h3, h4, h5, h6) {
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: normal;
+  }
+
+  & h2 {
+    font-size: 1.5rem;
+    margin: 2.75rem 0 0.875rem;
+  }
+
+  & h3 {
+    font-size: 1.25rem;
+    margin: 2.25rem 0 0.75rem;
+  }
+
+  & h4 {
+    font-size: 1.125rem;
+    margin: 1.75rem 0 0.625rem;
+  }
+
+  & :is(h5, h6) {
+    font-size: 1rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  /* A heading straight under another heading belongs to it. */
+  & :is(h2, h3, h4, h5, h6) + :is(h3, h4, h5, h6) {
+    margin-top: 0.75rem;
+  }
+
+  & > :first-child {
+    margin-top: 0;
+  }
+
+  & p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0 0 1rem;
+  }
+
+  & p:empty {
+    display: none;
+  }
+
+  /* Tailwind's preflight strips list markers, so bullet and numbered lists
+     read as loose lines of text. Put the markers back. */
+  & :is(ul, ol) {
+    margin: 0 0 1.25rem;
+    padding-left: 1.5rem;
+  }
+
+  & ul {
+    list-style-type: disc;
+  }
+
+  & ol {
+    list-style-type: decimal;
+  }
+
+  & li::marker {
+    color: var(--color-ploy-text-secondary, currentColor);
+  }
+
+  & li > p {
+    margin: 0;
+  }
+
+  & li > p + p {
+    margin-top: 0.5rem;
+  }
+
+  & :is(ul, ol) :is(ul, ol) {
+    margin: 0.5rem 0 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  main:has(.block-blog-header) .layout-element__component--GridTextBox {
+    & h2 {
+      font-size: 1.75rem;
+    }
+
+    & h3 {
+      font-size: 1.375rem;
+    }
+
+    & h4 {
+      font-size: 1.1875rem;
+    }
+  }
+}
+
+/* Mobile hero images were exported mid-way through a reveal animation
+   (opacity-0 + translate-y-[20%]) that nothing ever plays, so on phones every
+   article showed a ~320px blank hole between the title and the text. */
+.image-wrapper--mobile {
+  opacity: 1;
+  translate: none;
+}
+
+/* Mobile header menu. The three burger bars are absolutely positioned but the
+   button was not their containing block, so they stretched to the edge of the
+   screen and pushed the page sideways. The open state is toggled by the small
+   script in Layout.astro. */
+.block-header__hamburger-menu {
+  position: relative;
+
+  & > span {
+    width: 100%;
+    background-color: var(--color-ploy-text-primary);
+    transform-origin: center;
+  }
+}
+
+@media (max-width: 1023px) {
+  .block-header.is-menu-open {
+    & .block-header__hamburger-menu > span:nth-child(1) {
+      transform: translateY(0.5rem) rotate(45deg);
+    }
+
+    & .block-header__hamburger-menu > span:nth-child(2) {
+      opacity: 0;
+    }
+
+    & .block-header__hamburger-menu > span:nth-child(3) {
+      transform: translateY(-0.5rem) rotate(-45deg);
+    }
+
+    & .block-header-layout-mobile__dropdown {
+      max-height: calc(100vh - 4.5rem);
+      overflow-y: auto;
+      visibility: visible;
+      padding-block: 0.5rem 1.5rem;
+      box-shadow: 0 12px 14px -8px
+        color-mix(in srgb, var(--ploy-border-primary) 15%, transparent);
+    }
+
+    & .block-header-layout-mobile__dropdown :is(nav, ul, li, label, div, a) {
+      visibility: visible;
+    }
+
+    & .block-header-layout-mobile__dropdown a {
+      font-size: 1.125rem;
+      padding-block: 0.25rem;
+    }
+  }
+}
+
+/* Section padding on the landing pages (home, liecba, operacia, ...).
+   The migrated section grids reserve a spacer row above their content but end
+   on a 1fr row with nothing under it, so text and galleries sat flush on the
+   next section's edge (0px below, 40-120px above). Give content sections a
+   matching bottom inset; the empty 20px divider sections are left alone. */
+main:not(:has(.block-blog-header))
+  section
+  > div.grid[class*="z-[14]"]:has(p, h1, h2, h3, img, li) {
+  padding-bottom: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+  main:not(:has(.block-blog-header))
+    section
+    > div.grid[class*="z-[14]"]:has(p, h1, h2, h3, img, li) {
+    padding-bottom: 4rem;
+  }
+}
+
+/* Text rhythm on the landing pages. Heading sizes there are part of each
+   section's design, so only the spacing is normalised: headings sit closer to
+   the text they introduce than to the block above, paragraphs lose the 32px
+   gap the export put under every one, and lists get their markers back. */
+main:not(:has(.block-blog-header)) .layout-element__component--GridTextBox {
+  & :is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 0.45em;
+  }
+
+  & :is(h2, h3, h4, h5, h6):not(:first-child) {
+    margin-top: 1.25em;
+  }
+
+  & p {
+    margin-bottom: 0.75rem;
+  }
+
+  & p:last-child,
+  & li p {
+    margin-bottom: 0;
+  }
+
+  & p:empty {
+    display: none;
+  }
+
+  & :is(ul, ol) {
+    margin: 0 0 1rem;
+    padding-left: 1.25rem;
+  }
+
+  & ul {
+    list-style-type: disc;
+  }
+
+  & ol {
+    list-style-type: decimal;
+  }
+
+  & :is(ul, ol):last-child {
+    margin-bottom: 0;
+  }
+}

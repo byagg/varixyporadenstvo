@@ -64,7 +64,6 @@ export default function PoradimeNajlepsieRiesenieSection() {
           >
             <p className="font-heading text-ploy-text-inverse leading-6 break-words max-[921px]:mb-0">
               <span
-                style={{ fontFamily: "Inter" }}
                 className="[color:inherit] break-words"
               >
                 {
@@ -132,7 +131,6 @@ export default function PoradimeNajlepsieRiesenieSection() {
           >
             <p className="font-heading text-ploy-text-inverse leading-6 break-words max-[921px]:mb-0">
               <span
-                style={{ fontFamily: "Inter" }}
                 className="[color:inherit] break-words"
               >
                 {
