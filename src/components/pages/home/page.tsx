@@ -558,7 +558,7 @@ export default function Page() {
               className="w-full relative grid grow grid-cols-[100%] grid-rows-[100%]"
             >
               <div className="bg-ploy-neutral-primary-100 absolute z-[13] transition-[background-color,height] duration-[0.3s,0.001s] ease-[ease-in-out,linear] delay-[0s,999s] inset-0 overflow-hidden" />
-              <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[35.061%_64.939%] max-lg:grid-rows-[minmax(35px,auto)_minmax(284px,auto)_minmax(24px,auto)_minmax(45px,auto)_minmax(34px,auto)_minmax(25px,auto)_minmax(357px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[2.53268%_0.653595%_9.39542%_22.6307%_8.41503%_6.86275%_49.5098%] lg:grid-rows-[minmax(64px,auto)_minmax(16px,auto)_minmax(279px,auto)_minmax(25px,auto)_minmax(16px,auto)_minmax(34px,auto)_minmax(16px,auto)_minmax(34px,auto)_1fr] lg:px-0">
+              <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[35.061%_64.939%] max-lg:grid-rows-[minmax(35px,auto)_auto_0_0_0_minmax(32px,auto)_auto_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[2.53268%_0.653595%_9.39542%_22.6307%_8.41503%_6.86275%_49.5098%] lg:grid-rows-[minmax(64px,auto)_minmax(16px,auto)_minmax(279px,auto)_minmax(25px,auto)_minmax(16px,auto)_minmax(34px,auto)_minmax(16px,auto)_minmax(34px,auto)_1fr] lg:px-0">
                 <div className="text-start w-full h-full relative z-[1] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] max-lg:col-start-1 max-lg:col-end-3 max-lg:row-start-7 max-lg:row-end-8 lg:col-start-7 lg:col-end-8 lg:row-start-3 lg:row-end-9">
                   <div
                     id="ztzTNb"
@@ -644,63 +644,43 @@ export default function Page() {
                     id="z3VZRD"
                     className="self-start break-words w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] layout-element__component--GridTextBox"
                   >
-                    <h2 className="font-heading text-gray-900 font-bold break-words mb-8 max-[921px]:mb-8 max-lg:leading-[2.925rem] max-lg:text-4xl lg:leading-[4.55rem] lg:text-[3.5rem]">
+                    <h2 className="font-heading text-gray-900 font-bold leading-tight break-words mb-6 text-4xl lg:text-[3.5rem]">
                       {"kontaktujte"}
                     </h2>
-                    <h2 className="font-heading text-gray-900 font-bold break-words mb-8 max-[921px]:mb-8 max-lg:leading-[2.925rem] max-lg:text-4xl lg:leading-[0.5] lg:text-[3.5rem]">
-                      {"MUDr. Andrej"}
-                    </h2>
-                    <h2 className="font-heading text-ploy-text-primary font-bold break-words mb-8 max-[921px]:mb-8 max-lg:leading-[2.925rem] max-lg:text-4xl lg:leading-[4.55rem] lg:text-[3.5rem]">
-                      {"Gaži"}
-                    </h2>
-                    <p className="font-heading text-ploy-text-primary text-lg break-words mb-2 max-[921px]:mb-8">
-                      <span className="[color:inherit] font-bold break-words">
-                        <strong className="[color:inherit] break-words">
-                          {"CIEVNY CHIRURG"}
-                        </strong>
-                      </span>
+                    <h3 className="font-heading text-ploy-text-primary font-bold leading-tight break-words mb-2 text-2xl lg:text-4xl">
+                      {"MUDr. Andrej Gaži"}
+                    </h3>
+                    <p className="font-heading text-ploy-text-secondary text-sm font-bold uppercase tracking-[0.12em] break-words mb-6">
+                      {"cievny chirurg"}
                     </p>
-                    <p className="font-heading text-ploy-text-primary text-lg break-words mb-[1.875rem] max-[921px]:mb-8" />
-                    <p className="font-heading text-gray-900 break-words max-[921px]:mb-0 lg:leading-6" />
-                  </div>
-                </div>
-                <div className="text-left w-full h-full relative z-[3] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] max-lg:col-start-1 max-lg:col-end-3 max-lg:row-start-3 max-lg:row-end-4 lg:col-start-2 lg:col-end-5 lg:row-start-4 lg:row-end-5">
-                  <div
-                    id="z9drsK"
-                    className="self-start break-words w-full col-start-1 col-end-[-1] row-start-1 row-end-[-1] layout-element__component--GridTextBox"
-                  >
-                    <p className="font-heading text-gray-900 leading-6 break-words max-[921px]:mb-0">
-                      <span
-                        className="[color:inherit] break-words"
+                    <p className="font-heading text-gray-900 leading-6 break-words mb-5">
+                      <a
+                        href="mailto:info@varixyporadenstvo.com"
+                        className="[color:inherit] underline underline-offset-4 hover:opacity-80"
                       >
                         {"info@varixyporadenstvo.com"}
-                      </span>
+                      </a>
                     </p>
-                  </div>
-                </div>
-                <div className="text-start w-full h-full relative z-[4] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] max-lg:col-start-1 max-lg:col-end-2 max-lg:row-start-5 max-lg:row-end-6 lg:col-start-3 lg:col-end-4 lg:row-start-6 lg:row-end-7">
-                  <div
-                    id="zgLbck"
-                    className="self-start bg-cover bg-center max-h-full flex justify-around col-start-1 col-end-[-1] row-start-1 row-end-[-1] bg-no-repeat social-icons social-icons--row layout-element__component--GridSocialIcons"
-                  >
-                    <a
-                      href="https://www.facebook.com/varixyporadenstvo/"
-                      target="_blank"
-                      rel="noopener"
-                      title="Go to Facebook page"
-                      className="text-gray-900 leading-none flex justify-center items-center transition-[color] duration-200 pr-5 social-icons__link hover:text-gray-900"
-                    >
-                      <PageIcon1 />
-                    </a>
-                    <a
-                      href="https://www.instagram.com/mudr.andrej_gazi/"
-                      target="_blank"
-                      rel="noopener"
-                      title="Go to Instagram page"
-                      className="text-gray-900 leading-none flex justify-center items-center transition-[color] duration-200 social-icons__link hover:text-gray-900"
-                    >
-                      <PageIcon2 />
-                    </a>
+                    <div className="flex items-center gap-5 social-icons social-icons--row">
+                      <a
+                        href="https://www.facebook.com/varixyporadenstvo/"
+                        target="_blank"
+                        rel="noopener"
+                        title="Go to Facebook page"
+                        className="text-gray-900 leading-none flex justify-center items-center transition-[color] duration-200 social-icons__link hover:opacity-80"
+                      >
+                        <PageIcon1 />
+                      </a>
+                      <a
+                        href="https://www.instagram.com/mudr.andrej_gazi/"
+                        target="_blank"
+                        rel="noopener"
+                        title="Go to Instagram page"
+                        className="text-gray-900 leading-none flex justify-center items-center transition-[color] duration-200 social-icons__link hover:opacity-80"
+                      >
+                        <PageIcon2 />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
