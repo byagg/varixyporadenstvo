@@ -85,7 +85,7 @@ export default function HeroSection() {
           </div>
         </div>
         <div
-          className="text-start w-full h-full relative z-[4] grid grid-cols-[100%] col-start-4 col-end-7 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:row-start-8 max-lg:row-end-9 lg:row-start-7 lg:row-end-8"
+          className="text-start w-full h-full relative z-[4] grid grid-cols-[100%] max-lg:col-start-4 max-lg:col-end-7 lg:col-start-2 lg:col-end-5 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:row-start-8 max-lg:row-end-9 lg:row-start-7 lg:row-end-8"
         >
           <a
             href="/liecba"
@@ -111,7 +111,7 @@ export default function HeroSection() {
           </a>
         </div>
         <div
-          className="text-start w-full h-full relative z-[6] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-5 max-lg:col-end-6 max-lg:row-start-12 max-lg:row-end-13 lg:col-start-4 lg:col-end-7 lg:row-start-8 lg:row-end-9 lg:mt-4"
+          className="text-start w-full h-full relative z-[6] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-5 max-lg:col-end-6 max-lg:row-start-12 max-lg:row-end-13 lg:col-start-6 lg:col-end-8 lg:row-start-7 lg:row-end-8"
         >
           <a
             href="/pre-firmy"
