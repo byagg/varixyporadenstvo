@@ -17,7 +17,7 @@ export default function HeroSection() {
         alt=""/>
         <div className="!hidden bg-ploy-background-inverse w-full h-svh fixed z-[2] opacity-0 left-0 top-0 block-background__overlay--fixed block-background__overlay text-ploy-text-inverse" />
       </div>
-      <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[12.5%_2.43902%_0.914634%_0.914634%_66.4634%_0.609756%_1.21951%_2.43902%_12.5%] max-lg:grid-rows-[minmax(40px,auto)_minmax(208px,auto)_minmax(16px,auto)_minmax(50px,auto)_minmax(30px,auto)_minmax(240px,auto)_minmax(30px,auto)_minmax(50px,auto)_minmax(30px,auto)_minmax(50px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_0.490196%_7.92484%_10.6209%_1.38889%_7.02614%_12.0098%_1.63399%_0.980392%_30.6373%_18.8725%] lg:grid-rows-[minmax(50px,auto)_minmax(14px,auto)_minmax(201px,auto)_minmax(55px,auto)_minmax(64px,auto)_minmax(16px,auto)_minmax(64px,auto)_minmax(80px,auto)_1fr] lg:px-0">
+      <div className="w-full z-[14] grid mx-auto max-lg:max-w-[22.5rem] max-lg:grid-cols-[12.5%_2.43902%_0.914634%_0.914634%_66.4634%_0.609756%_1.21951%_2.43902%_12.5%] max-lg:grid-rows-[minmax(40px,auto)_minmax(208px,auto)_minmax(16px,auto)_minmax(50px,auto)_minmax(30px,auto)_minmax(240px,auto)_minmax(30px,auto)_minmax(50px,auto)_minmax(30px,auto)_minmax(50px,auto)_minmax(30px,auto)_minmax(50px,auto)_1fr] max-lg:px-4 lg:max-w-[76.5rem] lg:grid-cols-[8.41503%_0.490196%_7.92484%_10.6209%_1.38889%_7.02614%_12.0098%_1.63399%_0.980392%_30.6373%_18.8725%] lg:grid-rows-[minmax(50px,auto)_minmax(14px,auto)_minmax(201px,auto)_minmax(55px,auto)_minmax(64px,auto)_minmax(16px,auto)_minmax(64px,auto)_minmax(80px,auto)_1fr] lg:px-0">
         <div
           className="w-full h-full relative z-[1] grid grid-cols-[100%] row-start-2 transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:text-center max-lg:col-start-1 max-lg:col-end-10 max-lg:row-end-3 lg:text-left lg:col-start-3 lg:col-end-9 lg:row-end-4"
         >
@@ -108,6 +108,17 @@ export default function HeroSection() {
             className="self-start justify-self-start text-nowrap font-heading border-solid border-ploy-neutral-primary-s2 bg-ploy-background-inverse text-ploy-text-inverse font-bold text-2xl text-center whitespace-nowrap h-min min-w-full max-w-full z-[1] flex justify-center items-center col-start-1 col-end-[-1] row-start-1 row-end-[-1] transition-[color,border-color,background-color] duration-200 rounded-[1.1875rem] grid-button grid-button--primary layout-element__component--GridButton max-[921px]:h-[min-content] max-[921px]:max-w-full max-[921px]:z-[1] hover:bg-ploy-background-inverse hover:shadow-[0px_0px_0px_0px_0px] max-lg:min-h-[3.125rem] lg:min-h-16 overflow-hidden border"
           >
             {"pre lekárov"}
+          </a>
+        </div>
+        <div
+          className="text-start w-full h-full relative z-[6] grid grid-cols-[100%] transition-[transform,translate,scale,rotate,opacity] duration-[0.65s] delay-[0.1s] max-lg:col-start-5 max-lg:col-end-6 max-lg:row-start-12 max-lg:row-end-13 lg:col-start-4 lg:col-end-7 lg:row-start-8 lg:row-end-9 lg:mt-4"
+        >
+          <a
+            href="/pre-firmy"
+            target="_self"
+            className="self-start justify-self-start text-nowrap font-heading border border-solid border-ploy-accent-primary bg-ploy-accent-secondary text-ploy-text-on-accent-secondary font-bold text-2xl text-center whitespace-nowrap h-min min-w-full max-w-full z-[1] flex justify-center items-center col-start-1 col-end-[-1] row-start-1 row-end-[-1] transition-[color,border-color,background-color] duration-200 rounded-[1.1875rem] hover:bg-ploy-accent-primary hover:text-black max-lg:min-h-[3.125rem] lg:min-h-16 overflow-hidden"
+          >
+            {"pre firmy"}
           </a>
         </div>
       </div>

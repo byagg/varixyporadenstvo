@@ -1,0 +1,19 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Page from "../components/pages/pre-firmy/page";
+
+export const prerender = true;
+---
+
+<Layout
+  title="Preventívne cievne prehliadky pre firmy – v príprave | MUDr. Andrej Gaži"
+  description="Pripravujeme firemné dni zdravia: ultrazvukový skríning žíl od cievneho chirurga, analýza zloženia tela InBody, krvný tlak a saturácia priamo na pracovisku – s anonymným výsledkom pre každého zamestnanca."
+>
+  <Fragment slot="head">
+    <meta
+      name="keywords"
+      content="firemné preventívne prehliadky, deň zdravia, benefit pre zamestnancov, skríning žíl, InBody, cievny chirurg"
+    />
+  </Fragment>
+  <Page client:load />
+</Layout>
